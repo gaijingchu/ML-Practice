@@ -1,0 +1,14 @@
+# R17 · Lentils with Chicken and Yogurt Sauce
+
+- **User:** sourajak (lion)
+- **Scenario:** Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh
+- **Baseline:** Google Search
+- **Time to decision:** 3:08 (min:sec)
+- **Grocery shopping time:** 45 min · **Meal preparation time:** 20 min · **Price:** $32.00
+- **Tastiness:** 3 / 5 · **Nutritional value (Ofcom score):** -2 · **Diet violation:** 0
+
+## Recipe
+
+As pasted into the sheet from the web page or the chat answer.
+
+Lentils with Chicken and Yogurt Sauce: 1 package Tasty Bite Madras Lentils, 1 package frozen riced cauliflower (about 3.5 cups), 1 cup Kettle Fire chicken bone broth, 1 tsp garlic powder, 2.5 ounces rotisserie chicken, 1 tbsp fresh mint leaves, diced, 2 tbsp fresh cilantro, chopped, 1/2 tbsp fresh lime juice, 1/4 tsp cumin, 3/4 tsp salt divided (1/4 tsp and 1/2 tsp), 1/3 cup plain Greek yogurt, 2 tbsp cucumber, chopped Sriracha (optional), roasted pumpkin seeds (optional) || Instructions: Cauliflower Rice, Lentils, and Chicken, Instead of cooking the cauliflower rice in the microwave, take the frozen riced cauliflower and cook it in the one cup of Kettle Fire chicken broth in a small pan until it is all soaked up. Boil on high for about 12-15 minutes. Add the garlic powder and 1/2 tsp of salt. After 10 minutes, continue to stir occasionally and make sure it's not sticking to the bottom of your saucepan. By the time this is finished, your whole meal will be ready! Chop up about 2.5 ounces of rotisserie chicken. If you have raw chicken, you can chop it up and cook it as well, but rotisserie works well here. When the cauliflower rice is almost done, open a pouch of Tasty Bite Madras Lentils and pour them into a glass container to cook in the microwave until warm, about one minute. See yogurt sauce below, but you'll want to layer the cauliflower rice on the bottom of a pasta bowl, then the lentils go on top, and then the yogurt sauce, and finally the fresh herbs! It's a LOT of food, and can be made into two smaller portions, easily. Yet, it's only 615 calories with a whopping 61 grams of protein and 19 grams of fiber! Yogurt Sauce Mix yogurt, lime juice, cumin, salt, cucumber, and about 1/3 of the fresh chopped cilantro and mint. Set aside to place on top of the meal right before serving. I typically make twice this amount and then save it to add to something the next day. If you buy individual servings of yogurt, it's typically a 2/3 cup serving, so this is easier to do. But, by all means, make just the single serving if you'd rather! Nutrition: Calories: 615kcal, Carbohydrates: 55g, Protein: 61g, Fat: 19g, Saturated Fat: 8g, Polyunsaturated Fat: 0.2g, Monounsaturated Fat: 0.3g, Cholesterol: 88mg, Sodium: 3874mg, Potassium: 2977mg, Fiber: 19g, Sugar: 22g, Vitamin A: 341IU, Vitamin C: 282mg, Calcium: 411mg, Iron: 6mg

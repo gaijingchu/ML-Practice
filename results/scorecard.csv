@@ -1,0 +1,8 @@
+metric,unit,better,google_mean,deepseek_mean,difference_deepseek_minus_google,google_wins,ties,deepseek_wins
+Grocery shopping time,min,lower,49.75,49.95,0.2,11,3,6
+Meal preparation time,min,lower,39.05,40.875,1.825,11,3,6
+Price,US$,lower,37.598,38.508,0.91,10,0,10
+Tastiness,0-5,higher,3.225,3.325,0.1,7,6,7
+Nutritional value,Ofcom score,lower,0.4,-2.1,-2.5,1,2,17
+Diet violation,0/1,lower,0.05,0.0,-0.05,0,19,1
+Time to decision,min,lower,2.9733,1.5042,-1.4692,2,0,18

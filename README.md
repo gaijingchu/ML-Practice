@@ -8,9 +8,11 @@ results, and the writeup.
 | Path | What it is |
 |---|---|
 | [`report/baselines_writeup.pdf`](report/baselines_writeup.pdf) | The writeup (LaTeX source next to it) |
-| [`Baselines.xlsx`](Baselines.xlsx) | The data: 40 runs = 20 scenarios x 2 baselines (Google Search, zero-shot DeepSeek), with the recipe each run ended with and seven metrics. The second sheet is the protocol we followed. |
-| [`code/nutrition/`](code/nutrition/) | Computes the "Nutritional value" metric: the UK Ofcom Nutrient Profiling Model score of every recipe, from USDA food-composition data |
-| [`code/results/`](code/results/) | Turns the sheet into the results of the writeup: scorecard, per-scenario Pareto comparison, trade-off figure, appendix tables |
+| [`Baselines.xlsx`](Baselines.xlsx) | The raw data: 40 runs = 20 scenarios x 2 baselines (Google Search, zero-shot DeepSeek), with the recipe each run ended with and seven metrics. The second sheet is the protocol we followed. |
+| [`data/`](data/) | The same data as plain files: [`baseline_runs.csv`](data/baseline_runs.csv) (every run, every metric) and [`recipes/`](data/recipes/) (the 40 recipes, one file each) |
+| [`results/`](results/) | The evaluation results: [`RESULTS.md`](results/RESULTS.md) (scorecard, per-scenario Pareto comparison, figure), the same tables as CSV, and the figure |
+| [`code/results/`](code/results/) | The evaluation code. [`plot_tradeoffs.py`](code/results/plot_tradeoffs.py) draws the figure; `analyze_baselines.py` computes the scorecard and the Pareto comparison; `export_data.py` and `export_appendix.py` write `data/` and the writeup's appendices |
+| [`code/nutrition/`](code/nutrition/) | Computes the "Nutritional value" metric: the UK Ofcom Nutrient Profiling Model score of every recipe, from USDA food-composition data. Per-recipe results are in [`code/nutrition/output/`](code/nutrition/output/) |
 
 ## Reproduce
 
@@ -23,8 +25,10 @@ python compute_nutrition.py     # scores all 40 recipes -> output/
 python fill_excel.py            # writes the scores into column K of Baselines.xlsx
 
 cd ../results
-python analyze_baselines.py     # Part 4: tables and figure -> report/generated, report/figures
-python export_appendix.py       # appendices: all runs, recipe texts
+python analyze_baselines.py     # scorecard, Pareto comparison, figure -> results/, report/generated, report/figures
+python plot_tradeoffs.py        # the figure on its own
+python export_data.py           # data/baseline_runs.csv and data/recipes/
+python export_appendix.py       # the writeup's appendices: all runs, recipe texts
 
 cd ../../report
 pdflatex baselines_writeup.tex && pdflatex baselines_writeup.tex

@@ -1,9 +1,11 @@
-"""First-pass results for the two baselines: tables, Pareto analysis and the trade-off figure.
+"""First-pass evaluation of the two baselines: scorecard and per-scenario Pareto comparison.
 
 Reads Baselines.xlsx (through load_baselines.py) and writes
-    output/baselines_clean.csv          one line per run, every metric as a number
-    ../../report/generated/*.tex        table rows and numbers used by the writeup
-    ../../report/figures/pareto_tradeoffs.pdf
+    ../../results/scorecard.csv             per metric: means, difference, scenarios won
+    ../../results/pareto_by_scenario.csv    per scenario: better baseline on each metric, dominance
+    ../../results/RESULTS.md                the same, readable
+    ../../results/pareto_tradeoffs.pdf/.png the figure (drawn by plot_tradeoffs.py)
+    ../../report/generated/*.tex            table rows and numbers used by the writeup
 
 Usage:
     python analyze_baselines.py
@@ -12,21 +14,12 @@ import csv
 import statistics as st
 from pathlib import Path
 
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
-
 from load_baselines import METRICS, load
+from plot_tradeoffs import plot_tradeoffs
 
 HERE = Path(__file__).resolve().parent
 REPORT = HERE.parents[1] / "report"
-GEN, FIG, OUT = REPORT / "generated", REPORT / "figures", HERE / "output"
-
-GOOGLE, DEEPSEEK = "#2a78d6", "#eb6834"      # categorical slots 1 and 2 (validated, colour-blind safe)
-INK, MUTED, GRID = "#1F2933", "#5F6B76", "#E3E7EB"
-NAME = {"google": "Google Search", "deepseek": "DeepSeek"}
+GEN, RESULTS = REPORT / "generated", HERE.parents[1] / "results"
 SHORT_HEAD = {"shop_min": "Shop", "prep_min": "Prep", "price_usd": "Price", "tastiness": "Taste",
               "nutrition": "Nutr.", "diet_violation": "Diet", "decide_min": "Decide"}
 
@@ -140,75 +133,82 @@ def write_tex(pairs, rows):
     return macros
 
 
-# ---------------------------------------------------------------- figure
-def front(points):
-    """Non-dominated points when x is minimised and y is maximised, sorted by x."""
-    keep = [p for p in points
-            if not any((q[0] <= p[0] and q[1] >= p[1]) and (q[0] < p[0] or q[1] > p[1]) for q in points)]
-    return sorted(set(keep))
+# ---------------------------------------------------------------- result files
+def plain(key, x, signed=False):
+    """Like fmt(), without LaTeX."""
+    return fmt(key, x, signed).replace("$-$", "-").replace("\\%", "%")
 
 
-def figure(runs):
-    plt.rcParams.update({
-        "font.family": "sans-serif", "font.sans-serif": ["Source Sans Pro", "Source Sans 3", "Helvetica Neue", "Arial"],
-        "font.size": 8, "axes.edgecolor": MUTED, "axes.linewidth": 0.6, "axes.labelcolor": INK,
-        "xtick.color": MUTED, "ytick.color": MUTED, "xtick.labelsize": 7.5, "ytick.labelsize": 7.5,
-        "xtick.major.size": 2.5, "ytick.major.size": 0, "xtick.major.width": 0.6, "pdf.fonttype": 42,
-    })
-    panels = [("decide_min", "Time to decision (min)"), ("price_usd", "Price (US$)"),
-              ("prep_min", "Preparation time (min)"), ("nutrition", "Nutritional value (Ofcom)")]
-    fig, axes = plt.subplots(1, 4, figsize=(6.5, 2.3), sharey=True)
-    for ax, (key, xlabel) in zip(axes, panels):
-        for method, colour in (("google", GOOGLE), ("deepseek", DEEPSEEK)):
-            pts = [(r[key], r["tastiness"]) for r in runs if r["method"] == method]
-            nd = front(pts)
-            rest = [p for p in pts if p not in nd]
-            ax.scatter(*zip(*rest), s=15, color=colour, alpha=0.32, linewidths=0, zorder=2)
-            ax.plot(*zip(*nd), color=colour, lw=1.3, drawstyle="steps-post", zorder=3, solid_joinstyle="round")
-            ax.scatter(*zip(*nd), s=24, color=colour, edgecolors="white", linewidths=0.9, zorder=4)
-        ax.set_xlabel(xlabel, labelpad=3)
-        ax.set_ylim(0.5, 5.3)
-        ax.set_yticks([1, 2, 3, 4, 5])
-        ax.grid(axis="y", color=GRID, lw=0.6, zorder=0)
-        ax.set_axisbelow(True)
-        for side in ("top", "right", "left"):
-            ax.spines[side].set_visible(False)
-        ax.margins(x=0.08)
-        # every panel: lower x and higher tastiness are better, so the ideal corner is the top left
-        ax.annotate("", xy=(0.0, 1.115), xytext=(0.075, 1.03), xycoords="axes fraction",
-                    arrowprops=dict(arrowstyle="-|>", color=MUTED, lw=0.7, shrinkA=0, shrinkB=0, mutation_scale=6.5))
-        ax.text(0.095, 1.045, "better", transform=ax.transAxes, fontsize=7, color=MUTED, ha="left", va="center")
-    axes[0].set_ylabel("Tastiness (0–5)", labelpad=4)
-    handles = [
-        Line2D([], [], marker="o", ls="", color=GOOGLE, markeredgecolor="white", markersize=5.5, label="Google Search"),
-        Line2D([], [], marker="o", ls="", color=DEEPSEEK, markeredgecolor="white", markersize=5.5, label="DeepSeek"),
-        Line2D([], [], color=MUTED, lw=1.3, marker="o", markersize=4.5, markeredgecolor="white",
-               label="Pareto front of a baseline"),
-        Line2D([], [], marker="o", ls="", color=MUTED, alpha=0.4, markersize=4.5, markeredgewidth=0, label="dominated run"),
-    ]
-    fig.legend(handles=handles, loc="upper center", ncol=4, frameon=False, fontsize=8, handletextpad=0.4,
-               columnspacing=1.6, bbox_to_anchor=(0.5, 1.03), labelcolor=INK)
-    fig.subplots_adjust(left=0.06, right=0.995, bottom=0.2, top=0.79, wspace=0.10)
-    FIG.mkdir(parents=True, exist_ok=True)
-    fig.savefig(FIG / "pareto_tradeoffs.pdf")
-    fig.savefig(FIG / "pareto_tradeoffs.png", dpi=200)
-    plt.close(fig)
+def write_results(pairs, rows, macros):
+    RESULTS.mkdir(exist_ok=True)
+    with open(RESULTS / "scorecard.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["metric", "unit", "better", "google_mean", "deepseek_mean", "difference_deepseek_minus_google",
+                    "google_wins", "ties", "deepseek_wins"])
+        for r in rows:
+            w.writerow([r["label"], r["unit"], "higher" if r["sign"] > 0 else "lower", round(r["google"], 4),
+                        round(r["deepseek"], 4), round(r["diff"], 4), r["google_wins"], r["ties"], r["deepseek_wins"]])
+
+    keys = [k for k, *_ in METRICS]
+    table = []
+    for p in pairs:
+        marks = ["D" if advantage(p, k, s) > 0 else "G" if advantage(p, k, s) < 0 else "=" for k, _, _, _, s in METRICS]
+        table.append((p, marks, {"deepseek": "DeepSeek", "google": "Google Search", "tradeoff": "neither"}[dominance(p)]))
+    with open(RESULTS / "pareto_by_scenario.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["user_id", "anon_id", "scenario", "scenario_text"] + [f"better_{k}" for k in keys]
+                   + ["google_wins", "deepseek_wins", "dominates"])
+        for p, marks, dom in table:
+            w.writerow([p["user_id"], p["user"], p["label"], p["google"]["scenario_text"]] + marks
+                       + [marks.count("G"), marks.count("D"), dom])
+
+    L = ["# Baseline evaluation results", "",
+         "Generated by `code/results/analyze_baselines.py` from `Baselines.xlsx`. "
+         f"{macros['NScenarios']} scenarios, each run with both baselines ({macros['NRuns']} runs). "
+         "All metrics are measured offline, on the one recipe the user chose in a run.", "",
+         "## Scorecard", "",
+         "| Metric | Unit | Better | Google Search (mean) | DeepSeek (mean) | Difference | Google wins | Ties | DeepSeek wins |",
+         "|---|---|---|---|---|---|---|---|---|"]
+    for r in rows:
+        unit = "min:sec" if r["key"] == "decide_min" else ("share of runs" if r["key"] == "diet_violation" else r["unit"])
+        g, d = plain(r["key"], r["google"]), plain(r["key"], r["deepseek"])
+        if (r["deepseek"] - r["google"]) * r["sign"] > 0:
+            d = f"**{d}**"
+        elif (r["deepseek"] - r["google"]) * r["sign"] < 0:
+            g = f"**{g}**"
+        L.append(f"| {r['label']} | {unit} | {'higher' if r['sign'] > 0 else 'lower'} | {g} | {d} | "
+                 f"{plain(r['key'], r['diff'], signed=True)} | {r['google_wins']} | {r['ties']} | {r['deepseek_wins']} |")
+    L += ["", "The better mean is in bold. Difference is DeepSeek minus Google. Wins count the scenarios (of 20) in which a "
+          "baseline is strictly better; a tie counts for neither.", "",
+          "## Pareto comparison", "",
+          "For a scenario, one baseline dominates the other if it is at least as good on all seven metrics and strictly "
+          "better on at least one.", "",
+          f"**DeepSeek dominates in {macros['DomDeepseek']} scenarios, Google Search in {macros['DomGoogle']}, "
+          f"and in the other {macros['DomTradeoff']} each baseline wins on some metrics.**", "",
+          "| User | Scenario | " + " | ".join(SHORT_HEAD[k] for k in keys) + " | G wins | D wins | Dominates |",
+          "|---|---|" + "---|" * (len(keys) + 3)]
+    for p, marks, dom in table:
+        L.append(f"| {p['user_id']} | {p['label']} | " + " | ".join(marks) + f" | {marks.count('G')} | {marks.count('D')} | "
+                 + (f"**{dom}**" if dom != "neither" else dom) + " |")
+    L += ["", "G: Google Search is better. D: DeepSeek is better. =: tie. Columns: grocery shopping time, meal preparation "
+          "time, price, tastiness, nutritional value, diet violation, time to decision.", "",
+          "## Trade-offs", "", "![Tastiness against four costs](pareto_tradeoffs.png)", "",
+          "One dot per run. Lower cost and higher tastiness are better, so the ideal corner is the top left of every panel. "
+          "The line joins the non-dominated runs of each baseline in that panel. Drawn by `code/results/plot_tradeoffs.py`.", "",
+          "## Related files", "",
+          "- `scorecard.csv`, `pareto_by_scenario.csv`: the two tables above as data",
+          "- `../data/baseline_runs.csv`: every run with all recorded and cleaned values",
+          "- `../data/recipes/`: the recipe each run ended with",
+          "- `../code/nutrition/output/nutrition_report.md`: how the nutritional value of each recipe was computed", ""]
+    (RESULTS / "RESULTS.md").write_text("\n".join(L), encoding="utf-8")
 
 
 def main():
     runs, pairs = load()
     rows = summarise(pairs)
-
-    OUT.mkdir(exist_ok=True)
-    with open(OUT / "baselines_clean.csv", "w", newline="", encoding="utf-8") as fh:
-        w = csv.writer(fh)
-        w.writerow(["sheet_row", "user", "scenario", "method"] + [k for k, *_ in METRICS])
-        for p in pairs:
-            for m in ("google", "deepseek"):
-                w.writerow([p[m]["row"], p["user"], p["label"], m] + [round(p[m][k], 3) for k, *_ in METRICS])
-
     macros = write_tex(pairs, rows)
-    figure(runs)
+    write_results(pairs, rows, macros)
+    plot_tradeoffs(runs)
 
     print(f"{'metric':24}{'Google':>9}{'DeepSeek':>10}{'diff':>8}   Google wins / ties / DeepSeek wins")
     for r in rows:

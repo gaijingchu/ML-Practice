@@ -67,8 +67,12 @@ def load():
         method = "google" if str(ws.cell(r, 4).value).startswith("Google") else "deepseek"
         rec = dict(row=r, user=ws.cell(r, 2).value, method=method,
                    scenario_text=(ws.cell(r, 3).value or "").strip().strip('"“”'))
+        rec["recorded"] = {}
         for key, col, *_ in METRICS:
-            rec[key] = to_number(key, ws.cell(r, col).value)
+            value = ws.cell(r, col).value
+            rec[key] = to_number(key, value)
+            rec["recorded"][key] = f"{value.hour}:{value.minute:02d}" if isinstance(value, datetime.time) else str(value)
+        rec["recipe_text"] = re.sub(r"\s+", " ", ws.cell(r, 5).value or "").strip()
         runs.append(rec)
 
     pairs = []
@@ -78,6 +82,7 @@ def load():
         assert len(g) == len(d) == 5, user
         for i, (a, b) in enumerate(zip(g, d)):
             assert not b["scenario_text"] or a["scenario_text"] == b["scenario_text"], (a["row"], b["row"])
+            b["scenario_text"] = a["scenario_text"]      # one cell is empty in the sheet; same scenario by position
             pairs.append(dict(user=user, user_id=USERS[user], index=i + 1, label=SHORT[user][i], google=a, deepseek=b))
     assert len(pairs) == 20
     return runs, pairs

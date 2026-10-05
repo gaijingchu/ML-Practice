@@ -1,0 +1,14 @@
+# R37 · Broccoli Fried Rice with Turmeric-Tahini Sauce
+
+- **User:** istepka (hamster)
+- **Scenario:** Broccoli based vegetarian recipes for meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.
+- **Baseline:** Google Search
+- **Time to decision:** 2:06 (min:sec)
+- **Grocery shopping time:** 70 min · **Meal preparation time:** 35 min · **Price:** $34.75
+- **Tastiness:** 3 / 5 · **Nutritional value (Ofcom score):** 0 · **Diet violation:** 0
+
+## Recipe
+
+As pasted into the sheet from the web page or the chat answer.
+
+Ingredients 1x 2x 3x ▢ 3 Tbsp. lower-sodium soy sauce or tamari ▢ 3 garlic cloves, minced ▢ 1/2 tsp. granulated sugar ▢ 2 to 3 Tbsp. neutral oil, divided ▢ 1 crown of broccoli, stemmed and chopped into florets (about 5 cups) ▢ 1 bunch scallions (green onion) greens sliced into 1 inch pieces ▢ 3 large eggs whisked ▢ 1/2 cup frozen/thawed shelled edamame ▢ 3 cups cooked long-grain white or brown rice (preferably 1 day old/refrigerated overnight) ▢ Optional garnish: toasted sesame seeds and a drizzle of chili oil or chili crisp Turmeric-Tahini Sauce ▢ 2 Tbsp. tahini, well-stirred ▢ 1 Tbsp. rice vinegar ▢ 1 tsp. granulated sugar ▢ 3/4 tsp. ground turmeric ▢ 1/2 tsp. toasted sesame oil ▢ 1 tsp. grated or minced fresh ginger ▢ 1/4 tsp. kosher salt. Prepare Turmeric-Tahini Sauce by combining tahini, vinegar, sugar, turmeric, sesame oil, ginger, and salt in a bowl; stir with a whisk. Gradually whisk in up to 2 1/2 Tbsp. warm water to reach desired consistency. (For an optional kick of heat, add a drizzle of chili oil, chili crisp, or sriracha.) Taste and season with an extra pinch of salt, if needed, and set aside. Combine soy sauce, garlic, and sugar in a small bowl; stir and set aside. (You'll use this to season the rice.) Heat 1 Tbsp. of oil in a large skillet over medium. Once hot, add broccoli; cover and cook 5 minutes, uncovering occasionally to stir, under crisp-tender. Add green onion and season with a good pinch of salt; cook 2 more minutes, uncovered, until soft. Transfer veggies to a bowl. Heat remaining 1 Tbsp. oil in pan. Add rice and garlic-soy mixture; stir well to combine. Cook, undisturbed, until rice is slightly crisped, about 3 minutes. Stir, and continue cooking 1 more minutes. Push rice to the sides of the pan to create a well in the center. Add a light drizzle of oil and whisked eggs. Season eggs with a good pinch of salt and cook, whisking or stirring constantly, for 30 to 45 seconds, until just cooked through. Stir rice into cooked egg mixture. Return broccoli and green onion to pan, and stir in edamame. Toss well to combine. Divide fried rice evenly into bowls and drizzle with Turmeric-Tahini Sauce. Garnish with a drizzle of chili oil or chili crisp and toasted sesame seeds.
