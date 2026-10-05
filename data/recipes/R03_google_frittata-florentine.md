@@ -1,6 +1,6 @@
 # R3 · Frittata Florentine
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Italian food meal prep with calories per meal less than 600
 - **Baseline:** Google Search
 - **Time to decision:** 1:38 (min:sec)

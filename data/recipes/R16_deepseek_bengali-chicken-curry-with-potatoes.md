@@ -1,6 +1,6 @@
 # R16 · Bengali Chicken Curry with Potatoes
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Bengali easy healthy meal prep recipe with vegetables, chicken, and fishes feasible to cook in Pittsburgh
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:53 (min:sec)

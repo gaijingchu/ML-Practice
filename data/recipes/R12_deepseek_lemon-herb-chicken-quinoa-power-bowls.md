@@ -1,6 +1,6 @@
 # R12 · Lemon Herb Chicken & Quinoa Power Bowls
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** high protein, high fibre, low fat American meal prep recipes without beef
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 2:08 (min:sec)

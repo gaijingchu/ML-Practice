@@ -1,6 +1,6 @@
 # R28 · General Tso's Chicken with Broccoli
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** U.S Style Chinese food, tasty, for single person recipe
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:02 (min:sec)

@@ -1,21 +1,21 @@
 user_id,anon_id,scenario,scenario_text,better_shop_min,better_prep_min,better_price_usd,better_tastiness,better_nutrition,better_diet_violation,better_decide_min,google_wins,deepseek_wins,dominates
-jeremyti,koala,Asian,Asian food meal prep with calories per meal less than 600,=,G,G,=,D,=,D,2,2,neither
-jeremyti,koala,Italian,Italian food meal prep with calories per meal less than 600,G,G,G,G,D,=,G,5,1,neither
-jeremyti,koala,Green onion and ginger,"Meal prep recipes that use green onions and ginger, calories per meal less than 600.",G,G,G,=,=,=,D,3,1,neither
-jeremyti,koala,Fish,"Fish meal prep recipes, calories per meal less than 600",G,G,D,D,D,=,D,2,4,neither
-jeremyti,koala,Tasty and filling,"Meal prep recipe that is tasty and filling, calories per meal less than 600",G,G,D,G,D,=,G,4,2,neither
-sourajak,lion,"American, no beef","high protein, high fibre, low fat American meal prep recipes without beef",D,G,D,G,D,=,D,2,4,neither
-sourajak,lion,Body building,"Easy and healthy meal prep recipes good for body building with vegetables, chicken, and rice",=,=,G,D,D,D,D,1,4,neither
-sourajak,lion,"Bengali, healthy","Bengali easy healthy meal prep recipe with vegetables, chicken, and fishes feasible to cook in Pittsburgh",D,G,G,G,D,=,D,3,3,neither
-sourajak,lion,"North Indian, high protein",Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh,G,G,D,G,D,=,D,3,3,neither
-sourajak,lion,"South Indian, high protein",Quick and easy high protein South Indian meal prep recipe feasible to cook in Pittsburgh,D,G,D,G,D,=,D,2,4,neither
-jgai,kangaroo,Northern Chinese,"Chinese food, northern China food, for single person recipe",D,D,D,D,D,=,D,0,6,DeepSeek
-jgai,kangaroo,Southeast Chinese,"Chinese food, southeast China food, for single person recipe",D,G,G,D,G,=,D,3,3,neither
-jgai,kangaroo,"Chinese, more vegetables","healthy Chinese food, more vegetables, for losing weight recipe",G,D,G,D,D,=,D,2,4,neither
-jgai,kangaroo,"U.S.-style Chinese, tasty","U.S Style Chinese food, tasty, for single person recipe",G,D,G,D,D,=,D,2,4,neither
-jgai,kangaroo,Taiwanese,"Taiwan dishes, single person recipe",G,D,G,=,=,=,D,2,2,neither
-istepka,hamster,"Mexican, high protein","High protein, mexican food. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.",G,D,D,=,D,=,D,1,4,neither
-istepka,hamster,"Korean vegetarian, kimchi",Korean vegetarian meal prep with kimchi. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,G,G,D,=,D,=,D,2,3,neither
-istepka,hamster,Tofu and soy sauce,Tofu & soy sauce based meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food.,G,D,G,G,D,=,D,3,3,neither
-istepka,hamster,Broccoli-based vegetarian,Broccoli based vegetarian recipes for meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,=,=,D,=,D,=,D,0,3,DeepSeek
-istepka,hamster,Gnocchi,Meal prep with gnocchi. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,D,=,D,D,D,=,D,0,5,DeepSeek
+User 1,koala,Asian,Asian food meal prep with calories per meal less than 600,=,G,G,=,D,=,D,2,2,neither
+User 1,koala,Italian,Italian food meal prep with calories per meal less than 600,G,G,G,G,D,=,G,5,1,neither
+User 1,koala,Green onion and ginger,"Meal prep recipes that use green onions and ginger, calories per meal less than 600.",G,G,G,=,=,=,D,3,1,neither
+User 1,koala,Fish,"Fish meal prep recipes, calories per meal less than 600",G,G,D,D,D,=,D,2,4,neither
+User 1,koala,Tasty and filling,"Meal prep recipe that is tasty and filling, calories per meal less than 600",G,G,D,G,D,=,G,4,2,neither
+User 2,lion,"American, no beef","high protein, high fibre, low fat American meal prep recipes without beef",D,G,D,G,D,=,D,2,4,neither
+User 2,lion,Body building,"Easy and healthy meal prep recipes good for body building with vegetables, chicken, and rice",=,=,G,D,D,D,D,1,4,neither
+User 2,lion,"Bengali, healthy","Bengali easy healthy meal prep recipe with vegetables, chicken, and fishes feasible to cook in Pittsburgh",D,G,G,G,D,=,D,3,3,neither
+User 2,lion,"North Indian, high protein",Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh,G,G,D,G,D,=,D,3,3,neither
+User 2,lion,"South Indian, high protein",Quick and easy high protein South Indian meal prep recipe feasible to cook in Pittsburgh,D,G,D,G,D,=,D,2,4,neither
+User 3,kangaroo,Northern Chinese,"Chinese food, northern China food, for single person recipe",D,D,D,D,D,=,D,0,6,DeepSeek
+User 3,kangaroo,Southeast Chinese,"Chinese food, southeast China food, for single person recipe",D,G,G,D,G,=,D,3,3,neither
+User 3,kangaroo,"Chinese, more vegetables","healthy Chinese food, more vegetables, for losing weight recipe",G,D,G,D,D,=,D,2,4,neither
+User 3,kangaroo,"U.S.-style Chinese, tasty","U.S Style Chinese food, tasty, for single person recipe",G,D,G,D,D,=,D,2,4,neither
+User 3,kangaroo,Taiwanese,"Taiwan dishes, single person recipe",G,D,G,=,=,=,D,2,2,neither
+User 4,hamster,"Mexican, high protein","High protein, mexican food. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.",G,D,D,=,D,=,D,1,4,neither
+User 4,hamster,"Korean vegetarian, kimchi",Korean vegetarian meal prep with kimchi. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,G,G,D,=,D,=,D,2,3,neither
+User 4,hamster,Tofu and soy sauce,Tofu & soy sauce based meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food.,G,D,G,G,D,=,D,3,3,neither
+User 4,hamster,Broccoli-based vegetarian,Broccoli based vegetarian recipes for meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,=,=,D,=,D,=,D,0,3,DeepSeek
+User 4,hamster,Gnocchi,Meal prep with gnocchi. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.,D,=,D,D,D,=,D,0,5,DeepSeek

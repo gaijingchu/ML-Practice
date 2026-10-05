@@ -24,26 +24,26 @@ For a scenario, one baseline dominates the other if it is at least as good on al
 
 | User | Scenario | Shop | Prep | Price | Taste | Nutr. | Diet | Decide | G wins | D wins | Dominates |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| jeremyti | Asian | = | G | G | = | D | = | D | 2 | 2 | neither |
-| jeremyti | Italian | G | G | G | G | D | = | G | 5 | 1 | neither |
-| jeremyti | Green onion and ginger | G | G | G | = | = | = | D | 3 | 1 | neither |
-| jeremyti | Fish | G | G | D | D | D | = | D | 2 | 4 | neither |
-| jeremyti | Tasty and filling | G | G | D | G | D | = | G | 4 | 2 | neither |
-| sourajak | American, no beef | D | G | D | G | D | = | D | 2 | 4 | neither |
-| sourajak | Body building | = | = | G | D | D | D | D | 1 | 4 | neither |
-| sourajak | Bengali, healthy | D | G | G | G | D | = | D | 3 | 3 | neither |
-| sourajak | North Indian, high protein | G | G | D | G | D | = | D | 3 | 3 | neither |
-| sourajak | South Indian, high protein | D | G | D | G | D | = | D | 2 | 4 | neither |
-| jgai | Northern Chinese | D | D | D | D | D | = | D | 0 | 6 | **DeepSeek** |
-| jgai | Southeast Chinese | D | G | G | D | G | = | D | 3 | 3 | neither |
-| jgai | Chinese, more vegetables | G | D | G | D | D | = | D | 2 | 4 | neither |
-| jgai | U.S.-style Chinese, tasty | G | D | G | D | D | = | D | 2 | 4 | neither |
-| jgai | Taiwanese | G | D | G | = | = | = | D | 2 | 2 | neither |
-| istepka | Mexican, high protein | G | D | D | = | D | = | D | 1 | 4 | neither |
-| istepka | Korean vegetarian, kimchi | G | G | D | = | D | = | D | 2 | 3 | neither |
-| istepka | Tofu and soy sauce | G | D | G | G | D | = | D | 3 | 3 | neither |
-| istepka | Broccoli-based vegetarian | = | = | D | = | D | = | D | 0 | 3 | **DeepSeek** |
-| istepka | Gnocchi | D | = | D | D | D | = | D | 0 | 5 | **DeepSeek** |
+| User 1 | Asian | = | G | G | = | D | = | D | 2 | 2 | neither |
+| User 1 | Italian | G | G | G | G | D | = | G | 5 | 1 | neither |
+| User 1 | Green onion and ginger | G | G | G | = | = | = | D | 3 | 1 | neither |
+| User 1 | Fish | G | G | D | D | D | = | D | 2 | 4 | neither |
+| User 1 | Tasty and filling | G | G | D | G | D | = | G | 4 | 2 | neither |
+| User 2 | American, no beef | D | G | D | G | D | = | D | 2 | 4 | neither |
+| User 2 | Body building | = | = | G | D | D | D | D | 1 | 4 | neither |
+| User 2 | Bengali, healthy | D | G | G | G | D | = | D | 3 | 3 | neither |
+| User 2 | North Indian, high protein | G | G | D | G | D | = | D | 3 | 3 | neither |
+| User 2 | South Indian, high protein | D | G | D | G | D | = | D | 2 | 4 | neither |
+| User 3 | Northern Chinese | D | D | D | D | D | = | D | 0 | 6 | **DeepSeek** |
+| User 3 | Southeast Chinese | D | G | G | D | G | = | D | 3 | 3 | neither |
+| User 3 | Chinese, more vegetables | G | D | G | D | D | = | D | 2 | 4 | neither |
+| User 3 | U.S.-style Chinese, tasty | G | D | G | D | D | = | D | 2 | 4 | neither |
+| User 3 | Taiwanese | G | D | G | = | = | = | D | 2 | 2 | neither |
+| User 4 | Mexican, high protein | G | D | D | = | D | = | D | 1 | 4 | neither |
+| User 4 | Korean vegetarian, kimchi | G | G | D | = | D | = | D | 2 | 3 | neither |
+| User 4 | Tofu and soy sauce | G | D | G | G | D | = | D | 3 | 3 | neither |
+| User 4 | Broccoli-based vegetarian | = | = | D | = | D | = | D | 0 | 3 | **DeepSeek** |
+| User 4 | Gnocchi | D | = | D | D | D | = | D | 0 | 5 | **DeepSeek** |
 
 G: Google Search is better. D: DeepSeek is better. =: tie. Columns: grocery shopping time, meal preparation time, price, tastiness, nutritional value, diet violation, time to decision.
 

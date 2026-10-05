@@ -15,7 +15,7 @@ Run IDs `R1`-`R40` are the ones used in the writeup: scenarios in sheet order, G
 | Column | Meaning |
 |---|---|
 | `run`, `sheet_row` | Run ID and the row of the run in the spreadsheet |
-| `user_id`, `anon_id` | The group member who ran it, and their anonymous ID in the sheet |
+| `user_id`, `anon_id` | The group member who ran it (User 1 to User 4), and their anonymous ID in the sheet |
 | `scenario` | What the user asked for; used as the search query and as the LLM prompt |
 | `baseline` | `Google Search` or `DeepSeek` |
 | `recipe_title`, `recipe_file`, `recipe_text` | The recipe the user chose |

@@ -1,6 +1,6 @@
 # R35 · Teriyaki Tofu Meal Prep
 
-- **User:** istepka (hamster)
+- **User:** User 4 (hamster)
 - **Scenario:** Tofu & soy sauce based meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food.
 - **Baseline:** Google Search
 - **Time to decision:** 1:50 (min:sec)

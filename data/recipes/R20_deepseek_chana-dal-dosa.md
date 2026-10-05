@@ -1,6 +1,6 @@
 # R20 · Chana Dal Dosa
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Quick and easy high protein South Indian meal prep recipe feasible to cook in Pittsburgh
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:27 (min:sec)

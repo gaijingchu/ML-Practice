@@ -84,7 +84,7 @@ def main():
         if p["user"] != prev_user:
             if prev_user is not None:
                 rows.append(r"\addlinespace[2pt]")
-            rows.append(rf"\rowcolor{{tint}}\multicolumn{{11}}{{@{{}}l}}{{\hd{{\id{{{p['user_id']}}} ({p['user']})}}}} \\")
+            rows.append(rf"\rowcolor{{tint}}\multicolumn{{11}}{{@{{}}l}}{{\hd{{{p['user_id']} ({p['user']})}}}} \\")
             prev_user = p["user"]
         for method in ("google", "deepseek"):
             run_id += 1

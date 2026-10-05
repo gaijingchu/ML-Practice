@@ -1,6 +1,6 @@
 # R2 · Japanese Chicken Soba Bowl
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Asian food meal prep with calories per meal less than 600
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:54 (min:sec)

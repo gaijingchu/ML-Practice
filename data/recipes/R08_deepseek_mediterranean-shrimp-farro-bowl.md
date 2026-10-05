@@ -1,6 +1,6 @@
 # R8 · Mediterranean Shrimp & Farro Bowl
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Fish meal prep recipes, calories per meal less than 600
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:31 (min:sec)

@@ -108,7 +108,7 @@ def write_tex(pairs, rows):
         dw = sum(advantage(p, k, s) > 0 for k, _, _, _, s in METRICS)
         gw = sum(advantage(p, k, s) < 0 for k, _, _, _, s in METRICS)
         outcome = {"deepseek": r"\textbf{DeepSeek}", "google": r"\textbf{Google}", "tradeoff": r"\textcolor{muted}{neither}"}[dominance(p)]
-        user = rf"\id{{{p['user_id']}}}" if p["index"] == 1 else ""
+        user = p["user_id"] if p["index"] == 1 else ""
         lines.append(f"{user} & {p['label']} & " + " & ".join(cells) + f" & {gw} & {dw} & {outcome} \\\\")
     (GEN / "scenario_rows.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

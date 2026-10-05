@@ -1,6 +1,6 @@
 # R26 · Garlic-Ginger Chicken & Vegetable Stir-Fry
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** healthy Chinese food, more vegetables, for losing weight recipe
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:29 (min:sec)

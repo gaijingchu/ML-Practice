@@ -1,6 +1,6 @@
 # R9 · Beef Stroganoff
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Meal prep recipe that is tasty and filling, calories per meal less than 600
 - **Baseline:** Google Search
 - **Time to decision:** 1:23 (min:sec)

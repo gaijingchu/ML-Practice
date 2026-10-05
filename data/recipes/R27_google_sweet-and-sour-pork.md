@@ -1,6 +1,6 @@
 # R27 · Sweet and Sour Pork
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** U.S Style Chinese food, tasty, for single person recipe
 - **Baseline:** Google Search
 - **Time to decision:** 1:32 (min:sec)

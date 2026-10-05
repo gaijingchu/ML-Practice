@@ -1,6 +1,6 @@
 # R11 · Turmeric Chicken & Avocado Wraps
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** high protein, high fibre, low fat American meal prep recipes without beef
 - **Baseline:** Google Search
 - **Time to decision:** 5:20 (min:sec)

@@ -1,6 +1,6 @@
 # R18 · Moong Dal Chilla Wrap with Paneer Filling
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:40 (min:sec)

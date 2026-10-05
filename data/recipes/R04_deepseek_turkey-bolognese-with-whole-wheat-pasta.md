@@ -1,6 +1,6 @@
 # R4 · Turkey Bolognese with Whole-Wheat Pasta
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Italian food meal prep with calories per meal less than 600
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 2:31 (min:sec)

@@ -1,6 +1,6 @@
 # R10 · Chicken Burrito Bowl Meal Prep
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Meal prep recipe that is tasty and filling, calories per meal less than 600
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:54 (min:sec)

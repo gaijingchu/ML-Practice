@@ -1,6 +1,6 @@
 # R36 · One-Pan Soy-Glazed Tofu & Veggie Bowls
 
-- **User:** istepka (hamster)
+- **User:** User 4 (hamster)
 - **Scenario:** Tofu & soy sauce based meal prep. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food.
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 0:58 (min:sec)

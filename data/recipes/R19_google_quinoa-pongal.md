@@ -1,6 +1,6 @@
 # R19 · Quinoa Pongal
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Quick and easy high protein South Indian meal prep recipe feasible to cook in Pittsburgh
 - **Baseline:** Google Search
 - **Time to decision:** 3:31 (min:sec)

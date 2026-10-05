@@ -1,6 +1,6 @@
 # R5 · Korean Beef Bowl
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Meal prep recipes that use green onions and ginger, calories per meal less than 600.
 - **Baseline:** Google Search
 - **Time to decision:** 5:02 (min:sec)

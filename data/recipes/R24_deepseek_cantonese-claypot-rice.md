@@ -1,6 +1,6 @@
 # R24 · Cantonese Claypot Rice
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** Chinese food, southeast China food, for single person recipe
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 0:57 (min:sec)

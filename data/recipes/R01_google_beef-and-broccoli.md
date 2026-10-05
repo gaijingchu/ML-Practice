@@ -1,6 +1,6 @@
 # R1 · Beef and Broccoli
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Asian food meal prep with calories per meal less than 600
 - **Baseline:** Google Search
 - **Time to decision:** 4:48 (min:sec)

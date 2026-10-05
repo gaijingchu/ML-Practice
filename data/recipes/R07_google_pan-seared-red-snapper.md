@@ -1,6 +1,6 @@
 # R7 · Pan-Seared Red Snapper
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Fish meal prep recipes, calories per meal less than 600
 - **Baseline:** Google Search
 - **Time to decision:** 3:34 (min:sec)

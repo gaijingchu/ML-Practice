@@ -1,6 +1,6 @@
 # R22 · Beijing-Style Zhajiangmian
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** Chinese food, northern China food, for single person recipe
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:05 (min:sec)

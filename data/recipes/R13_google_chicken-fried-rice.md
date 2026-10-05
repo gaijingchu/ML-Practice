@@ -1,6 +1,6 @@
 # R13 · Chicken Fried Rice
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Easy and healthy meal prep recipes good for body building with vegetables, chicken, and rice
 - **Baseline:** Google Search
 - **Time to decision:** 3:06 (min:sec)

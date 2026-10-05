@@ -1,6 +1,6 @@
 # R17 · Lentils with Chicken and Yogurt Sauce
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh
 - **Baseline:** Google Search
 - **Time to decision:** 3:08 (min:sec)

@@ -1,6 +1,6 @@
 # Meal Prep Advisor: baselines
 
-Team J2IS (Jingchu, Jeremy, Ignacy, Souraja), 10-718.
+Team J2IS (Jeremy, Jingchu, Ignacy, Souraja), 10-718.
 
 This repository holds the baselines assignment: the data we collected, the code that turns it into
 results, and the writeup.

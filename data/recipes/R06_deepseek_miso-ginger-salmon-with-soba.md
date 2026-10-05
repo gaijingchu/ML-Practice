@@ -1,6 +1,6 @@
 # R6 · Miso-Ginger Salmon with Soba
 
-- **User:** jeremyti (koala)
+- **User:** User 1 (koala)
 - **Scenario:** Meal prep recipes that use green onions and ginger, calories per meal less than 600.
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 2:20 (min:sec)

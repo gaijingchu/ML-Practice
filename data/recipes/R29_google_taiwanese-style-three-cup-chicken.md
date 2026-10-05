@@ -1,6 +1,6 @@
 # R29 · Taiwanese-Style Three Cup Chicken
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** Taiwan dishes, single person recipe
 - **Baseline:** Google Search
 - **Time to decision:** 2:31 (min:sec)

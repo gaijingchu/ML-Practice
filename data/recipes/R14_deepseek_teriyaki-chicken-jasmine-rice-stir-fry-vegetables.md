@@ -1,6 +1,6 @@
 # R14 · Teriyaki Chicken, Jasmine Rice & Stir-Fry Vegetables
 
-- **User:** sourajak (lion)
+- **User:** User 2 (lion)
 - **Scenario:** Easy and healthy meal prep recipes good for body building with vegetables, chicken, and rice
 - **Baseline:** DeepSeek (zero-shot, web chat, web search off)
 - **Time to decision:** 1:47 (min:sec)

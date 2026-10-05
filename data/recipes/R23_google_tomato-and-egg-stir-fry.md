@@ -1,6 +1,6 @@
 # R23 · Tomato and Egg Stir-Fry
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** Chinese food, southeast China food, for single person recipe
 - **Baseline:** Google Search
 - **Time to decision:** 3:03 (min:sec)

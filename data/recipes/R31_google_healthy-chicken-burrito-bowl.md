@@ -1,6 +1,6 @@
 # R31 · Healthy Chicken Burrito Bowl
 
-- **User:** istepka (hamster)
+- **User:** User 4 (hamster)
 - **Scenario:** High protein, mexican food. I want to meal prep 5 lunches for this week. I don't want to spend too much time in the kitchen. I do not want to buy any frozen or highly processed food. TVP is fine as meat substitute.
 - **Baseline:** Google Search
 - **Time to decision:** 3:19 (min:sec)

@@ -102,7 +102,7 @@
 % ---------------------------------------------------------------- title
 {\sffamily\bfseries\fontsize{22}{26}\selectfont Baselines for the Meal Prep Advisor\par}
 \vspace{5pt}
-{\sffamily\color{muted}Team J2IS: Jingchu, Jeremy, Ignacy, Souraja \quad\textperiodcentered\quad 10-718\par}
+{\sffamily\color{muted}Team J2IS: Jeremy, Jingchu, Ignacy, Souraja \quad\textperiodcentered\quad 10-718\par}
 \vspace{2pt}
 {\sffamily\small\color{muted}Code and data: \href{https://github.com/gaijingchu/ML-Practice}{\color{accent}github.com/gaijingchu/ML-Practice}\par}
 \vspace{7pt}
@@ -123,7 +123,7 @@ A scenario is a short description of what a user wants to eat, with their prefer
 ``Fish meal prep recipes, calories per meal less than 600''.
 
 \textbf{All data in this report were collected by the four members of our group.}
-Each member acted as one user: Jeremy (\id{jeremyti}), Souraja (\id{sourajak}), Jingchu (\id{jgai}) and Ignacy (\id{istepka}).
+Each member acted as one user; the four users are referred to as User~1 to User~4.
 Each of us wrote down our own five scenarios before running anything,
 ran both baselines on those scenarios ourselves, and recorded the measurements for our own runs.
 Appendix~\ref{app:scenarios} lists the 20 scenarios with the user who wrote each one.
@@ -358,7 +358,7 @@ So neither baseline Pareto-dominates the other on our evaluation set: the two si
 \end{tabular}
 \caption{Pareto comparison for each scenario. G: Google Search is better; D: DeepSeek is better; =: tie.
 Columns follow Table~\ref{tab:scorecard}: grocery shopping time, meal preparation time, price, tastiness, nutritional value, diet violation, time to decision.
-All of \id{jeremyti}'s scenarios also ask for under 600 kcal per meal.}
+All of User~1's scenarios also ask for under 600 kcal per meal.}
 \label{tab:pareto}
 \end{table}
 
@@ -418,30 +418,30 @@ Each group member wrote their own five scenarios and ran them with both baseline
 {\footnotesize\renewcommand{\arraystretch}{1.2}
 \begin{longtable}{P{1.6cm} P{1.5cm} P{12.1cm}}
 \toprule
-\rowcolor{tint} \hd{User ID} & \hd{Anon.\ ID} & \hd{Scenario} \\
+\rowcolor{tint} \hd{User} & \hd{Anon.\ ID} & \hd{Scenario} \\
 \midrule
 \endhead
 \bottomrule
 \endlastfoot
-\id{jeremyti} & koala & Asian food meal prep with calories per meal less than 600 \\
+User 1 & koala & Asian food meal prep with calories per meal less than 600 \\
       & & Italian food meal prep with calories per meal less than 600 \\
       & & Meal prep recipes that use green onions and ginger, calories per meal less than 600. \\
       & & Fish meal prep recipes, calories per meal less than 600 \\
       & & Meal prep recipe that is tasty and filling, calories per meal less than 600 \\
 \midrule
-\id{sourajak} & lion & high protein, high fibre, low fat American meal prep recipes without beef \\
+User 2 & lion & high protein, high fibre, low fat American meal prep recipes without beef \\
       & & Easy and healthy meal prep recipes good for body building with vegetables, chicken, and rice \\
       & & Bengali easy healthy meal prep recipe with vegetables, chicken, and fishes feasible to cook in Pittsburgh \\
       & & Less oily easy healthy and tasty North Indian meal prep recipe with high protein feasible to cook in Pittsburgh \\
       & & Quick and easy high protein South Indian meal prep recipe feasible to cook in Pittsburgh \\
 \midrule
-\id{jgai} & kangaroo & Chinese food, northern China food, for single person recipe \\
+User 3 & kangaroo & Chinese food, northern China food, for single person recipe \\
       & & Chinese food, southeast China food, for single person recipe \\
       & & healthy Chinese food, more vegetables, for losing weight recipe \\
       & & U.S Style Chinese food, tasty, for single person recipe \\
       & & Taiwan dishes, single person recipe \\
 \midrule
-\id{istepka} & hamster & High protein, mexican food. $\dagger$ TVP is fine as meat substitute. \\
+User 4 & hamster & High protein, mexican food. $\dagger$ TVP is fine as meat substitute. \\
       & & Korean vegetarian meal prep with kimchi. $\dagger$ TVP is fine as meat substitute. \\
       & & Tofu \& soy sauce based meal prep. $\dagger$ \\
       & & Broccoli based vegetarian recipes for meal prep. $\dagger$ TVP is fine as meat substitute. \\

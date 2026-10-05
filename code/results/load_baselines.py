@@ -28,7 +28,7 @@ METRICS = [
     ("diet_violation", 12, "Diet violation", "0/1", -1),
     ("decide_min", 6, "Time to decision", "min", -1),
 ]
-USERS = {"koala": "jeremyti", "lion": "sourajak", "kangaroo": "jgai", "hamster": "istepka"}
+USERS = {"koala": "User 1", "lion": "User 2", "kangaroo": "User 3", "hamster": "User 4"}
 SHORT = {      # short labels for tables; the full scenario texts are in the sheet and in the writeup's appendix
     "koala": ["Asian", "Italian", "Green onion and ginger", "Fish", "Tasty and filling"],
     "lion": ["American, no beef", "Body building", "Bengali, healthy", "North Indian, high protein",

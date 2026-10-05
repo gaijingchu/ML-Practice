@@ -1,6 +1,6 @@
 # R21 · Orange Chicken
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** Chinese food, northern China food, for single person recipe
 - **Baseline:** Google Search
 - **Time to decision:** 2:40 (min:sec)

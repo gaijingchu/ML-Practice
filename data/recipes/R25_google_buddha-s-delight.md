@@ -1,6 +1,6 @@
 # R25 · Buddha's Delight
 
-- **User:** jgai (kangaroo)
+- **User:** User 3 (kangaroo)
 - **Scenario:** healthy Chinese food, more vegetables, for losing weight recipe
 - **Baseline:** Google Search
 - **Time to decision:** 3:32 (min:sec)
