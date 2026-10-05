@@ -1,0 +1,626 @@
+sheet_row,role,recipe_text,qty,unit,food,grams_as_eaten,fvn,energy_kj,sat_fat_g,sugars_g,sodium_mg,fibre_g,protein_g,food_source,note
+3,main,3/4 pound flank steak,0.75,lb,beef_flank,340.2,0,2354.14,11.71,0.0,183.7,0.0,72.19,"USDA sr legacy 169433: Beef, flank, steak, separable lean and fat, trimmed to 0"" fat, choice, raw",
+3,main,1 Tablespoon cooking oil,1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+3,main,2 cloves garlic,2,clove,garlic,6.0,1,37.38,0.01,0.06,1.02,0.13,0.38,"USDA sr legacy 169230: Garlic, raw",
+3,main,1/4 teaspoon grated fresh ginger,0.25,tsp,ginger,0.5,1,1.67,0.0,0.01,0.07,0.01,0.01,"USDA sr legacy 169231: Ginger root, raw",
+3,main,3-1/2 cups broccoli florets,3.5,cup_florets,broccoli,248.5,1,350.38,0.28,4.22,82.0,6.46,7.01,"USDA sr legacy 170379: Broccoli, raw",
+3,main,1 teaspoon cornstarch (marinade),1,tsp,cornstarch,2.7,0,42.51,0.0,0.0,0.24,0.02,0.01,USDA sr legacy 169698: Cornstarch,
+3,main,1 teaspoon low sodium soy sauce (marinade),1,tsp,soy_sauce_low_sodium,4.5,0,10.66,0.0,0.02,161.91,0.03,0.41,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+3,optional,"1/4 teaspoon dark soy sauce, optional (marinade)",0.25,tsp,soy_sauce,1.3,0,2.94,0.0,0.01,72.78,0.01,0.11,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+3,main,1/2 teaspoon toasted sesame oil (marinade),0.5,tsp,oil_sesame,2.2,0,83.23,0.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+3,main,1/8 teaspoon black pepper,0.125,tsp,black_pepper,0.3,0,3.02,0.0,0.0,0.06,0.07,0.03,"USDA sr legacy 170931: Spices, pepper, black",
+3,main,1-1/2 Tablespoons oyster sauce,1.5,tbsp,oyster_sauce,27.0,0,57.51,0.01,0.0,737.91,0.08,0.36,"USDA sr legacy 174529: Sauce, oyster, ready-to-serve",
+3,main,1-1/2 Teaspoons low sodium soy sauce (sauce),1.5,tsp,soy_sauce_low_sodium,6.8,0,16.0,0.0,0.03,242.87,0.05,0.61,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+3,optional,"1/4 teaspoon dark soy sauce, optional (sauce)",0.25,tsp,soy_sauce,1.3,0,2.94,0.0,0.01,72.78,0.01,0.11,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+3,main,2 teaspoons granulated sugar,2,tsp,sugar,8.4,0,135.91,0.0,8.38,0.08,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+3,main,1 teaspoon toasted sesame oil (sauce),1,tsp,oil_sesame,4.5,0,166.46,0.64,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+3,main,1/2 teaspoon Mirin,0.5,tsp,mirin,2.5,0,24.03,0.0,1.07,14.79,0.0,0.0,custom entry (see note),
+3,main,2 teaspoons cornstarch (sauce),2,tsp,cornstarch,5.3,0,85.01,0.0,0.0,0.48,0.05,0.01,USDA sr legacy 169698: Cornstarch,
+3,main,1/3 cup cold water or sodium free chicken broth,0.3333,cup,water,78.9,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),first-listed alternative
+3,excluded,water for blanching broccoli,,,,,,,,,,,,,cooking water that is drained off
+3,excluded,"salt and black pepper, to taste",,,,,,,,,,,,,"to taste / pinch, no quantity"
+3,excluded,cooked rice / quinoa / noodles to serve,,,,,,,,,,,,,no quantity given
+3,excluded,sesame seeds and chopped green onions if desired,,,,,,,,,,,,,no quantity given
+4,main,6 large egg whites,6,large,egg_white,198.0,0,427.68,0.0,1.41,328.68,0.0,21.58,"USDA sr legacy 172183: Egg, white, raw, fresh",
+4,main,3 large eggs,3,large,egg,150.0,0,898.5,4.69,0.56,213.0,0.0,18.84,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+4,main,1/2 teaspoon dried oregano,0.5,tsp,oregano_dried,0.5,0,5.54,0.01,0.02,0.12,0.21,0.04,"USDA sr legacy 171328: Spices, oregano, dried",
+4,main,1/4 teaspoon garlic powder,0.25,tsp,garlic_powder,0.8,0,10.74,0.0,0.02,0.47,0.07,0.13,"USDA sr legacy 171325: Spices, garlic powder",
+4,main,1/4 teaspoon salt,0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+4,main,1/4 teaspoon pepper,0.25,tsp,black_pepper,0.6,0,6.04,0.01,0.0,0.12,0.15,0.06,"USDA sr legacy 170931: Spices, pepper, black",
+4,main,1 tablespoon olive oil,1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+4,main,"1 small onion, finely chopped",1,small,onion,70.0,1,116.2,0.03,2.97,2.8,1.19,0.77,"USDA sr legacy 170000: Onions, raw",
+4,main,1/4 cup finely chopped sweet red pepper,0.25,cup,bell_pepper_red,37.2,1,41.35,0.02,1.56,1.49,0.78,0.37,"USDA sr legacy 170108: Peppers, sweet, red, raw",
+4,main,"2 turkey bacon strips, chopped",2,strip,turkey_bacon,32.0,0,302.08,1.45,0.83,342.08,0.0,5.1,"USDA sr legacy 174592: Bacon, turkey, unprepared",
+4,main,1 cup fresh baby spinach,1,cup,spinach,30.0,1,29.1,0.02,0.13,23.7,0.66,0.86,"USDA sr legacy 168462: Spinach, raw",
+4,main,3 tablespoons thinly sliced fresh basil leaves,3,tbsp,basil_fresh,7.9,1,7.47,0.0,0.02,0.32,0.13,0.25,"USDA sr legacy 172232: Basil, fresh",
+4,main,1/2 cup shredded part-skim mozzarella cheese,0.5,cup,mozzarella_part_skim,56.5,0,698.34,6.38,1.07,376.29,0.0,13.42,"USDA sr legacy 171244: Cheese, mozzarella, low moisture, part-skim",
+5,main,1 pound lean ground beef (93% lean),1,lb,beef_ground_93,453.6,0,2889.38,13.05,0.0,299.37,0.0,94.57,"USDA sr legacy 173110: Beef, ground, 93% lean meat / 7% fat, raw",
+5,main,3 tablespoons low sodium soy sauce,3,tbsp,soy_sauce_low_sodium,42.6,0,100.96,0.01,0.21,1532.75,0.3,3.86,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+5,main,1 1/4 cups minced scallions,1.25,cup,scallion,125.0,1,168.75,0.04,2.91,20.0,3.25,2.29,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+5,main,1 tablespoon minced garlic,1,tbsp,garlic,8.4,1,52.33,0.01,0.08,1.43,0.18,0.53,"USDA sr legacy 169230: Garlic, raw",
+5,main,2 tablespoons rice vinegar,2,tbsp,vinegar,29.8,0,22.65,0.0,0.01,0.6,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+5,main,2 tablespoons honey,2,tbsp,honey,42.0,0,534.24,0.0,34.49,1.68,0.08,0.13,USDA sr legacy 169640: Honey,
+5,main,2 tablespoons minced or finely grated fresh ginger,2,tbsp,ginger,12.0,1,39.96,0.02,0.2,1.56,0.24,0.22,"USDA sr legacy 169231: Ginger root, raw",
+5,main,1/4 teaspoon red pepper flakes,0.25,tsp,red_pepper_flakes,0.5,0,5.99,0.01,0.05,0.14,0.12,0.05,"USDA sr legacy 170932: Spices, pepper, red or cayenne",
+5,main,1 tablespoon sesame oil,1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+5,main,1 1/2 cups shredded carrots (for serving),1.5,cup_grated,carrot,165.0,1,285.45,0.05,7.82,113.85,4.62,1.53,"USDA sr legacy 170393: Carrots, raw",
+5,excluded,"cooked brown rice, quinoa, or cauliflower rice (for serving)",,,,,,,,,,,,,no quantity given
+5,excluded,thinly sliced seedless cucumbers,,,,,,,,,,,,,no quantity given
+5,excluded,toasted sesame seeds,,,,,,,,,,,,,no quantity given
+5,excluded,additional soy sauce / red pepper flakes / sesame oil to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+5,excluded,"optional pickling liquid for the carrots and cucumbers (vinegar, water, sugar, salt)",,,,,,,,,,,,,optional step; liquid is drained off
+6,main,1/2 cup dry bread crumbs,0.5,cup,bread_crumbs,54.0,0,892.62,0.65,3.35,395.28,2.43,7.21,"USDA sr legacy 174928: Bread, crumbs, dry, grated, plain",
+6,main,2 tablespoons grated Parmesan cheese,2,tbsp,parmesan_grated,10.0,0,175.7,1.54,0.01,180.4,0.0,2.84,"USDA sr legacy 171247: Cheese, parmesan, grated",
+6,main,1 teaspoon lemon-pepper seasoning,1,tsp,lemon_pepper,2.8,0,0.0,0.0,0.0,319.2,0.0,0.0,custom entry (see note),
+6,main,1/4 teaspoon salt,0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+6,main,4 red snapper fillets (6 ounces each),24,oz,snapper,680.4,0,2844.02,1.94,0.0,435.45,0.0,139.55,"USDA sr legacy 173698: Fish, snapper, mixed species, raw",
+6,main,2 tablespoons olive oil,2,tbsp,oil_olive,27.0,0,998.73,3.73,0.0,0.54,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+7,main,1 tbsp olive oil,1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+7,main,1 onion sliced,1,medium,onion,110.0,1,182.6,0.05,4.66,4.4,1.87,1.21,"USDA sr legacy 170000: Onions, raw",
+7,main,1 clove of garlic,1,clove,garlic,3.0,1,18.69,0.0,0.03,0.51,0.06,0.19,"USDA sr legacy 169230: Garlic, raw",
+7,main,1 tbsp butter,1,tbsp,butter,14.2,0,425.86,7.29,0.01,91.31,0.0,0.12,"USDA sr legacy 173410: Butter, salted",
+7,main,250g mushrooms sliced,250,g,mushroom,250.0,1,232.5,0.12,4.95,12.5,2.5,7.72,"USDA sr legacy 169251: Mushrooms, white, raw",
+7,main,1 tbsp plain flour,1,tbsp,flour,7.8,0,118.98,0.01,0.02,0.16,0.21,0.81,"USDA sr legacy 168894: Wheat flour, white, all-purpose, enriched, bleached",
+7,main,500g fillet steak sliced,500,g,beef_tenderloin,500.0,0,3205.0,12.06,0.0,280.0,0.0,110.6,"USDA sr legacy 171812: Beef, tenderloin, steak, separable lean only, trimmed to 1/8"" fat, all grades, raw",
+7,main,150g creme fraiche,150,g,creme_fraiche,150.0,0,2334.0,40.65,3.15,33.0,0.0,3.3,custom entry (see note),
+7,main,1 tsp English mustard,1,tsp,mustard_prepared,5.0,0,12.65,0.01,0.05,55.2,0.2,0.19,"USDA sr legacy 172234: Mustard, prepared, yellow",
+7,main,100ml beef stock,100,ml,broth_beef,101.4,0,29.42,0.11,0.0,377.36,0.0,1.16,"USDA sr legacy 171538: Soup, beef broth or bouillon canned, ready-to-serve",
+7,main,1/2 small pack of parsley chopped,12.5,g,parsley,12.5,1,18.88,0.02,0.11,7.0,0.41,0.37,"USDA sr legacy 170416: Parsley, fresh",a small pack taken as 25 g
+7,excluded,"salt and pepper ('season well', 'big pinch')",,,,,,,,,,,,,"to taste / pinch, no quantity"
+7,excluded,splash of water / extra oil if the pan looks dry,,,,,,,,,,,,,no quantity given
+7,excluded,pappardelle or rice to serve,,,,,,,,,,,,,no quantity given
+8,main,5 oz chicken breast,5,oz,chicken_breast,141.7,0,710.15,0.8,0.0,63.79,0.0,31.89,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+8,main,2 oz dry soba noodles,2,oz,soba_dry,192.6,0,797.19,0.04,1.04,115.53,2.04,9.74,"USDA sr legacy 168907: Noodles, japanese, soba, cooked",
+8,main,1 cup fresh spinach,1,cup,spinach,30.0,1,29.1,0.02,0.13,23.7,0.66,0.86,"USDA sr legacy 168462: Spinach, raw",
+8,main,1/2 cup shredded carrot,0.5,cup_grated,carrot,55.0,1,95.15,0.02,2.61,37.95,1.54,0.51,"USDA sr legacy 170393: Carrots, raw",
+8,main,"2-3 scallions, sliced",2.5,medium,scallion,37.5,1,50.62,0.01,0.87,6.0,0.97,0.69,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",midpoint of the range
+8,main,2 cups low-sodium chicken broth or dashi,2,cup,broth_chicken_low_sodium,480.0,0,321.6,0.86,0.62,144.0,0.0,9.6,"USDA sr legacy 171609: Soup, chicken broth, low sodium, canned",first-listed alternative
+8,main,1 tbsp low-sodium soy sauce,1,tbsp,soy_sauce_low_sodium,14.2,0,33.65,0.0,0.07,510.92,0.1,1.29,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+8,main,1 tsp mirin,1,tsp,mirin,4.9,0,48.06,0.0,2.13,29.57,0.0,0.0,custom entry (see note),
+8,main,1 tsp rice vinegar,1,tsp,vinegar,5.0,0,3.8,0.0,0.0,0.1,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+8,main,"1 clove garlic, minced",1,clove,garlic,3.0,1,18.69,0.0,0.03,0.51,0.06,0.19,"USDA sr legacy 169230: Garlic, raw",
+8,main,"1 tsp fresh ginger, grated",1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+8,optional,Optional: 1/4 cup shelled edamame,0.25,cup,edamame,38.8,1,196.46,0.24,0.84,2.33,2.02,4.62,"USDA sr legacy 168411: Edamame, frozen, prepared",
+8,optional,Optional: 1 soft-boiled egg,1,large,egg_boiled,50.0,0,324.5,1.63,0.56,62.0,0.0,6.29,"USDA sr legacy 173424: Egg, whole, cooked, hard-boiled",
+8,excluded,Optional: pinch of chili flakes or a dash of chili oil,,,,,,,,,,,,,no quantity given
+8,excluded,salt and pepper to season the chicken,,,,,,,,,,,,,"to taste / pinch, no quantity"
+9,main,1 lb (450g) 93% lean ground turkey,1,lb,turkey_ground_93,453.6,0,2848.56,9.84,0.0,312.98,0.0,84.96,"USDA sr legacy 172850: Turkey, ground, 93% lean, 7% fat, raw",
+9,main,1 jar (24 oz) no-sugar-added marinara sauce,24,oz,marinara,680.4,0.9,1415.21,1.48,33.41,2973.3,12.25,9.46,"USDA sr legacy 171192: Sauce, pasta, spaghetti/marinara, ready-to-serve",
+9,main,1 can (14 oz) crushed tomatoes,14,oz,tomatoes_crushed_canned,396.9,1,531.84,0.16,17.46,738.22,7.54,6.51,"USDA sr legacy 170501: Tomatoes, crushed, canned",
+9,main,"1 medium onion, diced",1,medium,onion,110.0,1,182.6,0.05,4.66,4.4,1.87,1.21,"USDA sr legacy 170000: Onions, raw",
+9,main,"2 carrots, diced",2,medium,carrot,122.0,1,211.06,0.04,5.78,84.18,3.42,1.13,"USDA sr legacy 170393: Carrots, raw",
+9,main,"2 celery stalks, diced",2,stalk,celery,80.0,1,45.6,0.03,1.07,64.0,1.28,0.55,"USDA sr legacy 169988: Celery, raw",
+9,main,"3 garlic cloves, minced",3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+9,main,2 tbsp olive oil,2,tbsp,oil_olive,27.0,0,998.73,3.73,0.0,0.54,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+9,main,1 tsp dried oregano,1,tsp,oregano_dried,1.0,0,11.07,0.02,0.04,0.25,0.42,0.09,"USDA sr legacy 171328: Spices, oregano, dried",
+9,main,1 tsp dried basil,1,tsp,basil_dried,0.7,0,6.83,0.02,0.01,0.53,0.26,0.16,"USDA sr legacy 171317: Spices, basil, dried",
+9,optional,1/2 tsp red pepper flakes (optional),0.5,tsp,red_pepper_flakes,0.9,0,11.98,0.03,0.09,0.27,0.24,0.11,"USDA sr legacy 170932: Spices, pepper, red or cayenne",
+9,main,10 oz dry whole-wheat spaghetti,10,oz,spaghetti_ww_dry,667.2,0,4170.21,1.62,5.0,26.69,26.02,39.97,"USDA sr legacy 168910: Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)",
+9,excluded,salt and black pepper to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+9,excluded,salt for pasta water; splash of pasta water,,,,,,,,,,,,,no quantity given
+10,main,4 salmon fillets (5 oz / 140g each),20,oz,salmon,567.0,0,4938.48,17.29,0.0,334.52,0.0,115.78,"USDA sr legacy 175167: Fish, salmon, Atlantic, farmed, raw",
+10,main,2 tbsp white miso paste,2,tbsp,miso,34.0,0,281.52,0.35,2.11,1267.52,1.84,4.35,USDA sr legacy 172442: Miso,
+10,main,"1 tbsp fresh ginger, grated",1,tbsp,ginger,6.0,1,19.98,0.01,0.1,0.78,0.12,0.11,"USDA sr legacy 169231: Ginger root, raw",
+10,main,1 tbsp low-sodium soy sauce,1,tbsp,soy_sauce_low_sodium,14.2,0,33.65,0.0,0.07,510.92,0.1,1.29,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+10,main,1 tsp honey,1,tsp,honey,7.0,0,89.04,0.0,5.75,0.28,0.01,0.02,USDA sr legacy 169640: Honey,
+10,main,1 tsp sesame oil (glaze),1,tsp,oil_sesame,4.5,0,166.46,0.64,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+10,optional,"1 tsp rice vinegar (optional, for brightness)",1,tsp,vinegar,5.0,0,3.8,0.0,0.0,0.1,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+10,main,8 oz dry soba noodles,8,oz,soba_dry,770.2,0,3188.75,0.15,4.16,462.14,8.16,38.97,"USDA sr legacy 168907: Noodles, japanese, soba, cooked",
+10,main,"4 cups bok choy, halved lengthwise",4,cup,bok_choy,280.0,1,154.0,0.08,3.3,182.0,2.8,4.2,"USDA sr legacy 170390: Cabbage, chinese (pak-choi), raw",
+10,main,1 tbsp neutral oil (avocado or canola),1,tbsp,oil_avocado,14.0,0,517.86,1.62,0.0,0.0,0.0,0.0,"USDA sr legacy 173573: Oil, avocado",first-listed alternative
+10,main,1 tsp sesame oil (noodles),1,tsp,oil_sesame,4.5,0,166.46,0.64,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+10,main,1 tbsp soy sauce (noodles),1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+10,main,"4 green onions, sliced",4,medium,scallion,60.0,1,81.0,0.02,1.4,9.6,1.56,1.1,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+10,excluded,"optional garnishes: toasted sesame seeds, chili flakes or sriracha, lime wedges",,,,,,,,,,,,,no quantity given
+10,excluded,2 tbsp water to steam the bok choy; water to thin the glaze,,,,,,,,,,,,,steaming water evaporates / no quantity
+10,excluded,splash of soy sauce on the bok choy,,,,,,,,,,,,,no quantity given
+11,main,"1.5 lbs shrimp, peeled and deveined",1.5,lb,shrimp,680.4,0,2020.75,1.78,0.0,3851.0,0.0,92.6,"USDA sr legacy 174210: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+11,main,"3 cloves garlic, minced",3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+11,main,1 tsp dried oregano (shrimp),1,tsp,oregano_dried,1.0,0,11.07,0.02,0.04,0.25,0.42,0.09,"USDA sr legacy 171328: Spices, oregano, dried",
+11,main,1 tbsp olive oil (shrimp),1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+11,main,2 cups cooked farro (about 3/4 cup dry),2,cup,farro_cooked,388.0,0,2056.4,0.59,9.93,19.4,15.13,21.34,"USDA sr legacy 169746: Spelt, cooked",
+11,main,"2 cups cherry tomatoes, halved",2,cup_cherry,tomato_raw,298.0,1,220.52,0.08,7.84,14.9,3.58,2.62,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+11,main,"1 cucumber, diced",1,each,cucumber,201.0,1,130.65,0.07,3.36,4.02,1.0,1.31,"USDA sr legacy 168409: Cucumber, with peel, raw",
+11,main,"1/2 red onion, finely diced",0.5,medium,onion,55.0,1,91.3,0.02,2.33,2.2,0.94,0.61,"USDA sr legacy 170000: Onions, raw",
+11,main,"1/2 cup reduced-fat feta, crumbled",0.5,cup,feta,75.0,0,830.25,9.97,0.0,854.25,0.0,10.66,"USDA sr legacy 173420: Cheese, feta",regular feta values (no reduced-fat entry in USDA)
+11,main,1 tbsp olive oil (dressing),1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+11,main,Juice of 1 lemon (about 3 tbsp),3,tbsp,lemon_juice,45.8,1,41.63,0.02,1.15,0.46,0.14,0.16,"USDA sr legacy 167747: Lemon juice, raw",
+11,main,1 tsp dried oregano (dressing),1,tsp,oregano_dried,1.0,0,11.07,0.02,0.04,0.25,0.42,0.09,"USDA sr legacy 171328: Spices, oregano, dried",
+11,excluded,salt and pepper to taste (shrimp and dressing),,,,,,,,,,,,,"to taste / pinch, no quantity"
+12,main,"1.5 lbs boneless, skinless chicken breast",1.5,lb,chicken_breast,680.4,0,3408.74,3.83,0.0,306.17,0.0,153.09,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+12,main,2 tbsp olive oil,2,tbsp,oil_olive,27.0,0,998.73,3.73,0.0,0.54,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+12,main,1 packet taco seasoning,1,packet,taco_seasoning,28.4,0,381.59,0.0,3.07,2042.05,3.77,1.28,"USDA sr legacy 172243: Seasoning mix, dry, taco, original",
+12,main,2 cups cooked brown rice,2,cup,rice_brown_cooked,404.0,0,2076.56,1.05,0.97,16.16,6.46,11.07,"USDA sr legacy 169704: Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+12,main,"1 can (15 oz) black beans, drained and rinsed",1,can15,black_beans_drained,254.0,1,1402.08,0.35,0.81,601.98,22.1,22.5,"USDA sr legacy 175237: Beans, black, mature seeds, cooked, boiled, with salt",
+12,main,1 cup corn (frozen or canned),1,cup,corn_frozen,136.0,1,500.48,0.16,3.4,4.08,2.86,4.11,"USDA sr legacy 168398: Corn, sweet, yellow, frozen, kernels cut off cob, unprepared (Includes foods for USDA's Food Distribution Program)",first-listed alternative
+12,main,"1 cup cherry tomatoes, halved",1,cup_cherry,tomato_raw,149.0,1,110.26,0.04,3.92,7.45,1.79,1.31,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+12,main,"1 bell pepper, diced",1,medium,bell_pepper_green,119.0,1,99.96,0.07,2.86,3.57,2.02,1.02,"USDA sr legacy 170427: Peppers, sweet, green, raw",
+12,main,"1/4 red onion, diced",0.25,medium,onion,27.5,1,45.65,0.01,1.17,1.1,0.47,0.3,"USDA sr legacy 170000: Onions, raw",
+12,main,1 cup shredded lettuce or spinach,1,cup,lettuce_iceberg,72.0,1,41.76,0.01,1.42,7.2,0.86,0.65,"USDA sr legacy 169248: Lettuce, iceberg (includes crisphead types), raw",first-listed alternative
+12,main,1/2 cup shredded cheddar or Mexican blend,0.5,cup,cheddar,56.5,0,966.88,10.85,0.19,369.51,0.0,13.16,"USDA fndds 2705709: Cheese, Cheddar",
+12,main,1/2 avocado,0.5,each,avocado,75.0,1,502.5,1.59,0.49,5.25,5.03,1.5,"USDA sr legacy 171705: Avocados, raw, all commercial varieties",
+12,excluded,cilantro + lime,,,,,,,,,,,,,no quantity given
+12,excluded,salsa or Greek yogurt,,,,,,,,,,,,,no quantity given
+13,main,1/2 cup mayonnaise,0.5,cup,mayonnaise,110.0,0,3128.4,12.87,0.63,698.5,0.0,1.06,"USDA sr legacy 171009: Salad dressing, mayonnaise, regular",
+13,main,1/3 cup whole-milk plain strained (Greek-style) yogurt,0.3333,cup,yogurt_greek_whole,81.7,0,331.53,1.96,3.27,28.58,0.0,7.35,"USDA sr legacy 171304: Yogurt, Greek, plain, whole milk",
+13,main,2 teaspoons Dijon mustard,2,tsp,mustard_prepared,10.0,0,25.3,0.02,0.09,110.4,0.4,0.37,"USDA sr legacy 172234: Mustard, prepared, yellow",
+13,main,3/4 teaspoon ground cinnamon,0.75,tsp,cinnamon,2.0,0,20.18,0.01,0.04,0.2,1.04,0.08,"USDA sr legacy 171320: Spices, cinnamon, ground",
+13,main,3/4 teaspoon ground cumin,0.75,tsp,cumin,1.6,0,24.68,0.02,0.04,2.65,0.17,0.28,"USDA sr legacy 170923: Spices, cumin seed",
+13,main,3/4 teaspoon ground turmeric,0.75,tsp,turmeric,2.2,0,29.36,0.04,0.07,0.61,0.51,0.22,"USDA sr legacy 172231: Spices, turmeric, ground",
+13,main,1/2 teaspoon salt,0.5,tsp,salt,3.0,0,0.0,0.0,0.0,1162.74,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+13,main,1 cup shredded cooked chicken,1,cup,chicken_cooked,140.0,0,966.0,1.41,0.0,103.6,0.0,43.43,"USDA sr legacy 171477: Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+13,main,"1 cup canned no-salt-added chickpeas, rinsed",1,cup,chickpeas_nosalt_drained,152.0,1,1042.72,0.41,7.3,10.64,11.55,13.47,"USDA sr legacy 173757: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+13,main,"1/2 cup chopped walnuts, toasted",0.5,cup,walnuts,58.5,1,1601.73,3.58,1.53,1.17,3.92,8.91,"USDA sr legacy 170187: Nuts, walnuts, english",
+13,main,1/3 cup finely chopped raisins,0.3333,cup,raisins,48.3,dried (x2),604.11,0.05,31.5,12.57,2.17,1.59,"USDA sr legacy 168165: Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+13,main,3 tablespoons finely chopped shallots,3,tbsp,shallot,30.0,1,90.3,0.01,2.36,3.6,0.96,0.75,"USDA sr legacy 170499: Shallots, raw",
+13,main,2 tablespoons finely chopped fresh cilantro,2,tbsp,cilantro,2.0,1,1.9,0.0,0.02,0.92,0.06,0.04,"USDA sr legacy 169997: Coriander (cilantro) leaves, raw",
+13,main,1 large avocado,1,large,avocado,201.0,1,1346.7,4.27,1.33,14.07,13.47,4.02,"USDA sr legacy 171705: Avocados, raw, all commercial varieties",
+13,main,4 (9-inch) whole-wheat tortillas,4,each,tortilla_ww,224.0,0,2909.76,10.93,5.47,1382.08,21.95,21.86,"USDA sr legacy 174081: Tortillas, ready-to-bake or -fry, whole wheat",
+13,main,2 cups spring mix salad greens,2,cup,lettuce_leaf,72.0,1,44.64,0.01,0.56,20.16,0.94,0.98,"USDA sr legacy 169249: Lettuce, green leaf, raw",
+14,main,2 tbsp. extra-virgin olive oil,2,tbsp,oil_olive,27.0,0,998.73,3.73,0.0,0.54,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+14,main,3 chicken breasts (about 1 1/2 lb.),1.5,lb,chicken_breast,680.4,0,3408.74,3.83,0.0,306.17,0.0,153.09,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+14,main,"2 tbsp. sesame oil, divided",2,tbsp,oil_sesame,27.2,0,1006.13,3.86,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+14,main,"1 medium onion, chopped",1,medium,onion,110.0,1,182.6,0.05,4.66,4.4,1.87,1.21,"USDA sr legacy 170000: Onions, raw",
+14,main,"2 carrots, peeled and diced",2,medium,carrot,122.0,1,211.06,0.04,5.78,84.18,3.42,1.13,"USDA sr legacy 170393: Carrots, raw",
+14,main,"3 cloves garlic, minced",3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+14,main,1 tbsp. freshly minced ginger,1,tbsp,ginger,6.0,1,19.98,0.01,0.1,0.78,0.12,0.11,"USDA sr legacy 169231: Ginger root, raw",
+14,main,4 c. cooked white rice,4,cup,rice_white_cooked,632.0,0,3438.08,0.49,0.32,6.32,2.53,17.0,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+14,main,3/4 c. frozen peas,0.75,cup,peas_frozen,100.5,1,323.61,0.07,5.03,108.54,4.52,5.25,"USDA sr legacy 170016: Peas, green, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",
+14,main,"3 large eggs, beaten",3,large,egg,150.0,0,898.5,4.69,0.56,213.0,0.0,18.84,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+14,main,3 tbsp. low-sodium soy sauce,3,tbsp,soy_sauce_low_sodium,42.6,0,100.96,0.01,0.21,1532.75,0.3,3.86,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+14,main,"2 green onions, thinly sliced",2,medium,scallion,30.0,1,40.5,0.01,0.7,4.8,0.78,0.55,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+14,excluded,"kosher salt, freshly ground black pepper",,,,,,,,,,,,,no quantity given
+15,main,Shrimp - 500 grams,500,g,shrimp,500.0,0,1485.0,1.3,0.0,2830.0,0.0,68.05,"USDA sr legacy 174210: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+15,main,Taro leaves - 1 bunch,1,bunch,taro_leaves,250.0,1,442.5,0.38,7.53,7.5,9.25,12.45,"USDA sr legacy 168487: Taro leaves, raw",a bunch taken as 250 g
+15,main,Shredded coconut - 2 cups,2,cup,coconut_fresh,160.0,1,2369.6,47.52,9.97,32.0,14.4,5.33,"USDA sr legacy 170169: Nuts, coconut meat, raw",fresh grated coconut (ground to a paste with water)
+15,main,Poppy seeds - 2 tbsp,2,tbsp,poppy_seed,17.6,0,386.5,0.79,0.53,4.58,3.43,3.17,"USDA sr legacy 171330: Spices, poppy seed",
+15,main,Mustard seeds - 2 tbsp,2,tbsp,mustard_seed,12.6,0,267.88,0.25,0.86,1.64,1.54,3.29,"USDA sr legacy 170929: Spices, mustard seed, ground",
+15,main,"Green chilly - 4, slit green chilly - 4",8,each,green_chili,120.0,1,170.76,0.08,5.65,7.2,2.64,1.67,"USDA fndds 2709798: Peppers, hot, raw",
+15,main,"1/2 tsp of salt (shrimp marinade, from the instructions)",0.5,tsp,salt,3.0,0,0.0,0.0,0.0,1162.74,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+15,main,Sugar - 1 tsp,1,tsp,sugar,4.2,0,67.96,0.0,4.19,0.04,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+15,main,Turmeric powder - 1 tsp,1,tsp,turmeric,3.0,0,39.15,0.06,0.1,0.81,0.68,0.29,"USDA sr legacy 172231: Spices, turmeric, ground",
+15,main,Mustard oil - 1 cup,1,cup,oil_mustard,218.0,0,8063.82,25.25,0.0,0.0,0.0,0.0,"USDA sr legacy 172337: Oil, mustard",the frying oil stays in the dish ('in the remaining oil')
+15,main,Add 2 cups of water (gravy),2,cup,water,473.2,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+15,main,1 tbsp of water to grind the coconut,1,tbsp,water,14.8,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+15,excluded,salt to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+15,excluded,pinch of turmeric for the marinade; 'little water' for the seed paste,,,,,,,,,,,,,no quantity given
+15,excluded,4 cups of water to boil the leaves,,,,,,,,,,,,,cooking water that is drained off
+16,main,1 package Tasty Bite Madras Lentils,1,pouch,tasty_bite_lentils,285.0,0.5,1275.94,6.1,6.1,1037.4,10.26,12.23,custom entry (see note),
+16,main,1 package frozen riced cauliflower (about 3.5 cups),1,package12oz,cauliflower_frozen,340.0,1,340.0,0.14,7.55,81.6,7.82,6.83,"USDA sr legacy 170398: Cauliflower, frozen, unprepared",a 12-oz bag
+16,main,1 cup Kettle Fire chicken bone broth,1,cup,bone_broth,245.0,0,184.49,0.0,0.0,311.15,0.0,10.0,custom entry (see note),
+16,main,1 tsp garlic powder,1,tsp,garlic_powder,3.1,0,42.97,0.01,0.08,1.86,0.28,0.51,"USDA sr legacy 171325: Spices, garlic powder",
+16,main,2.5 ounces rotisserie chicken,2.5,oz,chicken_rotisserie,70.9,0,406.82,0.55,0.0,221.83,0.0,19.84,"USDA sr legacy 171518: Chicken, broilers or fryers, rotisserie, original seasoning, breast, meat only, cooked",
+16,main,"1 tbsp fresh mint leaves, diced",1,tbsp,mint,5.7,1,10.49,0.01,0.05,1.71,0.39,0.19,"USDA sr legacy 173475: Spearmint, fresh",
+16,main,"2 tbsp fresh cilantro, chopped",2,tbsp,cilantro,2.0,1,1.9,0.0,0.02,0.92,0.06,0.04,"USDA sr legacy 169997: Coriander (cilantro) leaves, raw",
+16,main,1/2 tbsp fresh lime juice,0.5,tbsp,lime_juice,7.6,1,7.87,0.0,0.13,0.15,0.03,0.03,"USDA sr legacy 168156: Lime juice, raw",
+16,main,1/4 tsp cumin,0.25,tsp,cumin,0.5,0,8.23,0.01,0.01,0.88,0.06,0.09,"USDA sr legacy 170923: Spices, cumin seed",
+16,main,3/4 tsp salt divided,0.75,tsp,salt,4.5,0,0.0,0.0,0.0,1744.11,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+16,main,1/3 cup plain Greek yogurt,0.3333,cup,yogurt_greek_nonfat,81.7,0,200.88,0.1,2.65,29.4,0.0,8.32,"USDA sr legacy 170894: Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)",fat level not stated: nonfat assumed
+16,main,"2 tbsp cucumber, chopped",2,tbsp,cucumber,15.0,1,9.75,0.01,0.25,0.3,0.07,0.1,"USDA sr legacy 168409: Cucumber, with peel, raw",
+16,excluded,"Sriracha (optional), roasted pumpkin seeds (optional)",,,,,,,,,,,,,no quantity given
+17,main,2/3 cup split moong dal or yellow lentil,0.6667,cup,mung_dal,138.0,1,2003.86,0.48,9.11,20.7,22.5,32.93,"USDA sr legacy 174256: Mung beans, mature seeds, raw",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,2/3 cup quinoa,0.6667,cup,quinoa_raw,113.3,0,1744.29,0.8,3.01,5.67,7.93,16.0,"USDA sr legacy 168874: Quinoa, uncooked",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,"1 inch ginger, finely chopped",1,inch,ginger,6.0,1,19.98,0.01,0.1,0.78,0.12,0.11,"USDA sr legacy 169231: Ginger root, raw",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,2 to 3 green chilies,2.5,each,green_chili,37.5,1,53.36,0.03,1.77,2.25,0.82,0.52,"USDA fndds 2709798: Peppers, hot, raw",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none; midpoint
+17,main,8 black peppercorns,8,peppercorn,black_pepper,0.4,0,4.2,0.01,0.0,0.08,0.1,0.04,"USDA sr legacy 170931: Spices, pepper, black",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,"1 tbsp cashews, chopped",1,tbsp,cashews,8.6,1,199.0,0.67,0.51,1.03,0.28,1.57,"USDA sr legacy 170162: Nuts, cashew nuts, raw",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,optional,1/2 tbsp peanuts (optional),0.5,tbsp,peanuts,4.6,1,108.31,0.29,0.22,0.82,0.39,1.18,"USDA sr legacy 172430: Peanuts, all types, raw",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1 tsp cumin seeds,1,tsp,cumin,2.1,0,32.91,0.03,0.05,3.53,0.22,0.37,"USDA sr legacy 170923: Spices, cumin seed",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1 tbsp coconut oil,1,tbsp,oil_coconut,14.0,0,524.26,11.55,0.0,0.0,0.0,0.0,USDA fndds 2710182: Coconut oil,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,3 1/2 cups water -- part absorbed by the dal,316.4,g,water,316.4,1,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),"138.0 g dal x (1452/441 - 1), USDA raw vs boiled mung beans; counts as FVN with the dal"
+17,main,3 1/2 cups water -- remainder,511.7,g,water,511.7,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),828.1 g total (pressure-cooked porridge: all water stays) minus 316.4 g
+17,excluded,1/4 tsp asafoetida; 5 to 6 curry leaves,,,,,,,,,,,,,no composition data; under 1 g in total
+17,excluded,"salt, to taste",,,,,,,,,,,,,"to taste / pinch, no quantity"
+18,main,"1 lb boneless, skinless chicken breast",1,lb,chicken_breast,453.6,0,2272.5,2.55,0.0,204.12,0.0,102.06,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+18,main,"1 cup dry quinoa, rinsed (+ 2 cups water, absorbed)",1,cup,quinoa_dry,520.1,0,2616.3,1.2,4.53,36.41,14.56,22.89,"USDA sr legacy 168917: Quinoa, cooked",
+18,main,1 tbsp olive oil,1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+18,main,"2 cloves garlic, minced",2,clove,garlic,6.0,1,37.38,0.01,0.06,1.02,0.13,0.38,"USDA sr legacy 169230: Garlic, raw",
+18,main,Zest and juice of 1 lemon -- juice,1,lemon,lemon_juice,48.0,1,43.68,0.02,1.21,0.48,0.14,0.17,"USDA sr legacy 167747: Lemon juice, raw",
+18,main,Zest and juice of 1 lemon -- zest,1,tbsp,lemon_peel,6.0,1,11.82,0.0,0.25,0.36,0.64,0.09,"USDA sr legacy 167749: Lemon peel, raw",
+18,main,1 tsp dried oregano,1,tsp,oregano_dried,1.0,0,11.07,0.02,0.04,0.25,0.42,0.09,"USDA sr legacy 171328: Spices, oregano, dried",
+18,main,1/2 tsp salt,0.5,tsp,salt,3.0,0,0.0,0.0,0.0,1162.74,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+18,main,1/4 tsp black pepper,0.25,tsp,black_pepper,0.6,0,6.04,0.01,0.0,0.12,0.15,0.06,"USDA sr legacy 170931: Spices, pepper, black",
+18,main,"1 cup asparagus, trimmed and cut into 1-inch pieces",1,cup,asparagus,134.0,1,113.9,0.05,2.52,2.68,2.81,2.95,"USDA sr legacy 168389: Asparagus, raw",
+18,main,"1 cup snap peas, trimmed",1,cup,snap_peas,63.0,1,110.88,0.02,2.52,2.52,1.64,1.76,"USDA sr legacy 170010: Peas, edible-podded, raw",
+18,main,"1 cup cherry tomatoes, halved",1,cup_cherry,tomato_raw,149.0,1,110.26,0.04,3.92,7.45,1.79,1.31,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+18,main,"1/4 cup fresh parsley, chopped",0.25,cup,parsley,15.0,1,22.65,0.02,0.13,8.4,0.49,0.45,"USDA sr legacy 170416: Parsley, fresh",
+18,optional,2 tbsp crumbled feta cheese (optional),2,tbsp,feta,18.8,0,207.56,2.49,0.0,213.56,0.0,2.66,"USDA sr legacy 173420: Cheese, feta",
+19,main,2 lbs boneless skinless chicken breast,2,lb,chicken_breast,907.2,0,4544.99,5.11,0.0,408.23,0.0,204.12,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+19,main,"2 cups dry jasmine rice (+ 4 cups water, absorbed)",2,cup,rice_white_dry,1038.6,0,5649.9,0.8,0.52,10.39,4.15,27.94,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+19,main,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)",1,cup_sliced,bell_pepper_red,92.0,1,102.12,0.05,3.86,3.68,1.93,0.91,"USDA sr legacy 170108: Peppers, sweet, red, raw","split equally, 1 cup each"
+19,main,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)",1,cup,snap_peas,63.0,1,110.88,0.02,2.52,2.52,1.64,1.76,"USDA sr legacy 170010: Peas, edible-podded, raw","split equally, 1 cup each"
+19,main,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)",1,cup_sliced,carrot,122.0,1,211.06,0.04,5.78,84.18,3.42,1.13,"USDA sr legacy 170393: Carrots, raw","split equally, 1 cup each"
+19,main,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)",1,cup_florets,broccoli,71.0,1,100.11,0.08,1.21,23.43,1.85,2.0,"USDA sr legacy 170379: Broccoli, raw","split equally, 1 cup each"
+19,main,3 tbsp low-sodium soy sauce,3,tbsp,soy_sauce_low_sodium,42.6,0,100.96,0.01,0.21,1532.75,0.3,3.86,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+19,main,2 tbsp rice vinegar,2,tbsp,vinegar,29.8,0,22.65,0.0,0.01,0.6,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+19,main,2 tbsp honey or agave,2,tbsp,honey,42.0,0,534.24,0.0,34.49,1.68,0.08,0.13,USDA sr legacy 169640: Honey,first-listed alternative
+19,main,1 tbsp cornstarch,1,tbsp,cornstarch,8.0,0,127.52,0.0,0.0,0.72,0.07,0.02,USDA sr legacy 169698: Cornstarch,
+19,main,mixed with 2 tbsp water,2,tbsp,water,29.6,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+19,main,1 tbsp sesame oil,1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+19,main,3 cloves garlic minced,3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+19,main,1 tsp fresh ginger grated,1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+19,excluded,sesame seeds for garnish,,,,,,,,,,,,,no quantity given
+20,main,1 kg chicken cut into curry pieces,680,g,chicken_meat_skin,680.0,0,6120.0,29.31,0.0,476.0,0.0,126.48,"USDA sr legacy 171447: Chicken, broilers or fryers, meat and skin, raw",bone-in pieces: 68 % of the weight taken as edible (about a third of a cut-up chicken is bone)
+20,main,3 medium potatoes peeled and quartered,3,medium,potato,639.0,0,2057.58,0.16,5.24,38.34,13.42,13.1,"USDA sr legacy 170026: Potatoes, flesh and skin, raw",
+20,main,2 large onions diced,2,large,onion,300.0,1,498.0,0.13,12.72,12.0,5.1,3.3,"USDA sr legacy 170000: Onions, raw",
+20,main,2 tomatoes chopped,2,medium,tomato_raw,246.0,1,182.04,0.07,6.47,12.3,2.95,2.16,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+20,main,1 tbsp ginger paste,1,paste_tbsp,ginger,15.0,1,49.95,0.03,0.26,1.95,0.3,0.27,"USDA sr legacy 169231: Ginger root, raw",
+20,main,1 tbsp garlic paste,1,paste_tbsp,garlic,15.0,1,93.45,0.01,0.15,2.55,0.32,0.95,"USDA sr legacy 169230: Garlic, raw",
+20,main,2 tsp cumin powder,2,tsp,cumin,4.2,0,65.81,0.06,0.09,7.06,0.44,0.75,"USDA sr legacy 170923: Spices, cumin seed",
+20,main,2 tsp coriander powder,2,tsp,coriander_ground,3.6,0,44.82,0.04,0.08,1.26,1.51,0.45,"USDA sr legacy 170922: Spices, coriander seed",
+20,main,1 tsp turmeric powder,1,tsp,turmeric,3.0,0,39.15,0.06,0.1,0.81,0.68,0.29,"USDA sr legacy 172231: Spices, turmeric, ground",
+20,main,1 tsp red chili powder,1,tsp,red_pepper_flakes,1.8,0,23.96,0.06,0.19,0.54,0.49,0.22,"USDA sr legacy 170932: Spices, pepper, red or cayenne",
+20,main,3 tbsp mustard oil,3,tbsp,oil_mustard,42.0,0,1553.58,4.86,0.0,0.0,0.0,0.0,"USDA sr legacy 172337: Oil, mustard",
+20,main,pour in 1/2 cup water,0.5,cup,water,118.3,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+20,excluded,"4 green cardamom pods, 4 cloves, 1 cinnamon stick, 1 bay leaf",,,,,,,,,,,,,"whole spices: infused, not eaten"
+20,excluded,salt to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+20,excluded,fresh cilantro for garnish; splash of water; steamed rice to serve,,,,,,,,,,,,,no quantity given
+21,main,200g yellow moong dal soaked for 3-4 hours,200,g,mung_dal,200.0,1,2904.0,0.7,13.2,30.0,32.6,47.72,"USDA sr legacy 174256: Mung beans, mature seeds, raw",
+21,main,water taken up by the dal while soaking,200,g,water,200.0,1,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),assumed equal to the dry weight (soaked pulses roughly double); counts as FVN with the dal
+21,main,120ml water,120,ml,water,120.0,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+21,main,5g salt,5,g,salt,5.0,0,0.0,0.0,0.0,1937.9,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+21,main,10g ginger,10,g,ginger,10.0,1,33.3,0.02,0.17,1.3,0.2,0.18,"USDA sr legacy 169231: Ginger root, raw",
+21,main,5g green chilies,5,g,green_chili,5.0,1,7.12,0.0,0.24,0.3,0.11,0.07,"USDA fndds 2709798: Peppers, hot, raw",
+21,main,1g turmeric powder,1,g,turmeric,1.0,0,13.05,0.02,0.03,0.27,0.23,0.1,"USDA sr legacy 172231: Spices, turmeric, ground",
+21,main,30ml neutral oil for cooking,30,ml,oil_vegetable,27.6,0,1022.51,4.33,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+21,main,150g paneer crumbled,150,g,paneer,150.0,0,2044.5,23.14,1.35,28.5,0.0,39.0,custom entry (see note),
+21,main,60g cabbage finely shredded,60,g,cabbage,60.0,1,61.8,0.02,1.92,10.8,1.5,0.77,"USDA sr legacy 169975: Cabbage, raw",
+21,main,60g carrots grated,60,g,carrot,60.0,1,103.8,0.02,2.84,41.4,1.68,0.56,"USDA sr legacy 170393: Carrots, raw",
+21,main,15ml lemon juice,15,ml,lemon_juice,15.5,1,14.08,0.01,0.39,0.15,0.05,0.05,"USDA sr legacy 167747: Lemon juice, raw",
+21,main,2g cumin powder,2,g,cumin,2.0,0,31.34,0.03,0.04,3.36,0.21,0.36,"USDA sr legacy 170923: Spices, cumin seed",
+21,main,1g black pepper,1,g,black_pepper,1.0,0,10.5,0.01,0.01,0.2,0.25,0.1,"USDA sr legacy 170931: Spices, pepper, black",
+21,main,120ml mint cilantro chutney,40.4,g,cilantro,40.4,1,38.38,0.01,0.35,18.58,1.13,0.86,"USDA sr legacy 169997: Coriander (cilantro) leaves, raw","no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,120ml mint cilantro chutney,20.2,g,mint,20.2,1,37.17,0.04,0.18,6.06,1.37,0.66,"USDA sr legacy 173475: Spearmint, fresh","no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,120ml mint cilantro chutney,6.7,g,green_chili,6.7,1,9.53,0.0,0.32,0.4,0.15,0.09,"USDA fndds 2709798: Peppers, hot, raw","no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,120ml mint cilantro chutney,10.1,g,lemon_juice,10.1,1,9.19,0.0,0.25,0.1,0.03,0.04,"USDA sr legacy 167747: Lemon juice, raw","no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,120ml mint cilantro chutney,2.0,g,salt,2.0,0,0.0,0.0,0.0,775.16,0.0,0.0,"USDA sr legacy 173468: Salt, table","no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,120ml mint cilantro chutney,40.4,g,water,40.4,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+22,main,1 cup chana dal soaked for 2 hours,1,cup,chana_dal,200.0,1,3162.0,1.21,21.4,48.0,24.4,40.94,"USDA sr legacy 173756: Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+22,main,water taken up by the dal while soaking,200,g,water,200.0,1,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),assumed equal to the dry weight (soaked pulses roughly double); counts as FVN with the dal
+22,main,1/4 cup semolina (sooji/rava),0.25,cup,semolina,41.8,0,628.75,0.06,0.11,0.42,1.63,5.29,"USDA sr legacy 169715: Semolina, enriched",
+22,main,1 green chili finely chopped,1,each,green_chili,15.0,1,21.34,0.01,0.71,0.9,0.33,0.21,"USDA fndds 2709798: Peppers, hot, raw",
+22,main,1/2 teaspoon ginger finely chopped,0.5,tsp,ginger,1.0,1,3.33,0.0,0.02,0.13,0.02,0.02,"USDA sr legacy 169231: Ginger root, raw",
+22,main,1 teaspoon fruit salt (Eno),1,tsp,eno,5.0,0,22.45,0.0,0.0,852.0,0.0,0.0,custom entry (see note),
+22,main,1 tablespoon fresh coriander finely chopped,1,tbsp,cilantro,1.0,1,0.95,0.0,0.01,0.46,0.03,0.02,"USDA sr legacy 169997: Coriander (cilantro) leaves, raw",
+22,excluded,salt to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+22,excluded,oil for cooking; 'a little water' for the batter,,,,,,,,,,,,,no quantity given
+22,excluded,"coconut chutney, peanut chutney, or sambar to serve",,,,,,,,,,,,,no quantity given
+23,main,Zest from 1 orange,2,tbsp,orange_peel,12.0,1,48.6,0.0,0.5,0.36,1.27,0.18,"USDA sr legacy 169103: Orange peel, raw",taken as 2 tbsp
+23,main,1/4 cup orange juice,0.25,cup,orange_juice,62.0,1,116.56,0.01,5.21,0.62,0.12,0.43,"USDA sr legacy 169098: Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+23,main,1/4 cup soy sauce,0.25,cup,soy_sauce,63.8,0,141.53,0.05,0.26,3501.79,0.51,5.19,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+23,main,1/4 cup water,0.25,cup,water,59.1,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+23,main,1/3 cup rice vinegar,0.3333,cup,vinegar,79.3,0,60.29,0.0,0.03,1.59,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+23,main,1 tablespoon cornstarch (sauce),1,tbsp,cornstarch,8.0,0,127.52,0.0,0.0,0.72,0.07,0.02,USDA sr legacy 169698: Cornstarch,
+23,main,1 tablespoon sesame oil,1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+23,main,1/2 cup sugar,0.5,cup,sugar,100.0,0,1618.0,0.0,99.8,1.0,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+23,main,"1 1/2 pounds boneless, skinless chicken thighs",1.5,lb,chicken_thigh,680.4,0,3449.57,7.46,0.0,646.37,0.0,133.76,"USDA sr legacy 173627: Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+23,main,2 large eggs,2,large,egg,100.0,0,599.0,3.13,0.37,142.0,0.0,12.56,"USDA sr legacy 171287: Egg, whole, raw, fresh",egg wash counted in full
+23,main,1 teaspoon salt,1,tsp,salt,6.0,0,0.0,0.0,0.0,2325.48,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+23,main,1/4 teaspoon black pepper,0.25,tsp,black_pepper,0.6,0,6.04,0.01,0.0,0.12,0.15,0.06,"USDA sr legacy 170931: Spices, pepper, black",
+23,main,1/2 cup cornstarch (coating),0.5,cup,cornstarch,64.0,0,1020.16,0.01,0.0,5.76,0.58,0.17,USDA sr legacy 169698: Cornstarch,coating counted in full
+23,main,1/2 cup all-purpose flour,0.5,cup,flour,62.5,0,951.88,0.1,0.17,1.25,1.69,6.46,"USDA sr legacy 168894: Wheat flour, white, all-purpose, enriched, bleached",coating counted in full
+23,main,"2 cups vegetable oil, for frying -- absorbed share",91.3,g,oil_vegetable,91.3,0,3377.19,14.29,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking","frying oil is poured off; absorbed oil taken as 10 % of the raw weight fried (chicken, egg, coating, seasoning = 913.5 g)"
+23,main,a fresh tablespoon of oil (from the directions),1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+23,main,"2 cloves garlic, chopped",2,clove,garlic,6.0,1,37.38,0.01,0.06,1.02,0.13,0.38,"USDA sr legacy 169230: Garlic, raw",
+23,main,"1 large shallot, chopped",1,large,shallot,50.0,1,150.5,0.01,3.94,6.0,1.6,1.25,"USDA sr legacy 170499: Shallots, raw",
+23,excluded,"sliced scallions, sesame seeds (garnish)",,,,,,,,,,,,,no quantity given
+23,excluded,"cooked white rice, to serve",,,,,,,,,,,,,no quantity given
+24,main,1 pound plum tomatoes (4 to 5),1,lb,tomato_raw,453.6,1,335.66,0.13,11.93,22.68,5.44,3.99,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+24,main,1 tablespoon vegetable oil,1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+24,main,"5 large eggs, beaten",5,large,egg,250.0,0,1497.5,7.82,0.93,355.0,0.0,31.4,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+24,main,1 teaspoon toasted sesame oil,1,tsp,oil_sesame,4.5,0,166.46,0.64,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+24,main,2 teaspoons chicken bouillon powder,2,tsp,bouillon_chicken_dry,4.0,0,44.68,0.14,0.69,955.0,0.0,0.67,"USDA sr legacy 171562: Soup, chicken broth or bouillon, dry",
+24,main,2 teaspoons sugar,2,tsp,sugar,8.4,0,135.91,0.0,8.38,0.08,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+24,main,1/2 teaspoon ground white pepper,0.5,tsp,white_pepper,1.2,0,14.86,0.01,0.01,0.06,0.31,0.12,"USDA sr legacy 170933: Spices, pepper, white",
+24,main,1/4 teaspoon salt,0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+24,main,"1 green onion, to garnish",1,medium,scallion,15.0,1,20.25,0.0,0.35,2.4,0.39,0.27,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+24,optional,"2 cups steamed jasmine rice, for serving, optional",2,cup,rice_white_cooked,316.0,0,1719.04,0.24,0.16,3.16,1.26,8.5,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+25,main,6 dried shiitake mushrooms,6,each,shiitake_dried,21.6,dried (x2),267.41,0.05,0.48,2.81,2.48,2.07,"USDA sr legacy 168436: Mushrooms, shiitake, dried",
+25,main,1/3 cup dried wood ear mushrooms,0.3333,cup,wood_ear_dried,9.3,dried (x2),111.06,0.01,0.21,3.27,6.54,0.86,"USDA sr legacy 168581: Fungi, Cloud ears, dried",
+25,main,1.8 ounces vermicelli bean thread noodles,1.8,oz,bean_thread_dry,51.0,0,750.13,0.01,0.0,5.1,0.26,0.08,"USDA sr legacy 174258: Noodles, chinese, cellophane or long rice (mung beans), dehydrated",
+25,main,water taken up by the noodles while soaking,120.2,g,water,120.2,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),"51.0 g x (1523/454 - 1): USDA dry vs cooked rice noodles, used as the nearest pair"
+25,main,3 cups sliced napa cabbage,3,cup,napa_cabbage,228.0,1,152.76,0.1,3.21,20.52,2.74,2.74,"USDA sr legacy 169979: Cabbage, chinese (pe-tsai), raw",
+25,main,2 cups trimmed snow peas or sugar snap peas,2,cup,snap_peas,126.0,1,221.76,0.05,5.04,5.04,3.28,3.53,"USDA sr legacy 170010: Peas, edible-podded, raw",
+25,main,1 cup canned or fresh baby corn,1,cup,baby_corn,150.0,1,163.2,0.0,4.56,339.0,2.55,1.95,custom entry (see note),first-listed alternative
+25,main,"4 tablespoons plus 1 teaspoon vegetable oil, divided",4.3333,tbsp,oil_vegetable,58.9,0,2179.93,9.22,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+25,main,"1 (16-ounce) package firm tofu, drained",16,oz,tofu_firm,453.6,0,1619.32,3.22,1.81,149.69,4.08,49.53,USDA sr legacy 173788: HOUSE FOODS Premium Firm Tofu,
+25,main,"1 medium carrot, sliced thinly",1,medium,carrot,61.0,1,105.53,0.02,2.89,42.09,1.71,0.57,"USDA sr legacy 170393: Carrots, raw",
+25,main,2 teaspoons minced garlic,2,tsp,garlic,5.6,1,34.89,0.0,0.06,0.95,0.12,0.36,"USDA sr legacy 169230: Garlic, raw",
+25,main,1/4 teaspoon salt (stir-fry),0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+25,main,1/4 cup mushroom soaking liquid,0.25,cup,water,59.1,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+25,main,1 1/2 tablespoons oyster sauce,1.5,tbsp,oyster_sauce,27.0,0,57.51,0.01,0.0,737.91,0.08,0.36,"USDA sr legacy 174529: Sauce, oyster, ready-to-serve",
+25,main,2 teaspoons reduced-sodium soy sauce,2,tsp,soy_sauce_low_sodium,9.0,0,21.33,0.0,0.04,323.82,0.06,0.81,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+25,main,1 teaspoon cornstarch,1,tsp,cornstarch,2.7,0,42.51,0.0,0.0,0.24,0.02,0.01,USDA sr legacy 169698: Cornstarch,
+25,main,1 teaspoon sesame oil,1,tsp,oil_sesame,4.5,0,166.46,0.64,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+25,main,1/2 teaspoon white pepper,0.5,tsp,white_pepper,1.2,0,14.86,0.01,0.01,0.06,0.31,0.12,"USDA sr legacy 170933: Spices, pepper, white",
+25,main,1/4 teaspoon salt (sauce),0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+25,excluded,water for soaking the mushrooms and blanching the vegetables,,,,,,,,,,,,,cooking water that is drained off
+26,main,12 ounces (340 g) pork tenderloin,340,g,pork_tenderloin,340.0,0,1550.4,2.37,0.0,180.2,0.0,71.23,"USDA sr legacy 168249: Pork, fresh, loin, tenderloin, separable lean only, raw",
+26,main,2 tablespoons (30 ml) Shaoxing wine,30,ml,cooking_wine,29.4,0,61.48,0.0,0.46,184.16,0.0,0.15,"USDA sr legacy 169070: Alcoholic beverage, wine, cooking",marinade counted in full
+26,main,1 large egg,1,large,egg,50.0,0,299.5,1.56,0.18,71.0,0.0,6.28,"USDA sr legacy 171287: Egg, whole, raw, fresh",marinade counted in full
+26,main,plus 1 egg white,1,large,egg_white,33.0,0,71.28,0.0,0.23,54.78,0.0,3.6,"USDA sr legacy 172183: Egg, white, raw, fresh",marinade counted in full
+26,main,1/4 teaspoon baking soda,0.25,tsp,baking_soda,1.1,0,0.0,0.0,0.0,314.64,0.0,0.0,"USDA sr legacy 175040: Leavening agents, baking soda",
+26,main,1/8 teaspoon ground white pepper,0.125,tsp,white_pepper,0.3,0,3.71,0.0,0.0,0.01,0.08,0.03,"USDA sr legacy 170933: Spices, pepper, white",
+26,main,"1 tablespoon (15 ml) neutral oil, such as peanut, canola, or vegetable oil",1,tbsp,oil_peanut,13.5,0,499.37,2.28,0.0,0.0,0.0,0.0,"USDA sr legacy 171410: Oil, peanut, salad or cooking",first-listed alternative
+26,main,2 teaspoons potato starch or cornstarch,2,tsp,cornstarch,5.3,0,85.01,0.0,0.0,0.48,0.05,0.01,USDA sr legacy 169698: Cornstarch,
+26,main,1/2 teaspoon Diamond Crystal kosher salt (marinade),0.5,tsp,salt_kosher_dc,1.4,0,0.0,0.0,0.0,542.61,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+26,main,1/2 cup plus 2 tablespoons potato starch or cornstarch (120 g),120,g,cornstarch,120.0,0,1912.8,0.01,0.0,10.8,1.08,0.31,USDA sr legacy 169698: Cornstarch,coating counted in full
+26,main,1/4 teaspoon baking powder,0.25,tsp,baking_powder,1.1,0,2.55,0.0,0.0,121.9,0.0,0.0,"USDA sr legacy 172803: Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+26,main,1/2 teaspoon Diamond Crystal kosher salt (dredge),0.5,tsp,salt_kosher_dc,1.4,0,0.0,0.0,0.0,542.61,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+26,main,4 cups (960 ml) neutral oil -- absorbed share,90.7,g,oil_peanut,90.7,0,3354.99,15.33,0.0,0.0,0.0,0.0,"USDA sr legacy 171410: Oil, peanut, salad or cooking","frying oil is poured off; absorbed oil taken as 10 % of the raw weight fried (pork, marinade, dredge 596.6 g + peppers and pineapple 310 g)"
+26,main,reserving 1 tablespoon [of the frying oil] in the wok,1,tbsp,oil_peanut,13.5,0,499.37,2.28,0.0,0.0,0.0,0.0,"USDA sr legacy 171410: Oil, peanut, salad or cooking",
+26,main,170 g (6 ounces) pineapple,170,g,pineapple,170.0,1,355.3,0.02,16.75,1.7,2.38,0.92,"USDA sr legacy 169124: Pineapple, raw, all varieties",
+26,main,1/2 large green bell pepper (70 g),70,g,bell_pepper_green,70.0,1,58.8,0.04,1.68,2.1,1.19,0.6,"USDA sr legacy 170427: Peppers, sweet, green, raw",
+26,main,1/2 large red bell pepper (70 g),70,g,bell_pepper_red,70.0,1,77.7,0.04,2.94,2.8,1.47,0.69,"USDA sr legacy 170108: Peppers, sweet, red, raw",
+26,main,5 tablespoons (75 ml) ketchup,5,tbsp,ketchup,85.0,0,359.55,0.01,18.08,770.95,0.26,0.88,USDA sr legacy 168556: Catsup,
+26,main,2 tablespoons (30 ml) distilled white vinegar,2,tbsp,vinegar,29.8,0,22.65,0.0,0.01,0.6,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+26,main,"3 tablespoons (45 ml) water, divided",3,tbsp,water,44.4,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+26,main,2 tablespoons plus 1 teaspoon (27 g) granulated sugar,27,g,sugar,27.0,0,436.86,0.0,26.95,0.27,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+26,main,1/4 teaspoon Diamond Crystal kosher salt (sauce),0.25,tsp,salt_kosher_dc,0.7,0,0.0,0.0,0.0,271.31,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+26,main,1/2 teaspoon cornstarch (slurry),0.5,tsp,cornstarch,1.3,0,21.25,0.0,0.0,0.12,0.01,0.0,USDA sr legacy 169698: Cornstarch,
+26,excluded,3 tablespoons marinade (already counted in the marinade lines),,,,,,,,,,,,,not a separate ingredient
+26,excluded,"White rice, for serving (optional)",,,,,,,,,,,,,no quantity given
+27,main,1 tablespoon vegetable oil,1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+27,main,"1 1/2 pounds skinless, boneless chicken thighs",1.5,lb,chicken_thigh,680.4,0,3449.57,7.46,0.0,646.37,0.0,133.76,"USDA sr legacy 173627: Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+27,main,1/2 cup sesame oil,0.5,cup,oil_sesame,109.0,0,4031.91,15.48,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+27,main,10 slices fresh ginger,10,slice,ginger,22.0,1,73.26,0.04,0.37,2.86,0.44,0.4,"USDA sr legacy 169231: Ginger root, raw",
+27,main,"2 cloves garlic, sliced",2,clove,garlic,6.0,1,37.38,0.01,0.06,1.02,0.13,0.38,"USDA sr legacy 169230: Garlic, raw",
+27,main,1/2 cup Chinese rice wine,0.5,cup,sake,116.4,0,653.0,0.0,0.0,2.33,0.0,0.58,"USDA sr legacy 167723: Alcoholic beverage, rice (sake)",
+27,main,1/3 cup soy sauce,0.3333,cup,soy_sauce,85.0,0,188.68,0.06,0.34,4668.58,0.68,6.92,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+27,main,1/4 cup water,0.25,cup,water,59.1,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+27,main,3 tablespoons white sugar,3,tbsp,sugar,37.5,0,606.75,0.0,37.42,0.38,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+27,main,1/2 cup fresh Thai basil leaves,0.5,cup,basil_fresh,12.0,1,11.28,0.0,0.04,0.48,0.19,0.38,"USDA sr legacy 172232: Basil, fresh",
+27,main,3 dried whole red chilies,3,each,dried_chili,1.5,dried (x2),20.34,0.01,0.62,1.36,0.43,0.16,"USDA sr legacy 168570: Peppers, hot chile, sun-dried",
+28,main,"100 g fresh wheat noodles, or 80 g dried wheat noodles",100,g,noodles_wheat_fresh,182.6,0,1205.0,0.32,1.02,1.83,3.29,10.59,"USDA sr legacy 169737: Pasta, cooked, enriched, without added salt",first-listed alternative
+28,main,80 g ground pork,80,g,pork_ground,80.0,0,880.0,6.3,0.0,44.8,0.0,13.5,"USDA sr legacy 167902: Pork, fresh, ground, raw",
+28,main,1 tbsp neutral oil,1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+28,main,1 1/2 tbsp tianmianjiang / sweet bean sauce,1.5,tbsp,sweet_bean_sauce,30.0,0,251.04,0.0,8.18,825.0,0.84,3.0,custom entry (see note),
+28,main,1 tsp light soy sauce,1,tsp,soy_sauce,5.3,0,11.77,0.0,0.02,291.13,0.04,0.43,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+28,optional,"1/2 tsp dark soy sauce, optional",0.5,tsp,soy_sauce,2.6,0,5.88,0.0,0.01,145.56,0.02,0.22,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+28,optional,"1 tsp Shaoxing wine, optional",1,tsp,cooking_wine,4.9,0,10.24,0.0,0.08,30.67,0.0,0.02,"USDA sr legacy 169070: Alcoholic beverage, wine, cooking",
+28,main,1/2 tsp sugar,0.5,tsp,sugar,2.1,0,33.98,0.0,2.1,0.02,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+28,main,60 ml water,60,ml,water,60.0,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+28,main,"1 clove garlic, minced",1,clove,garlic,3.0,1,18.69,0.0,0.03,0.51,0.06,0.19,"USDA sr legacy 169230: Garlic, raw",
+28,main,"1 tsp fresh ginger, minced",1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+28,main,2 scallions,2,medium,scallion,30.0,1,40.5,0.01,0.7,4.8,0.78,0.55,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+28,main,"1/2 small cucumber, cut into thin matchsticks",0.5,small,cucumber,79.0,1,51.35,0.03,1.32,1.58,0.4,0.51,"USDA sr legacy 168409: Cucumber, with peel, raw",
+28,excluded,"Optional: bean sprouts, radish matchsticks, blanched edamame",,,,,,,,,,,,,no quantity given
+28,excluded,water for boiling the noodles; extra 1-2 tbsp water if too dry,,,,,,,,,,,,,drained / only if needed
+29,main,"90 g jasmine rice (+ 150 ml water, absorbed)",90,g,rice_white_dry,252.6,0,1374.3,0.19,0.13,2.53,1.01,6.8,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+29,main,1 tsp neutral oil,1,tsp,oil_vegetable,4.5,0,166.46,0.7,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+29,main,2 thin slices ginger,2,slice,ginger,4.4,1,14.65,0.01,0.07,0.57,0.09,0.08,"USDA sr legacy 169231: Ginger root, raw",
+29,main,1 Chinese sausage (lap cheong),1,link,chinese_sausage,38.0,0,774.44,9.01,2.0,501.6,0.27,6.99,custom entry (see note),
+29,main,"2 dried shiitake mushrooms, soaked",2,each,shiitake_dried,7.2,dried (x2),89.14,0.02,0.16,0.94,0.83,0.69,"USDA sr legacy 168436: Mushrooms, shiitake, dried",first-listed alternative
+29,main,1 baby bok choy or a small handful gai lan,1,baby,bok_choy,85.0,1,46.75,0.02,1.0,55.25,0.85,1.27,"USDA sr legacy 170390: Cabbage, chinese (pak-choi), raw",first-listed alternative
+29,main,"1 scallion, sliced",1,medium,scallion,15.0,1,20.25,0.0,0.35,2.4,0.39,0.27,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+29,optional,Optional: 1 egg,1,large,egg,50.0,0,299.5,1.56,0.18,71.0,0.0,6.28,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+29,main,1 tbsp light soy sauce,1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+29,main,1 tsp dark soy sauce,1,tsp,soy_sauce,5.3,0,11.77,0.0,0.02,291.13,0.04,0.43,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+29,main,1 tsp oyster sauce,1,tsp,oyster_sauce,6.0,0,12.78,0.0,0.0,163.98,0.02,0.08,"USDA sr legacy 174529: Sauce, oyster, ready-to-serve",
+29,main,1/2 tsp sugar,0.5,tsp,sugar,2.1,0,33.98,0.0,2.1,0.02,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+29,main,1 tbsp water (sauce),1,tbsp,water,14.8,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+29,main,1/2 tsp sesame oil,0.5,tsp,oil_sesame,2.2,0,83.23,0.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+29,excluded,water for blanching the greens,,,,,,,,,,,,,cooking water that is drained off
+30,main,100 g skinless chicken breast,100,g,chicken_breast,100.0,0,501.0,0.56,0.0,45.0,0.0,22.5,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+30,optional,"1 tsp Shaoxing wine, optional",1,tsp,cooking_wine,4.9,0,10.24,0.0,0.08,30.67,0.0,0.02,"USDA sr legacy 169070: Alcoholic beverage, wine, cooking",
+30,main,1 tsp light soy sauce (marinade),1,tsp,soy_sauce,5.3,0,11.77,0.0,0.02,291.13,0.04,0.43,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+30,main,1/2 tsp cornstarch (marinade),0.5,tsp,cornstarch,1.3,0,21.25,0.0,0.0,0.12,0.01,0.0,USDA sr legacy 169698: Cornstarch,
+30,main,1 tsp water (marinade),1,tsp,water,4.9,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+30,main,1 cup broccoli florets,1,cup_florets,broccoli,71.0,1,100.11,0.08,1.21,23.43,1.85,2.0,"USDA sr legacy 170379: Broccoli, raw",
+30,main,"1 cup bok choy, chopped",1,cup,bok_choy,70.0,1,38.5,0.02,0.83,45.5,0.7,1.05,"USDA sr legacy 170390: Cabbage, chinese (pak-choi), raw",
+30,main,"1/2 cup mushrooms, sliced",0.5,cup,mushroom,35.0,1,32.55,0.02,0.69,1.75,0.35,1.08,"USDA sr legacy 169251: Mushrooms, white, raw",
+30,main,"1/2 red bell pepper, sliced",0.5,medium,bell_pepper_red,59.5,1,66.05,0.04,2.5,2.38,1.25,0.59,"USDA sr legacy 170108: Peppers, sweet, red, raw",
+30,main,"1/3 cup carrot, thinly sliced",0.3333,cup_sliced,carrot,40.7,1,70.35,0.01,1.93,28.06,1.14,0.38,"USDA sr legacy 170393: Carrots, raw",
+30,main,1/2 cup snap peas or green beans,0.5,cup,snap_peas,31.5,1,55.44,0.01,1.26,1.26,0.82,0.88,"USDA sr legacy 170010: Peas, edible-podded, raw",first-listed alternative
+30,main,"2 cloves garlic, minced",2,clove,garlic,6.0,1,37.38,0.01,0.06,1.02,0.13,0.38,"USDA sr legacy 169230: Garlic, raw",
+30,main,"1 tsp fresh ginger, minced",1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+30,main,1 scallion,1,medium,scallion,15.0,1,20.25,0.0,0.35,2.4,0.39,0.27,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+30,main,"1 tbsp light soy sauce, low-sodium if possible",1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+30,main,1 tsp rice vinegar,1,tsp,vinegar,5.0,0,3.8,0.0,0.0,0.1,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+30,optional,"1 tsp oyster sauce, optional",1,tsp,oyster_sauce,6.0,0,12.78,0.0,0.0,163.98,0.02,0.08,"USDA sr legacy 174529: Sauce, oyster, ready-to-serve",
+30,optional,"1/2 tsp sesame oil, optional",0.5,tsp,oil_sesame,2.2,0,83.23,0.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+30,optional,"1/4-1/2 tsp chili garlic sauce or sambal, optional",0.375,tsp,sriracha,2.4,0,9.46,0.0,0.37,51.77,0.05,0.05,"USDA sr legacy 171186: Sauce, hot chile, sriracha",midpoint; sriracha values
+30,main,1/2 tsp cornstarch (slurry),0.5,tsp,cornstarch,1.3,0,21.25,0.0,0.0,0.12,0.01,0.0,USDA sr legacy 169698: Cornstarch,
+30,main,+ 2 tbsp water (slurry),2,tbsp,water,29.6,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+30,main,Add 1 tsp neutral oil (from the instructions),1,tsp,oil_vegetable,4.5,0,166.46,0.7,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+30,side,To serve - choose one: 1/3 cup cooked brown rice,0.3333,cup,rice_brown_cooked,67.3,0,346.06,0.18,0.16,2.69,1.08,1.84,"USDA sr legacy 169704: Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",first-listed serving option
+30,excluded,pinch of white pepper,,,,,,,,,,,,,"to taste / pinch, no quantity"
+30,excluded,blanching water; 1-2 tbsp water splashed in to steam,,,,,,,,,,,,,drained / evaporates
+31,main,150 g boneless skinless chicken thigh,150,g,chicken_thigh,150.0,0,760.5,1.65,0.0,142.5,0.0,29.49,"USDA sr legacy 173627: Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+31,main,1 tsp soy sauce (marinade),1,tsp,soy_sauce,5.3,0,11.77,0.0,0.02,291.13,0.04,0.43,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+31,optional,"1 tsp Shaoxing wine, optional",1,tsp,cooking_wine,4.9,0,10.24,0.0,0.08,30.67,0.0,0.02,"USDA sr legacy 169070: Alcoholic beverage, wine, cooking",
+31,main,1/2 tsp cornstarch (marinade),0.5,tsp,cornstarch,1.3,0,21.25,0.0,0.0,0.12,0.01,0.0,USDA sr legacy 169698: Cornstarch,
+31,main,"3 tbsp cornstarch, for coating",3,tbsp,cornstarch,24.0,0,382.56,0.0,0.0,2.16,0.22,0.06,USDA sr legacy 169698: Cornstarch,coating counted in full
+31,main,1 tbsp neutral oil,1,tbsp,oil_vegetable,13.6,0,503.06,2.13,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+31,main,1 cup small broccoli florets,1,cup_florets,broccoli,71.0,1,100.11,0.08,1.21,23.43,1.85,2.0,"USDA sr legacy 170379: Broccoli, raw",
+31,main,2 dried red chilies,2,each,dried_chili,1.0,dried (x2),13.56,0.01,0.41,0.91,0.29,0.11,"USDA sr legacy 168570: Peppers, hot chile, sun-dried",
+31,main,1 scallion,1,medium,scallion,15.0,1,20.25,0.0,0.35,2.4,0.39,0.27,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+31,main,"1 clove garlic, minced",1,clove,garlic,3.0,1,18.69,0.0,0.03,0.51,0.06,0.19,"USDA sr legacy 169230: Garlic, raw",
+31,main,"1 tsp fresh ginger, minced",1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+31,main,1 tbsp soy sauce (sauce),1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+31,main,1 tbsp ketchup,1,tbsp,ketchup,17.0,0,71.91,0.0,3.62,154.19,0.05,0.18,USDA sr legacy 168556: Catsup,
+31,main,2 tsp rice vinegar,2,tsp,vinegar,10.0,0,7.6,0.0,0.0,0.2,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+31,main,2 tsp sugar or honey,2,tsp,sugar,8.4,0,135.91,0.0,8.38,0.08,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",first-listed alternative
+31,main,1 tsp hoisin sauce,1,tsp,hoisin,5.3,0,49.07,0.03,1.45,86.13,0.15,0.18,"USDA sr legacy 172886: Sauce, hoisin, ready-to-serve",
+31,main,1 tsp sriracha or chili garlic sauce,1,tsp,sriracha,6.5,0,25.22,0.01,0.98,138.06,0.14,0.13,"USDA sr legacy 171186: Sauce, hot chile, sriracha",
+31,main,1/4 cup water,0.25,cup,water,59.1,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+31,main,1 tsp cornstarch (sauce),1,tsp,cornstarch,2.7,0,42.51,0.0,0.0,0.24,0.02,0.01,USDA sr legacy 169698: Cornstarch,
+31,side,To serve: 1/2 cup cooked jasmine rice,0.5,cup,rice_white_cooked,79.0,0,429.76,0.06,0.04,0.79,0.32,2.13,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+31,excluded,"Sesame seeds, optional",,,,,,,,,,,,,no quantity given
+31,excluded,2 tbsp water to steam the broccoli; splash of water,,,,,,,,,,,,,evaporates / only if needed
+32,main,100 g pork belly or ground pork,100,g,pork_belly,100.0,0,2167.0,19.33,0.0,32.0,0.0,9.34,"USDA sr legacy 167812: Pork, fresh, belly, raw",first-listed alternative
+32,main,1 tsp neutral oil,1,tsp,oil_vegetable,4.5,0,166.46,0.7,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+32,main,"1 small shallot, minced",1,small,shallot,25.0,1,75.25,0.0,1.97,3.0,0.8,0.62,"USDA sr legacy 170499: Shallots, raw",
+32,main,"1 garlic clove, minced",1,clove,garlic,3.0,1,18.69,0.0,0.03,0.51,0.06,0.19,"USDA sr legacy 169230: Garlic, raw",
+32,main,"1 tsp fresh ginger, minced",1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+32,optional,"1 dried shiitake mushroom, soaked and diced, optional",1,each,shiitake_dried,3.6,dried (x2),44.57,0.01,0.08,0.47,0.41,0.34,"USDA sr legacy 168436: Mushrooms, shiitake, dried",
+32,main,1 tsp Shaoxing wine or rice wine,1,tsp,cooking_wine,4.9,0,10.24,0.0,0.08,30.67,0.0,0.02,"USDA sr legacy 169070: Alcoholic beverage, wine, cooking",
+32,main,1 tbsp light soy sauce,1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+32,main,1/2 tsp dark soy sauce,0.5,tsp,soy_sauce,2.6,0,5.88,0.0,0.01,145.56,0.02,0.22,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+32,main,1/2 tsp sugar (braise),0.5,tsp,sugar,2.1,0,33.98,0.0,2.1,0.02,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+32,main,1/8 tsp five-spice powder,0.125,tsp,cinnamon,0.3,0,3.36,0.0,0.01,0.03,0.17,0.01,"USDA sr legacy 171320: Spices, cinnamon, ground",cinnamon values as a stand-in
+32,main,150 ml water,150,ml,water,150.0,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+32,side,To serve: 1 cup cooked short-grain rice,1,cup,rice_short_cooked,186.0,0,1011.84,0.14,0.09,1.86,0.74,5.0,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+32,side,To serve: 1 soft-boiled egg,1,large,egg_boiled,50.0,0,324.5,1.63,0.56,62.0,0.0,6.29,"USDA sr legacy 173424: Egg, whole, cooked, hard-boiled",
+32,side,Quick pickled cucumber: 1/3 cucumber,0.3333,each,cucumber,67.0,1,43.55,0.02,1.12,1.34,0.33,0.44,"USDA sr legacy 168409: Cucumber, with peel, raw",
+32,side,Quick pickled cucumber: 1 tbsp rice vinegar,1,tbsp,vinegar,14.9,0,11.32,0.0,0.01,0.3,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+32,side,Quick pickled cucumber: 1 tsp sugar,1,tsp,sugar,4.2,0,67.96,0.0,4.19,0.04,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+32,excluded,pinch of white pepper; pinch of salt,,,,,,,,,,,,,"to taste / pinch, no quantity"
+33,main,1/2 bunch cilantro,0.5,bunch,cilantro,40.0,1,38.0,0.01,0.35,18.4,1.12,0.85,"USDA sr legacy 169997: Coriander (cilantro) leaves, raw",
+33,main,2 avocados,2,each,avocado,300.0,1,2010.0,6.38,1.98,21.0,20.1,6.0,"USDA sr legacy 171705: Avocados, raw, all commercial varieties",
+33,main,1 pint cherry tomatoes,1,pint_cherry,tomato_raw,298.0,1,220.52,0.08,7.84,14.9,3.58,2.62,"USDA sr legacy 170457: Tomatoes, red, ripe, raw, year round average",
+33,main,"1 # boneless, skinless chicken breast",1,lb,chicken_breast,453.6,0,2272.5,2.55,0.0,204.12,0.0,102.06,"USDA sr legacy 171077: Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+33,main,"1 cup rice (+ 2 cups water, absorbed)",1,cup,rice_white_dry,519.3,0,2824.95,0.4,0.26,5.19,2.08,13.97,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",white long-grain assumed
+33,main,8 oz sliced black olives,8,oz,olives,226.8,1,1099.96,5.17,0.0,1666.95,3.63,1.91,"USDA sr legacy 169094: Olives, ripe, canned (small-extra large)",
+33,main,1 jar salsa,1,jar,salsa,454.0,0.9,549.34,0.1,18.21,3227.94,8.63,6.9,"USDA sr legacy 174524: Sauce, salsa, ready-to-serve",a 16-oz jar
+33,main,1/4 tsp cumin,0.25,tsp,cumin,0.5,0,8.23,0.01,0.01,0.88,0.06,0.09,"USDA sr legacy 170923: Spices, cumin seed",
+33,main,3/8 tsp garlic powder (separated),0.375,tsp,garlic_powder,1.2,0,16.11,0.0,0.03,0.7,0.1,0.19,"USDA sr legacy 171325: Spices, garlic powder",
+33,main,"Add 1/4 tsp salt (to the rice, from the instructions)",0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+33,optional,4 oz shredded cheddar cheese (optional),4,oz,cheddar,113.4,0,1940.58,21.77,0.37,741.62,0.0,26.42,"USDA fndds 2705709: Cheese, Cheddar",
+33,excluded,S&P to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+34,main,2 TBSP sriracha,2,tbsp,sriracha,39.0,0,151.32,0.03,5.89,828.36,0.86,0.75,"USDA sr legacy 171186: Sauce, hot chile, sriracha",
+34,main,1/4 cup soy sauce,0.25,cup,soy_sauce,63.8,0,141.53,0.05,0.26,3501.79,0.51,5.19,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+34,main,2 TBSP agave,2,tbsp,agave,40.0,0,518.8,0.0,27.21,1.6,0.08,0.04,USDA fndds 2710282: Agave liquid sweetener,
+34,main,1 tsp lime juice,1,tsp,lime_juice,5.0,1,5.24,0.0,0.09,0.1,0.02,0.02,"USDA sr legacy 168156: Lime juice, raw",
+34,main,1 tsp hoisin sauce,1,tsp,hoisin,5.3,0,49.07,0.03,1.45,86.13,0.15,0.18,"USDA sr legacy 172886: Sauce, hoisin, ready-to-serve",
+34,main,14 oz package of firm tofu,14,oz,tofu_firm,396.9,0,1416.91,2.82,1.59,130.97,3.57,43.34,USDA sr legacy 173788: HOUSE FOODS Premium Firm Tofu,
+34,main,1 TBSP olive oil (tofu),1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+34,main,"3/4 cup rice (+ 1.5 cup water, absorbed)",0.75,cup,rice_white_dry,389.5,0,2118.71,0.3,0.19,3.89,1.56,10.48,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+34,main,1/4 tsp salt,0.25,tsp,salt,1.5,0,0.0,0.0,0.0,581.37,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+34,main,2 carrot chopped into matchsticks,2,medium,carrot,122.0,1,211.06,0.04,5.78,84.18,3.42,1.13,"USDA sr legacy 170393: Carrots, raw",
+34,main,1 cucumber sliced,1,each,cucumber,201.0,1,130.65,0.07,3.36,4.02,1.0,1.31,"USDA sr legacy 168409: Cucumber, with peel, raw",
+34,main,1 TBSP rice vinegar,1,tbsp,vinegar,14.9,0,11.32,0.0,0.01,0.3,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+34,main,2 tsp granulated sugar,2,tsp,sugar,8.4,0,135.91,0.0,8.38,0.08,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+34,main,1/4 tsp crushed red pepper,0.25,tsp,red_pepper_flakes,0.5,0,5.99,0.01,0.05,0.14,0.12,0.05,"USDA sr legacy 170932: Spices, pepper, red or cayenne",
+34,main,1 TBSP olive oil (spinach),1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+34,main,6 cup spinach,6,cup,spinach,180.0,1,174.6,0.11,0.76,142.2,3.96,5.15,"USDA sr legacy 168462: Spinach, raw",
+34,main,1/2 tsp sesame oil,0.5,tsp,oil_sesame,2.2,0,83.23,0.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+34,optional,2 tsp sesame seeds optional for garnish,2,tsp,sesame_seeds,6.0,0,143.82,0.42,0.02,0.66,0.71,1.06,"USDA sr legacy 170150: Seeds, sesame seeds, whole, dried",
+34,optional,3 eggs optional,3,large,egg,150.0,0,898.5,4.69,0.56,213.0,0.0,18.84,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+34,optional,1 cup kimchi optional,1,cup,kimchi,150.0,1,97.5,0.1,1.59,747.0,2.4,1.65,"USDA sr legacy 170392: Cabbage, kimchi",
+34,excluded,"pinches of salt (rice, cucumber, spinach)",,,,,,,,,,,,,"to taste / pinch, no quantity"
+35,main,"1 14-ounce block extra-firm tofu, drained and pressed",14,oz,tofu_extra_firm,396.9,0,1385.16,3.65,2.82,15.88,3.97,39.61,"USDA sr legacy 174290: Tofu, extra firm, prepared with nigari",
+35,main,1/2 cup low-sodium soy sauce,0.5,cup,soy_sauce_low_sodium,127.5,0,302.18,0.04,0.64,4587.45,0.89,11.54,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+35,main,1/2 cup water,0.5,cup,water,118.3,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+35,main,1/4 cup brown sugar,0.25,cup,brown_sugar,55.0,0,874.5,0.0,53.36,15.4,0.0,0.07,"USDA sr legacy 168833: Sugars, brown",
+35,main,2 tablespoons rice vinegar,2,tbsp,vinegar,29.8,0,22.65,0.0,0.01,0.6,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+35,main,1 tablespoon sesame oil,1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+35,main,"3 cloves garlic, minced",3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+35,main,1/2 teaspoon ground ginger,0.5,tsp,ginger_ground,0.9,0,12.64,0.02,0.03,0.24,0.13,0.08,"USDA sr legacy 170926: Spices, ginger, ground",
+35,main,2 tablespoons cornstarch,2,tbsp,cornstarch,16.0,0,255.04,0.0,0.0,1.44,0.14,0.04,USDA sr legacy 169698: Cornstarch,
+35,main,1/4 cup cold water,0.25,cup,water,59.1,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+35,excluded,"For serving: brown rice, steamed broccoli, sesame seeds, green onions",,,,,,,,,,,,,no quantity given
+36,main,3 Tbsp. lower-sodium soy sauce or tamari,3,tbsp,soy_sauce_low_sodium,42.6,0,100.96,0.01,0.21,1532.75,0.3,3.86,"USDA sr legacy 172473: Soy sauce made from soy and wheat (shoyu), low sodium",
+36,main,"3 garlic cloves, minced",3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+36,main,1/2 tsp. granulated sugar,0.5,tsp,sugar,2.1,0,33.98,0.0,2.1,0.02,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+36,main,"2 to 3 Tbsp. neutral oil, divided",2.5,tbsp,oil_vegetable,34.0,0,1257.66,5.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",midpoint of the range
+36,main,"1 crown of broccoli, chopped into florets (about 5 cups)",5,cup_florets,broccoli,355.0,1,500.55,0.4,6.04,117.15,9.23,10.01,"USDA sr legacy 170379: Broccoli, raw",
+36,main,1 bunch scallions,1,bunch,scallion,100.0,1,135.0,0.03,2.33,16.0,2.6,1.83,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",
+36,main,3 large eggs whisked,3,large,egg,150.0,0,898.5,4.69,0.56,213.0,0.0,18.84,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+36,main,1/2 cup frozen/thawed shelled edamame,0.5,cup,edamame,77.5,1,392.93,0.48,1.69,4.65,4.03,9.23,"USDA sr legacy 168411: Edamame, frozen, prepared",
+36,main,3 cups cooked long-grain white or brown rice,3,cup,rice_white_cooked,474.0,0,2578.56,0.36,0.24,4.74,1.9,12.75,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",first-listed alternative
+36,main,2 Tbsp. tahini,2,tbsp,tahini,30.0,0,746.7,2.26,0.15,34.5,2.79,5.1,"USDA sr legacy 170189: Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+36,main,1 Tbsp. rice vinegar,1,tbsp,vinegar,14.9,0,11.32,0.0,0.01,0.3,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+36,main,1 tsp. granulated sugar,1,tsp,sugar,4.2,0,67.96,0.0,4.19,0.04,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+36,main,3/4 tsp. ground turmeric,0.75,tsp,turmeric,2.2,0,29.36,0.04,0.07,0.61,0.51,0.22,"USDA sr legacy 172231: Spices, turmeric, ground",
+36,main,1/2 tsp. toasted sesame oil,0.5,tsp,oil_sesame,2.2,0,83.23,0.32,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+36,main,1 tsp. grated or minced fresh ginger,1,tsp,ginger,2.0,1,6.66,0.0,0.03,0.26,0.04,0.04,"USDA sr legacy 169231: Ginger root, raw",
+36,main,1/4 tsp. kosher salt,0.25,tsp,salt_kosher,1.2,0,0.0,0.0,0.0,465.1,0.0,0.0,"USDA sr legacy 173468: Salt, table",
+36,excluded,"Optional garnish: toasted sesame seeds, chili oil or chili crisp",,,,,,,,,,,,,no quantity given
+36,excluded,up to 2 1/2 Tbsp. warm water to thin the sauce,,,,,,,,,,,,,"'up to', no fixed quantity"
+36,excluded,pinches of salt; light drizzle of oil,,,,,,,,,,,,,"to taste / pinch, no quantity"
+37,main,1 tablespoon olive oil,1,tbsp,oil_olive,13.5,0,499.37,1.86,0.0,0.27,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+37,main,1 tablespoon butter,1,tbsp,butter,14.2,0,425.86,7.29,0.01,91.31,0.0,0.12,"USDA sr legacy 173410: Butter, salted",
+37,main,3 cloves garlic minced,3,clove,garlic,9.0,1,56.07,0.01,0.09,1.53,0.19,0.57,"USDA sr legacy 169230: Garlic, raw",
+37,main,1 (14 ounce) can diced tomatoes with juices,14,oz,tomatoes_diced_canned,396.9,1,273.86,0.13,10.12,456.43,7.54,3.14,"USDA sr legacy 170051: Tomatoes, red, ripe, canned, packed in tomato juice",
+37,main,2 tablespoons tomato paste,2,tbsp,tomato_paste,32.0,dried (x2),109.76,0.03,3.9,18.88,1.31,1.38,"USDA sr legacy 170459: Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",
+37,main,1/4 cup chicken broth or white wine,0.25,cup,broth_chicken,62.2,0,16.18,0.01,0.27,230.95,0.0,0.4,"USDA sr legacy 174536: Soup, chicken broth, ready-to-serve",first-listed alternative
+37,main,1/4 teaspoon Italian seasoning,0.25,tsp,oregano_dried,0.2,0,2.77,0.0,0.01,0.06,0.11,0.02,"USDA sr legacy 171328: Spices, oregano, dried",oregano values as a stand-in
+37,main,1 pound uncooked potato gnocchi,1,lb,gnocchi,453.6,0,3111.64,0.0,2.77,2032.09,5.44,19.23,custom entry (see note),
+37,main,1/2 cup shredded mozzarella,0.5,cup,mozzarella_part_skim,56.5,0,698.34,6.38,1.07,376.29,0.0,13.42,"USDA sr legacy 171244: Cheese, mozzarella, low moisture, part-skim",
+37,main,1/2 cup freshly grated parmesan cheese,0.5,cup,parmesan_grated,50.0,0,878.5,7.69,0.04,902.0,0.0,14.21,"USDA sr legacy 171247: Cheese, parmesan, grated",
+37,excluded,small handful fresh basil,,,,,,,,,,,,,no quantity given
+37,excluded,salt & pepper to taste,,,,,,,,,,,,,"to taste / pinch, no quantity"
+38,main,2 cups dry TVP,2,cup,tvp,192.0,0,2940.1,0.26,31.53,3.84,33.6,98.11,"USDA fndds 2707451: Textured vegetable protein, dry",
+38,main,2 cups vegetable broth or water + bouillon,2,cup,broth_vegetable,480.0,0,105.6,0.13,2.64,1420.8,0.0,1.15,"USDA sr legacy 171583: Soup, vegetable broth, ready to serve",first-listed alternative
+38,main,"1 can (15 oz) black beans, drained and rinsed",1,can15,black_beans_drained,254.0,1,1402.08,0.35,0.81,601.98,22.1,22.5,"USDA sr legacy 175237: Beans, black, mature seeds, cooked, boiled, with salt",
+38,optional,"1 can (15 oz) pinto beans, drained and rinsed (optional)",1,can15,pinto_beans_drained,254.0,1,1524.0,0.28,0.86,604.52,22.86,22.89,"USDA sr legacy 173796: Beans, pinto, mature seeds, cooked, boiled, with salt",
+38,main,1 cup plain Greek yogurt or cottage cheese,1,cup,yogurt_greek_nonfat,245.0,0,602.7,0.29,7.94,88.2,0.0,24.97,"USDA sr legacy 170894: Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)",first-listed; fat level not stated: nonfat assumed
+38,main,3 cups dry rice (or 5 cups cooked) - white or brown,3,cup,rice_white_dry,1557.9,0,8474.85,1.2,0.78,15.58,6.23,41.91,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt","first-listed alternative, as written (3 cups dry is about 9 cups cooked, not 5)"
+38,main,1 bag (12 oz) coleslaw mix or shredded cabbage,12,oz,cabbage,340.2,1,350.4,0.12,10.89,61.23,8.5,4.35,"USDA sr legacy 169975: Cabbage, raw",
+38,main,"1-2 bell peppers, diced",1.5,medium,bell_pepper_green,178.5,1,149.94,0.1,4.28,5.36,3.03,1.54,"USDA sr legacy 170427: Peppers, sweet, green, raw",midpoint of the range
+38,main,"1 red onion, diced",1,medium,onion,110.0,1,182.6,0.05,4.66,4.4,1.87,1.21,"USDA sr legacy 170000: Onions, raw",
+38,main,1 can (15 oz) diced tomatoes with green chiles,15,oz,tomatoes_green_chilies_canned,425.2,1,267.9,0.05,10.84,1705.22,8.08,2.93,"USDA sr legacy 170053: Tomatoes, red, ripe, canned, with green chilies",
+38,main,"1 can (15 oz) corn, drained",1,can15,corn_canned_drained,264.0,1,739.2,0.65,11.72,541.2,5.28,6.05,"USDA sr legacy 169214: Corn, sweet, yellow, canned, whole kernel, drained solids",
+38,excluded,"Fresh cilantro, lime",,,,,,,,,,,,,no quantity given
+38,excluded,"Taco seasoning: chili powder, cumin, garlic powder, onion powder, paprika, oregano, salt, pepper",,,,,,,,,,,,,no quantity given
+38,excluded,'a little oil' for the vegetables,,,,,,,,,,,,,no quantity given
+38,excluded,"Optional extras: shredded cheese, salsa, hot sauce, avocado",,,,,,,,,,,,,no quantity given
+39,main,Short-grain rice (2.5 cups dry),2.5,cup,rice_short_dry,1376.8,0,7490.0,1.06,0.69,13.77,5.51,37.04,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+39,main,TVP (1.5 cups dry),1.5,cup,tvp,144.0,0,2205.07,0.2,23.64,2.88,25.2,73.58,"USDA fndds 2707451: Textured vegetable protein, dry",
+39,main,1.5 cups hot vegetable broth,1.5,cup,broth_vegetable,360.0,0,79.2,0.1,1.98,1065.6,0.0,0.86,"USDA sr legacy 171583: Soup, vegetable broth, ready to serve",
+39,main,+ 2 tbsp soy sauce (TVP soak),2,tbsp,soy_sauce,32.0,0,71.04,0.02,0.13,1757.76,0.26,2.6,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+39,main,Sauce: 3 tbsp soy sauce,3,tbsp,soy_sauce,48.0,0,106.56,0.04,0.19,2636.64,0.38,3.91,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+39,main,1 tbsp sugar,1,tbsp,sugar,12.5,0,202.25,0.0,12.47,0.12,0.0,0.0,"USDA sr legacy 169655: Sugars, granulated",
+39,main,1 tbsp sesame oil,1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+39,main,1 tsp gochugaru,1,tsp,red_pepper_flakes,1.8,0,23.96,0.06,0.19,0.54,0.49,0.22,"USDA sr legacy 170932: Spices, pepper, red or cayenne",red-pepper values as a stand-in
+39,main,Spinach (1 lb),1,lb,spinach,453.6,1,439.98,0.29,1.91,358.34,9.98,12.97,"USDA sr legacy 168462: Spinach, raw",
+39,main,Carrots (3-4),3.5,medium,carrot,213.5,1,369.36,0.07,10.12,147.31,5.98,1.99,"USDA sr legacy 170393: Carrots, raw",midpoint of the range
+39,main,Bean sprouts (1 bag),1,bag,bean_sprouts,340.0,1,428.4,0.16,14.04,20.4,6.12,10.34,"USDA sr legacy 169957: Mung beans, mature seeds, sprouted, raw",a 12-oz bag
+39,main,Firm tofu (1 block),1,block,tofu_firm,397.0,0,1417.29,2.82,1.59,131.01,3.57,43.35,USDA sr legacy 173788: HOUSE FOODS Premium Firm Tofu,a 14-oz block
+39,optional,"Eggs (optional, 5)",5,large,egg,250.0,0,1497.5,7.82,0.93,355.0,0.0,31.4,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+39,optional,Zucchini (2) -- optional step,2,medium,zucchini,392.0,1,274.4,0.33,9.8,31.36,3.92,4.74,"USDA sr legacy 169291: Squash, summer, zucchini, includes skin, raw",
+39,excluded,Napa cabbage kimchi,,,,,,,,,,,,,no quantity given
+39,excluded,"Onion, garlic, ginger, scallions",,,,,,,,,,,,,no quantity given
+39,excluded,"sesame oil, salt, garlic, sesame seeds for the banchan; gochujang, rice vinegar",,,,,,,,,,,,,no quantity given
+39,excluded,Cucumber (optional),,,,,,,,,,,,,no quantity given
+40,main,2 blocks (14-16 oz each) extra-firm tofu,30,oz,tofu_extra_firm,850.5,0,2968.19,7.82,6.04,34.02,8.5,84.88,"USDA sr legacy 174290: Tofu, extra firm, prepared with nigari",midpoint: 15 oz each
+40,main,"1 head broccoli, cut into florets",1,head,broccoli,355.0,1,500.55,0.4,6.04,117.15,9.23,10.01,"USDA sr legacy 170379: Broccoli, raw",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,"2 bell peppers, sliced",2,medium,bell_pepper_green,238.0,1,199.92,0.14,5.71,7.14,4.05,2.05,"USDA sr legacy 170427: Peppers, sweet, green, raw",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,"1 lb carrots, cut into sticks",1,lb,carrot,453.6,1,784.71,0.15,21.5,312.98,12.7,4.22,"USDA sr legacy 170393: Carrots, raw",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,"4 cloves garlic, minced",4,clove,garlic,12.0,1,74.76,0.01,0.12,2.04,0.25,0.76,"USDA sr legacy 169230: Garlic, raw",
+40,main,"1 tbsp fresh ginger, grated",1,tbsp,ginger,6.0,1,19.98,0.01,0.1,0.78,0.12,0.11,"USDA sr legacy 169231: Ginger root, raw",
+40,main,1/2 cup soy sauce (or tamari),0.5,cup,soy_sauce,127.5,0,283.05,0.09,0.51,7003.57,1.02,10.38,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+40,main,3 tbsp rice vinegar,3,tbsp,vinegar,44.7,0,33.97,0.0,0.02,0.89,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+40,main,2 tbsp sesame oil,2,tbsp,oil_sesame,27.2,0,1006.13,3.86,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+40,main,2 tbsp honey or maple syrup,2,tbsp,honey,42.0,0,534.24,0.0,34.49,1.68,0.08,0.13,USDA sr legacy 169640: Honey,first-listed alternative
+40,main,1 tbsp cornstarch (slurry),1,tbsp,cornstarch,8.0,0,127.52,0.0,0.0,0.72,0.07,0.02,USDA sr legacy 169698: Cornstarch,
+40,main,+ 2 tbsp water (slurry),2,tbsp,water,29.6,0,0.0,0.0,0.0,0.0,0.0,0.0,custom entry (see note),
+40,main,3 cups dry jasmine or brown rice (or 5 cups cooked),3,cup,rice_white_dry,1557.9,0,8474.85,1.2,0.78,15.58,6.23,41.91,"USDA sr legacy 169757: Rice, white, long-grain, regular, unenriched, cooked without salt","first-listed alternative, as written (3 cups dry is about 9 cups cooked, not 5)"
+40,main,Toss [tofu] with 2 tbsp soy sauce (from the method),2,tbsp,soy_sauce,32.0,0,71.04,0.02,0.13,1757.76,0.26,2.6,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+40,main,+ 1 tbsp cornstarch (from the method),1,tbsp,cornstarch,8.0,0,127.52,0.0,0.0,0.72,0.07,0.02,USDA sr legacy 169698: Cornstarch,
+40,excluded,1 bunch bok choy or snap peas,,,,,,,,,,,,,fourth option of 'pick 2-3'
+40,excluded,Sesame seeds + green onions for topping,,,,,,,,,,,,,no quantity given
+40,excluded,"'a little oil, salt' for the vegetables",,,,,,,,,,,,,no quantity given
+41,main,2 cups dry brown rice,2,cup,rice_brown_raw,370.0,0,5675.8,2.19,2.44,18.5,13.32,27.9,"USDA sr legacy 169703: Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",
+41,main,+ vegetable broth to cook it,734.2,g,broth_vegetable,734.2,0,161.52,0.21,4.04,2173.23,0.0,1.76,"USDA sr legacy 171583: Soup, vegetable broth, ready to serve","no quantity given: liquid absorbed by 370 g brown rice = 370 x (1534/514 - 1), USDA raw vs cooked"
+41,main,"3-4 heads broccoli, cut into small florets",3.5,head,broccoli,1242.5,1,1751.92,1.42,21.12,410.02,32.3,35.04,"USDA sr legacy 170379: Broccoli, raw",midpoint of the range
+41,main,1.5 cups dry TVP,1.5,cup,tvp,144.0,0,2205.07,0.2,23.64,2.88,25.2,73.58,"USDA fndds 2707451: Textured vegetable protein, dry",
+41,main,"1 large onion, diced",1,large,onion,150.0,1,249.0,0.06,6.36,6.0,2.55,1.65,"USDA sr legacy 170000: Onions, raw",
+41,main,"4-5 cloves garlic, minced",4.5,clove,garlic,13.5,1,84.11,0.01,0.14,2.29,0.28,0.86,"USDA sr legacy 169230: Garlic, raw",midpoint of the range
+41,main,"1 tbsp fresh ginger, minced",1,tbsp,ginger,6.0,1,19.98,0.01,0.1,0.78,0.12,0.11,"USDA sr legacy 169231: Ginger root, raw",
+41,main,3-4 tbsp soy sauce (plus more to taste),3.5,tbsp,soy_sauce,56.0,0,124.32,0.04,0.22,3076.08,0.45,4.56,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),midpoint of the range
+41,main,+ 1 tbsp soy sauce over the TVP (from the method),1,tbsp,soy_sauce,16.0,0,35.52,0.01,0.06,878.88,0.13,1.3,USDA sr legacy 174277: Soy sauce made from soy and wheat (shoyu),
+41,main,1.5 cups hot vegetable broth over the TVP (from the method),1.5,cup,broth_vegetable,360.0,0,79.2,0.1,1.98,1065.6,0.0,0.86,"USDA sr legacy 171583: Soup, vegetable broth, ready to serve",
+41,main,1 tbsp rice vinegar,1,tbsp,vinegar,14.9,0,11.32,0.0,0.01,0.3,0.0,0.0,"USDA sr legacy 172237: Vinegar, distilled",
+41,main,1 tbsp sesame oil (or olive oil),1,tbsp,oil_sesame,13.6,0,503.06,1.93,0.0,0.0,0.0,0.0,"USDA sr legacy 171016: Oil, sesame, salad or cooking",
+41,main,2 tbsp neutral oil for cooking,2,tbsp,oil_vegetable,27.2,0,1006.13,4.26,0.0,0.0,0.0,0.0,"USDA sr legacy 171411: Oil, soybean, salad or cooking",
+41,main,1 tsp smoked paprika,1,tsp,paprika,2.3,0,27.16,0.05,0.24,1.56,0.8,0.33,"USDA sr legacy 171329: Spices, paprika",
+41,main,1 tsp cumin,1,tsp,cumin,2.1,0,32.91,0.03,0.05,3.53,0.22,0.37,"USDA sr legacy 170923: Spices, cumin seed",
+41,optional,1 tsp chili flakes (optional),1,tsp,red_pepper_flakes,1.8,0,23.96,0.06,0.19,0.54,0.49,0.22,"USDA sr legacy 170932: Spices, pepper, red or cayenne",
+41,optional,3 eggs (optional but recommended),3,large,egg,150.0,0,898.5,4.69,0.56,213.0,0.0,18.84,"USDA sr legacy 171287: Egg, whole, raw, fresh",
+41,main,"3-4 green onions, sliced",3.5,medium,scallion,52.5,1,70.88,0.02,1.22,8.4,1.36,0.96,"USDA sr legacy 170005: Onions, spring or scallions (includes tops and bulb), raw",midpoint of the range
+41,excluded,Salt and pepper; splash of water,,,,,,,,,,,,,"to taste / pinch, no quantity"
+42,main,1 kg (2.2 lb) shelf-stable potato gnocchi,1000,g,gnocchi,1000.0,0,6860.0,0.0,6.1,4480.0,12.0,42.4,custom entry (see note),
+42,main,1 cup dry TVP,1,cup,tvp,96.0,0,1470.05,0.13,15.76,1.92,16.8,49.06,"USDA fndds 2707451: Textured vegetable protein, dry",
+42,main,1 jar (700 ml / 24 oz) plain tomato passata or crushed tomatoes,24,oz,passata,680.4,1,1075.01,0.2,32.86,190.51,12.93,11.23,"USDA sr legacy 170460: Tomato products, canned, puree, without salt added",first-listed alternative
+42,main,"1 onion, diced",1,medium,onion,110.0,1,182.6,0.05,4.66,4.4,1.87,1.21,"USDA sr legacy 170000: Onions, raw",
+42,main,"3-4 garlic cloves, minced",3.5,clove,garlic,10.5,1,65.42,0.01,0.1,1.78,0.22,0.67,"USDA sr legacy 169230: Garlic, raw",midpoint of the range
+42,main,2 tbsp olive oil,2,tbsp,oil_olive,27.0,0,998.73,3.73,0.0,0.54,0.0,0.0,"USDA sr legacy 171413: Oil, olive, salad or cooking",
+42,main,1 tbsp dried oregano,3,tsp,oregano_dried,3.0,0,33.21,0.05,0.12,0.75,1.27,0.27,"USDA sr legacy 171328: Spices, oregano, dried",
+42,main,+ 1 tbsp dried basil,3,tsp,basil_dried,2.1,0,20.5,0.05,0.04,1.6,0.79,0.48,"USDA sr legacy 171317: Spices, basil, dried",
+42,optional,1 tsp smoked paprika (optional),1,tsp,paprika,2.3,0,27.16,0.05,0.24,1.56,0.8,0.33,"USDA sr legacy 171329: Spices, paprika",
+42,main,1 cup vegetable broth or water (for rehydrating TVP),1,cup,broth_vegetable,240.0,0,52.8,0.07,1.32,710.4,0.0,0.58,"USDA sr legacy 171583: Soup, vegetable broth, ready to serve",first-listed alternative
+42,excluded,"Salt, pepper, chili flakes to taste",,,,,,,,,,,,,"to taste / pinch, no quantity"
+42,excluded,"Optional add-ins: handful of spinach, diced zucchini, or roasted red peppers",,,,,,,,,,,,,no quantity given
+42,excluded,salted water for boiling the gnocchi; splash of water,,,,,,,,,,,,,cooking water that is drained off

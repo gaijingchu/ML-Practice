@@ -1,0 +1,626 @@
+row,role,qty,unit,food,fvn,text,note
+3,main,0.75,lb,beef_flank,,3/4 pound flank steak,
+3,main,1,tbsp,oil_vegetable,,1 Tablespoon cooking oil,
+3,main,2,clove,garlic,,2 cloves garlic,
+3,main,0.25,tsp,ginger,,1/4 teaspoon grated fresh ginger,
+3,main,3.5,cup_florets,broccoli,,3-1/2 cups broccoli florets,
+3,main,1,tsp,cornstarch,,1 teaspoon cornstarch (marinade),
+3,main,1,tsp,soy_sauce_low_sodium,,1 teaspoon low sodium soy sauce (marinade),
+3,optional,0.25,tsp,soy_sauce,,"1/4 teaspoon dark soy sauce, optional (marinade)",
+3,main,0.5,tsp,oil_sesame,,1/2 teaspoon toasted sesame oil (marinade),
+3,main,0.125,tsp,black_pepper,,1/8 teaspoon black pepper,
+3,main,1.5,tbsp,oyster_sauce,,1-1/2 Tablespoons oyster sauce,
+3,main,1.5,tsp,soy_sauce_low_sodium,,1-1/2 Teaspoons low sodium soy sauce (sauce),
+3,optional,0.25,tsp,soy_sauce,,"1/4 teaspoon dark soy sauce, optional (sauce)",
+3,main,2,tsp,sugar,,2 teaspoons granulated sugar,
+3,main,1,tsp,oil_sesame,,1 teaspoon toasted sesame oil (sauce),
+3,main,0.5,tsp,mirin,,1/2 teaspoon Mirin,
+3,main,2,tsp,cornstarch,,2 teaspoons cornstarch (sauce),
+3,main,0.3333,cup,water,,1/3 cup cold water or sodium free chicken broth,first-listed alternative
+3,excluded,,,,,water for blanching broccoli,cooking water that is drained off
+3,excluded,,,,,"salt and black pepper, to taste","to taste / pinch, no quantity"
+3,excluded,,,,,cooked rice / quinoa / noodles to serve,no quantity given
+3,excluded,,,,,sesame seeds and chopped green onions if desired,no quantity given
+4,main,6,large,egg_white,,6 large egg whites,
+4,main,3,large,egg,,3 large eggs,
+4,main,0.5,tsp,oregano_dried,,1/2 teaspoon dried oregano,
+4,main,0.25,tsp,garlic_powder,,1/4 teaspoon garlic powder,
+4,main,0.25,tsp,salt,,1/4 teaspoon salt,
+4,main,0.25,tsp,black_pepper,,1/4 teaspoon pepper,
+4,main,1,tbsp,oil_olive,,1 tablespoon olive oil,
+4,main,1,small,onion,,"1 small onion, finely chopped",
+4,main,0.25,cup,bell_pepper_red,,1/4 cup finely chopped sweet red pepper,
+4,main,2,strip,turkey_bacon,,"2 turkey bacon strips, chopped",
+4,main,1,cup,spinach,,1 cup fresh baby spinach,
+4,main,3,tbsp,basil_fresh,,3 tablespoons thinly sliced fresh basil leaves,
+4,main,0.5,cup,mozzarella_part_skim,,1/2 cup shredded part-skim mozzarella cheese,
+5,main,1,lb,beef_ground_93,,1 pound lean ground beef (93% lean),
+5,main,3,tbsp,soy_sauce_low_sodium,,3 tablespoons low sodium soy sauce,
+5,main,1.25,cup,scallion,,1 1/4 cups minced scallions,
+5,main,1,tbsp,garlic,,1 tablespoon minced garlic,
+5,main,2,tbsp,vinegar,,2 tablespoons rice vinegar,
+5,main,2,tbsp,honey,,2 tablespoons honey,
+5,main,2,tbsp,ginger,,2 tablespoons minced or finely grated fresh ginger,
+5,main,0.25,tsp,red_pepper_flakes,,1/4 teaspoon red pepper flakes,
+5,main,1,tbsp,oil_sesame,,1 tablespoon sesame oil,
+5,main,1.5,cup_grated,carrot,,1 1/2 cups shredded carrots (for serving),
+5,excluded,,,,,"cooked brown rice, quinoa, or cauliflower rice (for serving)",no quantity given
+5,excluded,,,,,thinly sliced seedless cucumbers,no quantity given
+5,excluded,,,,,toasted sesame seeds,no quantity given
+5,excluded,,,,,additional soy sauce / red pepper flakes / sesame oil to taste,"to taste / pinch, no quantity"
+5,excluded,,,,,"optional pickling liquid for the carrots and cucumbers (vinegar, water, sugar, salt)",optional step; liquid is drained off
+6,main,0.5,cup,bread_crumbs,,1/2 cup dry bread crumbs,
+6,main,2,tbsp,parmesan_grated,,2 tablespoons grated Parmesan cheese,
+6,main,1,tsp,lemon_pepper,,1 teaspoon lemon-pepper seasoning,
+6,main,0.25,tsp,salt,,1/4 teaspoon salt,
+6,main,24,oz,snapper,,4 red snapper fillets (6 ounces each),
+6,main,2,tbsp,oil_olive,,2 tablespoons olive oil,
+7,main,1,tbsp,oil_olive,,1 tbsp olive oil,
+7,main,1,medium,onion,,1 onion sliced,
+7,main,1,clove,garlic,,1 clove of garlic,
+7,main,1,tbsp,butter,,1 tbsp butter,
+7,main,250,g,mushroom,,250g mushrooms sliced,
+7,main,1,tbsp,flour,,1 tbsp plain flour,
+7,main,500,g,beef_tenderloin,,500g fillet steak sliced,
+7,main,150,g,creme_fraiche,,150g creme fraiche,
+7,main,1,tsp,mustard_prepared,,1 tsp English mustard,
+7,main,100,ml,broth_beef,,100ml beef stock,
+7,main,12.5,g,parsley,,1/2 small pack of parsley chopped,a small pack taken as 25 g
+7,excluded,,,,,"salt and pepper ('season well', 'big pinch')","to taste / pinch, no quantity"
+7,excluded,,,,,splash of water / extra oil if the pan looks dry,no quantity given
+7,excluded,,,,,pappardelle or rice to serve,no quantity given
+8,main,5,oz,chicken_breast,,5 oz chicken breast,
+8,main,2,oz,soba_dry,,2 oz dry soba noodles,
+8,main,1,cup,spinach,,1 cup fresh spinach,
+8,main,0.5,cup_grated,carrot,,1/2 cup shredded carrot,
+8,main,2.5,medium,scallion,,"2-3 scallions, sliced",midpoint of the range
+8,main,2,cup,broth_chicken_low_sodium,,2 cups low-sodium chicken broth or dashi,first-listed alternative
+8,main,1,tbsp,soy_sauce_low_sodium,,1 tbsp low-sodium soy sauce,
+8,main,1,tsp,mirin,,1 tsp mirin,
+8,main,1,tsp,vinegar,,1 tsp rice vinegar,
+8,main,1,clove,garlic,,"1 clove garlic, minced",
+8,main,1,tsp,ginger,,"1 tsp fresh ginger, grated",
+8,optional,0.25,cup,edamame,,Optional: 1/4 cup shelled edamame,
+8,optional,1,large,egg_boiled,,Optional: 1 soft-boiled egg,
+8,excluded,,,,,Optional: pinch of chili flakes or a dash of chili oil,no quantity given
+8,excluded,,,,,salt and pepper to season the chicken,"to taste / pinch, no quantity"
+9,main,1,lb,turkey_ground_93,,1 lb (450g) 93% lean ground turkey,
+9,main,24,oz,marinara,,1 jar (24 oz) no-sugar-added marinara sauce,
+9,main,14,oz,tomatoes_crushed_canned,,1 can (14 oz) crushed tomatoes,
+9,main,1,medium,onion,,"1 medium onion, diced",
+9,main,2,medium,carrot,,"2 carrots, diced",
+9,main,2,stalk,celery,,"2 celery stalks, diced",
+9,main,3,clove,garlic,,"3 garlic cloves, minced",
+9,main,2,tbsp,oil_olive,,2 tbsp olive oil,
+9,main,1,tsp,oregano_dried,,1 tsp dried oregano,
+9,main,1,tsp,basil_dried,,1 tsp dried basil,
+9,optional,0.5,tsp,red_pepper_flakes,,1/2 tsp red pepper flakes (optional),
+9,main,10,oz,spaghetti_ww_dry,,10 oz dry whole-wheat spaghetti,
+9,excluded,,,,,salt and black pepper to taste,"to taste / pinch, no quantity"
+9,excluded,,,,,salt for pasta water; splash of pasta water,no quantity given
+10,main,20,oz,salmon,,4 salmon fillets (5 oz / 140g each),
+10,main,2,tbsp,miso,,2 tbsp white miso paste,
+10,main,1,tbsp,ginger,,"1 tbsp fresh ginger, grated",
+10,main,1,tbsp,soy_sauce_low_sodium,,1 tbsp low-sodium soy sauce,
+10,main,1,tsp,honey,,1 tsp honey,
+10,main,1,tsp,oil_sesame,,1 tsp sesame oil (glaze),
+10,optional,1,tsp,vinegar,,"1 tsp rice vinegar (optional, for brightness)",
+10,main,8,oz,soba_dry,,8 oz dry soba noodles,
+10,main,4,cup,bok_choy,,"4 cups bok choy, halved lengthwise",
+10,main,1,tbsp,oil_avocado,,1 tbsp neutral oil (avocado or canola),first-listed alternative
+10,main,1,tsp,oil_sesame,,1 tsp sesame oil (noodles),
+10,main,1,tbsp,soy_sauce,,1 tbsp soy sauce (noodles),
+10,main,4,medium,scallion,,"4 green onions, sliced",
+10,excluded,,,,,"optional garnishes: toasted sesame seeds, chili flakes or sriracha, lime wedges",no quantity given
+10,excluded,,,,,2 tbsp water to steam the bok choy; water to thin the glaze,steaming water evaporates / no quantity
+10,excluded,,,,,splash of soy sauce on the bok choy,no quantity given
+11,main,1.5,lb,shrimp,,"1.5 lbs shrimp, peeled and deveined",
+11,main,3,clove,garlic,,"3 cloves garlic, minced",
+11,main,1,tsp,oregano_dried,,1 tsp dried oregano (shrimp),
+11,main,1,tbsp,oil_olive,,1 tbsp olive oil (shrimp),
+11,main,2,cup,farro_cooked,,2 cups cooked farro (about 3/4 cup dry),
+11,main,2,cup_cherry,tomato_raw,,"2 cups cherry tomatoes, halved",
+11,main,1,each,cucumber,,"1 cucumber, diced",
+11,main,0.5,medium,onion,,"1/2 red onion, finely diced",
+11,main,0.5,cup,feta,,"1/2 cup reduced-fat feta, crumbled",regular feta values (no reduced-fat entry in USDA)
+11,main,1,tbsp,oil_olive,,1 tbsp olive oil (dressing),
+11,main,3,tbsp,lemon_juice,,Juice of 1 lemon (about 3 tbsp),
+11,main,1,tsp,oregano_dried,,1 tsp dried oregano (dressing),
+11,excluded,,,,,salt and pepper to taste (shrimp and dressing),"to taste / pinch, no quantity"
+12,main,1.5,lb,chicken_breast,,"1.5 lbs boneless, skinless chicken breast",
+12,main,2,tbsp,oil_olive,,2 tbsp olive oil,
+12,main,1,packet,taco_seasoning,,1 packet taco seasoning,
+12,main,2,cup,rice_brown_cooked,,2 cups cooked brown rice,
+12,main,1,can15,black_beans_drained,,"1 can (15 oz) black beans, drained and rinsed",
+12,main,1,cup,corn_frozen,,1 cup corn (frozen or canned),first-listed alternative
+12,main,1,cup_cherry,tomato_raw,,"1 cup cherry tomatoes, halved",
+12,main,1,medium,bell_pepper_green,,"1 bell pepper, diced",
+12,main,0.25,medium,onion,,"1/4 red onion, diced",
+12,main,1,cup,lettuce_iceberg,,1 cup shredded lettuce or spinach,first-listed alternative
+12,main,0.5,cup,cheddar,,1/2 cup shredded cheddar or Mexican blend,
+12,main,0.5,each,avocado,,1/2 avocado,
+12,excluded,,,,,cilantro + lime,no quantity given
+12,excluded,,,,,salsa or Greek yogurt,no quantity given
+13,main,0.5,cup,mayonnaise,,1/2 cup mayonnaise,
+13,main,0.3333,cup,yogurt_greek_whole,,1/3 cup whole-milk plain strained (Greek-style) yogurt,
+13,main,2,tsp,mustard_prepared,,2 teaspoons Dijon mustard,
+13,main,0.75,tsp,cinnamon,,3/4 teaspoon ground cinnamon,
+13,main,0.75,tsp,cumin,,3/4 teaspoon ground cumin,
+13,main,0.75,tsp,turmeric,,3/4 teaspoon ground turmeric,
+13,main,0.5,tsp,salt,,1/2 teaspoon salt,
+13,main,1,cup,chicken_cooked,,1 cup shredded cooked chicken,
+13,main,1,cup,chickpeas_nosalt_drained,,"1 cup canned no-salt-added chickpeas, rinsed",
+13,main,0.5,cup,walnuts,,"1/2 cup chopped walnuts, toasted",
+13,main,0.3333,cup,raisins,,1/3 cup finely chopped raisins,
+13,main,3,tbsp,shallot,,3 tablespoons finely chopped shallots,
+13,main,2,tbsp,cilantro,,2 tablespoons finely chopped fresh cilantro,
+13,main,1,large,avocado,,1 large avocado,
+13,main,4,each,tortilla_ww,,4 (9-inch) whole-wheat tortillas,
+13,main,2,cup,lettuce_leaf,,2 cups spring mix salad greens,
+14,main,2,tbsp,oil_olive,,2 tbsp. extra-virgin olive oil,
+14,main,1.5,lb,chicken_breast,,3 chicken breasts (about 1 1/2 lb.),
+14,main,2,tbsp,oil_sesame,,"2 tbsp. sesame oil, divided",
+14,main,1,medium,onion,,"1 medium onion, chopped",
+14,main,2,medium,carrot,,"2 carrots, peeled and diced",
+14,main,3,clove,garlic,,"3 cloves garlic, minced",
+14,main,1,tbsp,ginger,,1 tbsp. freshly minced ginger,
+14,main,4,cup,rice_white_cooked,,4 c. cooked white rice,
+14,main,0.75,cup,peas_frozen,,3/4 c. frozen peas,
+14,main,3,large,egg,,"3 large eggs, beaten",
+14,main,3,tbsp,soy_sauce_low_sodium,,3 tbsp. low-sodium soy sauce,
+14,main,2,medium,scallion,,"2 green onions, thinly sliced",
+14,excluded,,,,,"kosher salt, freshly ground black pepper",no quantity given
+15,main,500,g,shrimp,,Shrimp - 500 grams,
+15,main,1,bunch,taro_leaves,,Taro leaves - 1 bunch,a bunch taken as 250 g
+15,main,2,cup,coconut_fresh,,Shredded coconut - 2 cups,fresh grated coconut (ground to a paste with water)
+15,main,2,tbsp,poppy_seed,,Poppy seeds - 2 tbsp,
+15,main,2,tbsp,mustard_seed,,Mustard seeds - 2 tbsp,
+15,main,8,each,green_chili,,"Green chilly - 4, slit green chilly - 4",
+15,main,0.5,tsp,salt,,"1/2 tsp of salt (shrimp marinade, from the instructions)",
+15,main,1,tsp,sugar,,Sugar - 1 tsp,
+15,main,1,tsp,turmeric,,Turmeric powder - 1 tsp,
+15,main,1,cup,oil_mustard,,Mustard oil - 1 cup,the frying oil stays in the dish ('in the remaining oil')
+15,main,2,cup,water,,Add 2 cups of water (gravy),
+15,main,1,tbsp,water,,1 tbsp of water to grind the coconut,
+15,excluded,,,,,salt to taste,"to taste / pinch, no quantity"
+15,excluded,,,,,pinch of turmeric for the marinade; 'little water' for the seed paste,no quantity given
+15,excluded,,,,,4 cups of water to boil the leaves,cooking water that is drained off
+16,main,1,pouch,tasty_bite_lentils,,1 package Tasty Bite Madras Lentils,
+16,main,1,package12oz,cauliflower_frozen,,1 package frozen riced cauliflower (about 3.5 cups),a 12-oz bag
+16,main,1,cup,bone_broth,,1 cup Kettle Fire chicken bone broth,
+16,main,1,tsp,garlic_powder,,1 tsp garlic powder,
+16,main,2.5,oz,chicken_rotisserie,,2.5 ounces rotisserie chicken,
+16,main,1,tbsp,mint,,"1 tbsp fresh mint leaves, diced",
+16,main,2,tbsp,cilantro,,"2 tbsp fresh cilantro, chopped",
+16,main,0.5,tbsp,lime_juice,,1/2 tbsp fresh lime juice,
+16,main,0.25,tsp,cumin,,1/4 tsp cumin,
+16,main,0.75,tsp,salt,,3/4 tsp salt divided,
+16,main,0.3333,cup,yogurt_greek_nonfat,,1/3 cup plain Greek yogurt,fat level not stated: nonfat assumed
+16,main,2,tbsp,cucumber,,"2 tbsp cucumber, chopped",
+16,excluded,,,,,"Sriracha (optional), roasted pumpkin seeds (optional)",no quantity given
+17,main,0.6667,cup,mung_dal,,2/3 cup split moong dal or yellow lentil,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,0.6667,cup,quinoa_raw,,2/3 cup quinoa,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1,inch,ginger,,"1 inch ginger, finely chopped",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,2.5,each,green_chili,,2 to 3 green chilies,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none; midpoint
+17,main,8,peppercorn,black_pepper,,8 black peppercorns,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1,tbsp,cashews,,"1 tbsp cashews, chopped",quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,optional,0.5,tbsp,peanuts,,1/2 tbsp peanuts (optional),quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1,tsp,cumin,,1 tsp cumin seeds,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,1,tbsp,oil_coconut,,1 tbsp coconut oil,quantity from the source page (cookwithkushi.com/quinoa-pongal); the text pasted in the sheet has none
+17,main,316.4,g,water,1,3 1/2 cups water -- part absorbed by the dal,"138.0 g dal x (1452/441 - 1), USDA raw vs boiled mung beans; counts as FVN with the dal"
+17,main,511.7,g,water,,3 1/2 cups water -- remainder,828.1 g total (pressure-cooked porridge: all water stays) minus 316.4 g
+17,excluded,,,,,1/4 tsp asafoetida; 5 to 6 curry leaves,no composition data; under 1 g in total
+17,excluded,,,,,"salt, to taste","to taste / pinch, no quantity"
+18,main,1,lb,chicken_breast,,"1 lb boneless, skinless chicken breast",
+18,main,1,cup,quinoa_dry,,"1 cup dry quinoa, rinsed (+ 2 cups water, absorbed)",
+18,main,1,tbsp,oil_olive,,1 tbsp olive oil,
+18,main,2,clove,garlic,,"2 cloves garlic, minced",
+18,main,1,lemon,lemon_juice,,Zest and juice of 1 lemon -- juice,
+18,main,1,tbsp,lemon_peel,,Zest and juice of 1 lemon -- zest,
+18,main,1,tsp,oregano_dried,,1 tsp dried oregano,
+18,main,0.5,tsp,salt,,1/2 tsp salt,
+18,main,0.25,tsp,black_pepper,,1/4 tsp black pepper,
+18,main,1,cup,asparagus,,"1 cup asparagus, trimmed and cut into 1-inch pieces",
+18,main,1,cup,snap_peas,,"1 cup snap peas, trimmed",
+18,main,1,cup_cherry,tomato_raw,,"1 cup cherry tomatoes, halved",
+18,main,0.25,cup,parsley,,"1/4 cup fresh parsley, chopped",
+18,optional,2,tbsp,feta,,2 tbsp crumbled feta cheese (optional),
+19,main,2,lb,chicken_breast,,2 lbs boneless skinless chicken breast,
+19,main,2,cup,rice_white_dry,,"2 cups dry jasmine rice (+ 4 cups water, absorbed)",
+19,main,1,cup_sliced,bell_pepper_red,,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)","split equally, 1 cup each"
+19,main,1,cup,snap_peas,,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)","split equally, 1 cup each"
+19,main,1,cup_sliced,carrot,,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)","split equally, 1 cup each"
+19,main,1,cup_florets,broccoli,,"4 cups mixed stir-fry vegetables (bell peppers, snap peas, carrots, broccoli)","split equally, 1 cup each"
+19,main,3,tbsp,soy_sauce_low_sodium,,3 tbsp low-sodium soy sauce,
+19,main,2,tbsp,vinegar,,2 tbsp rice vinegar,
+19,main,2,tbsp,honey,,2 tbsp honey or agave,first-listed alternative
+19,main,1,tbsp,cornstarch,,1 tbsp cornstarch,
+19,main,2,tbsp,water,,mixed with 2 tbsp water,
+19,main,1,tbsp,oil_sesame,,1 tbsp sesame oil,
+19,main,3,clove,garlic,,3 cloves garlic minced,
+19,main,1,tsp,ginger,,1 tsp fresh ginger grated,
+19,excluded,,,,,sesame seeds for garnish,no quantity given
+20,main,680,g,chicken_meat_skin,,1 kg chicken cut into curry pieces,bone-in pieces: 68 % of the weight taken as edible (about a third of a cut-up chicken is bone)
+20,main,3,medium,potato,,3 medium potatoes peeled and quartered,
+20,main,2,large,onion,,2 large onions diced,
+20,main,2,medium,tomato_raw,,2 tomatoes chopped,
+20,main,1,paste_tbsp,ginger,,1 tbsp ginger paste,
+20,main,1,paste_tbsp,garlic,,1 tbsp garlic paste,
+20,main,2,tsp,cumin,,2 tsp cumin powder,
+20,main,2,tsp,coriander_ground,,2 tsp coriander powder,
+20,main,1,tsp,turmeric,,1 tsp turmeric powder,
+20,main,1,tsp,red_pepper_flakes,,1 tsp red chili powder,
+20,main,3,tbsp,oil_mustard,,3 tbsp mustard oil,
+20,main,0.5,cup,water,,pour in 1/2 cup water,
+20,excluded,,,,,"4 green cardamom pods, 4 cloves, 1 cinnamon stick, 1 bay leaf","whole spices: infused, not eaten"
+20,excluded,,,,,salt to taste,"to taste / pinch, no quantity"
+20,excluded,,,,,fresh cilantro for garnish; splash of water; steamed rice to serve,no quantity given
+21,main,200,g,mung_dal,,200g yellow moong dal soaked for 3-4 hours,
+21,main,200,g,water,1,water taken up by the dal while soaking,assumed equal to the dry weight (soaked pulses roughly double); counts as FVN with the dal
+21,main,120,ml,water,,120ml water,
+21,main,5,g,salt,,5g salt,
+21,main,10,g,ginger,,10g ginger,
+21,main,5,g,green_chili,,5g green chilies,
+21,main,1,g,turmeric,,1g turmeric powder,
+21,main,30,ml,oil_vegetable,,30ml neutral oil for cooking,
+21,main,150,g,paneer,,150g paneer crumbled,
+21,main,60,g,cabbage,,60g cabbage finely shredded,
+21,main,60,g,carrot,,60g carrots grated,
+21,main,15,ml,lemon_juice,,15ml lemon juice,
+21,main,2,g,cumin,,2g cumin powder,
+21,main,1,g,black_pepper,,1g black pepper,
+21,main,40.4,g,cilantro,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,20.2,g,mint,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,6.7,g,green_chili,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,10.1,g,lemon_juice,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,2.0,g,salt,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+21,main,40.4,g,water,,120ml mint cilantro chutney,"no composition data for green chutney: modelled as 60 g cilantro, 30 g mint, 10 g green chilli, 15 g lemon juice, 3 g salt, 60 g water (scaled to 120 g)"
+22,main,1,cup,chana_dal,,1 cup chana dal soaked for 2 hours,
+22,main,200,g,water,1,water taken up by the dal while soaking,assumed equal to the dry weight (soaked pulses roughly double); counts as FVN with the dal
+22,main,0.25,cup,semolina,,1/4 cup semolina (sooji/rava),
+22,main,1,each,green_chili,,1 green chili finely chopped,
+22,main,0.5,tsp,ginger,,1/2 teaspoon ginger finely chopped,
+22,main,1,tsp,eno,,1 teaspoon fruit salt (Eno),
+22,main,1,tbsp,cilantro,,1 tablespoon fresh coriander finely chopped,
+22,excluded,,,,,salt to taste,"to taste / pinch, no quantity"
+22,excluded,,,,,oil for cooking; 'a little water' for the batter,no quantity given
+22,excluded,,,,,"coconut chutney, peanut chutney, or sambar to serve",no quantity given
+23,main,2,tbsp,orange_peel,,Zest from 1 orange,taken as 2 tbsp
+23,main,0.25,cup,orange_juice,,1/4 cup orange juice,
+23,main,0.25,cup,soy_sauce,,1/4 cup soy sauce,
+23,main,0.25,cup,water,,1/4 cup water,
+23,main,0.3333,cup,vinegar,,1/3 cup rice vinegar,
+23,main,1,tbsp,cornstarch,,1 tablespoon cornstarch (sauce),
+23,main,1,tbsp,oil_sesame,,1 tablespoon sesame oil,
+23,main,0.5,cup,sugar,,1/2 cup sugar,
+23,main,1.5,lb,chicken_thigh,,"1 1/2 pounds boneless, skinless chicken thighs",
+23,main,2,large,egg,,2 large eggs,egg wash counted in full
+23,main,1,tsp,salt,,1 teaspoon salt,
+23,main,0.25,tsp,black_pepper,,1/4 teaspoon black pepper,
+23,main,0.5,cup,cornstarch,,1/2 cup cornstarch (coating),coating counted in full
+23,main,0.5,cup,flour,,1/2 cup all-purpose flour,coating counted in full
+23,main,91.3,g,oil_vegetable,,"2 cups vegetable oil, for frying -- absorbed share","frying oil is poured off; absorbed oil taken as 10 % of the raw weight fried (chicken, egg, coating, seasoning = 913.5 g)"
+23,main,1,tbsp,oil_vegetable,,a fresh tablespoon of oil (from the directions),
+23,main,2,clove,garlic,,"2 cloves garlic, chopped",
+23,main,1,large,shallot,,"1 large shallot, chopped",
+23,excluded,,,,,"sliced scallions, sesame seeds (garnish)",no quantity given
+23,excluded,,,,,"cooked white rice, to serve",no quantity given
+24,main,1,lb,tomato_raw,,1 pound plum tomatoes (4 to 5),
+24,main,1,tbsp,oil_vegetable,,1 tablespoon vegetable oil,
+24,main,5,large,egg,,"5 large eggs, beaten",
+24,main,1,tsp,oil_sesame,,1 teaspoon toasted sesame oil,
+24,main,2,tsp,bouillon_chicken_dry,,2 teaspoons chicken bouillon powder,
+24,main,2,tsp,sugar,,2 teaspoons sugar,
+24,main,0.5,tsp,white_pepper,,1/2 teaspoon ground white pepper,
+24,main,0.25,tsp,salt,,1/4 teaspoon salt,
+24,main,1,medium,scallion,,"1 green onion, to garnish",
+24,optional,2,cup,rice_white_cooked,,"2 cups steamed jasmine rice, for serving, optional",
+25,main,6,each,shiitake_dried,,6 dried shiitake mushrooms,
+25,main,0.3333,cup,wood_ear_dried,,1/3 cup dried wood ear mushrooms,
+25,main,1.8,oz,bean_thread_dry,,1.8 ounces vermicelli bean thread noodles,
+25,main,120.2,g,water,,water taken up by the noodles while soaking,"51.0 g x (1523/454 - 1): USDA dry vs cooked rice noodles, used as the nearest pair"
+25,main,3,cup,napa_cabbage,,3 cups sliced napa cabbage,
+25,main,2,cup,snap_peas,,2 cups trimmed snow peas or sugar snap peas,
+25,main,1,cup,baby_corn,,1 cup canned or fresh baby corn,first-listed alternative
+25,main,4.3333,tbsp,oil_vegetable,,"4 tablespoons plus 1 teaspoon vegetable oil, divided",
+25,main,16,oz,tofu_firm,,"1 (16-ounce) package firm tofu, drained",
+25,main,1,medium,carrot,,"1 medium carrot, sliced thinly",
+25,main,2,tsp,garlic,,2 teaspoons minced garlic,
+25,main,0.25,tsp,salt,,1/4 teaspoon salt (stir-fry),
+25,main,0.25,cup,water,,1/4 cup mushroom soaking liquid,
+25,main,1.5,tbsp,oyster_sauce,,1 1/2 tablespoons oyster sauce,
+25,main,2,tsp,soy_sauce_low_sodium,,2 teaspoons reduced-sodium soy sauce,
+25,main,1,tsp,cornstarch,,1 teaspoon cornstarch,
+25,main,1,tsp,oil_sesame,,1 teaspoon sesame oil,
+25,main,0.5,tsp,white_pepper,,1/2 teaspoon white pepper,
+25,main,0.25,tsp,salt,,1/4 teaspoon salt (sauce),
+25,excluded,,,,,water for soaking the mushrooms and blanching the vegetables,cooking water that is drained off
+26,main,340,g,pork_tenderloin,,12 ounces (340 g) pork tenderloin,
+26,main,30,ml,cooking_wine,,2 tablespoons (30 ml) Shaoxing wine,marinade counted in full
+26,main,1,large,egg,,1 large egg,marinade counted in full
+26,main,1,large,egg_white,,plus 1 egg white,marinade counted in full
+26,main,0.25,tsp,baking_soda,,1/4 teaspoon baking soda,
+26,main,0.125,tsp,white_pepper,,1/8 teaspoon ground white pepper,
+26,main,1,tbsp,oil_peanut,,"1 tablespoon (15 ml) neutral oil, such as peanut, canola, or vegetable oil",first-listed alternative
+26,main,2,tsp,cornstarch,,2 teaspoons potato starch or cornstarch,
+26,main,0.5,tsp,salt_kosher_dc,,1/2 teaspoon Diamond Crystal kosher salt (marinade),
+26,main,120,g,cornstarch,,1/2 cup plus 2 tablespoons potato starch or cornstarch (120 g),coating counted in full
+26,main,0.25,tsp,baking_powder,,1/4 teaspoon baking powder,
+26,main,0.5,tsp,salt_kosher_dc,,1/2 teaspoon Diamond Crystal kosher salt (dredge),
+26,main,90.7,g,oil_peanut,,4 cups (960 ml) neutral oil -- absorbed share,"frying oil is poured off; absorbed oil taken as 10 % of the raw weight fried (pork, marinade, dredge 596.6 g + peppers and pineapple 310 g)"
+26,main,1,tbsp,oil_peanut,,reserving 1 tablespoon [of the frying oil] in the wok,
+26,main,170,g,pineapple,,170 g (6 ounces) pineapple,
+26,main,70,g,bell_pepper_green,,1/2 large green bell pepper (70 g),
+26,main,70,g,bell_pepper_red,,1/2 large red bell pepper (70 g),
+26,main,5,tbsp,ketchup,,5 tablespoons (75 ml) ketchup,
+26,main,2,tbsp,vinegar,,2 tablespoons (30 ml) distilled white vinegar,
+26,main,3,tbsp,water,,"3 tablespoons (45 ml) water, divided",
+26,main,27,g,sugar,,2 tablespoons plus 1 teaspoon (27 g) granulated sugar,
+26,main,0.25,tsp,salt_kosher_dc,,1/4 teaspoon Diamond Crystal kosher salt (sauce),
+26,main,0.5,tsp,cornstarch,,1/2 teaspoon cornstarch (slurry),
+26,excluded,,,,,3 tablespoons marinade (already counted in the marinade lines),not a separate ingredient
+26,excluded,,,,,"White rice, for serving (optional)",no quantity given
+27,main,1,tbsp,oil_vegetable,,1 tablespoon vegetable oil,
+27,main,1.5,lb,chicken_thigh,,"1 1/2 pounds skinless, boneless chicken thighs",
+27,main,0.5,cup,oil_sesame,,1/2 cup sesame oil,
+27,main,10,slice,ginger,,10 slices fresh ginger,
+27,main,2,clove,garlic,,"2 cloves garlic, sliced",
+27,main,0.5,cup,sake,,1/2 cup Chinese rice wine,
+27,main,0.3333,cup,soy_sauce,,1/3 cup soy sauce,
+27,main,0.25,cup,water,,1/4 cup water,
+27,main,3,tbsp,sugar,,3 tablespoons white sugar,
+27,main,0.5,cup,basil_fresh,,1/2 cup fresh Thai basil leaves,
+27,main,3,each,dried_chili,,3 dried whole red chilies,
+28,main,100,g,noodles_wheat_fresh,,"100 g fresh wheat noodles, or 80 g dried wheat noodles",first-listed alternative
+28,main,80,g,pork_ground,,80 g ground pork,
+28,main,1,tbsp,oil_vegetable,,1 tbsp neutral oil,
+28,main,1.5,tbsp,sweet_bean_sauce,,1 1/2 tbsp tianmianjiang / sweet bean sauce,
+28,main,1,tsp,soy_sauce,,1 tsp light soy sauce,
+28,optional,0.5,tsp,soy_sauce,,"1/2 tsp dark soy sauce, optional",
+28,optional,1,tsp,cooking_wine,,"1 tsp Shaoxing wine, optional",
+28,main,0.5,tsp,sugar,,1/2 tsp sugar,
+28,main,60,ml,water,,60 ml water,
+28,main,1,clove,garlic,,"1 clove garlic, minced",
+28,main,1,tsp,ginger,,"1 tsp fresh ginger, minced",
+28,main,2,medium,scallion,,2 scallions,
+28,main,0.5,small,cucumber,,"1/2 small cucumber, cut into thin matchsticks",
+28,excluded,,,,,"Optional: bean sprouts, radish matchsticks, blanched edamame",no quantity given
+28,excluded,,,,,water for boiling the noodles; extra 1-2 tbsp water if too dry,drained / only if needed
+29,main,90,g,rice_white_dry,,"90 g jasmine rice (+ 150 ml water, absorbed)",
+29,main,1,tsp,oil_vegetable,,1 tsp neutral oil,
+29,main,2,slice,ginger,,2 thin slices ginger,
+29,main,1,link,chinese_sausage,,1 Chinese sausage (lap cheong),
+29,main,2,each,shiitake_dried,,"2 dried shiitake mushrooms, soaked",first-listed alternative
+29,main,1,baby,bok_choy,,1 baby bok choy or a small handful gai lan,first-listed alternative
+29,main,1,medium,scallion,,"1 scallion, sliced",
+29,optional,1,large,egg,,Optional: 1 egg,
+29,main,1,tbsp,soy_sauce,,1 tbsp light soy sauce,
+29,main,1,tsp,soy_sauce,,1 tsp dark soy sauce,
+29,main,1,tsp,oyster_sauce,,1 tsp oyster sauce,
+29,main,0.5,tsp,sugar,,1/2 tsp sugar,
+29,main,1,tbsp,water,,1 tbsp water (sauce),
+29,main,0.5,tsp,oil_sesame,,1/2 tsp sesame oil,
+29,excluded,,,,,water for blanching the greens,cooking water that is drained off
+30,main,100,g,chicken_breast,,100 g skinless chicken breast,
+30,optional,1,tsp,cooking_wine,,"1 tsp Shaoxing wine, optional",
+30,main,1,tsp,soy_sauce,,1 tsp light soy sauce (marinade),
+30,main,0.5,tsp,cornstarch,,1/2 tsp cornstarch (marinade),
+30,main,1,tsp,water,,1 tsp water (marinade),
+30,main,1,cup_florets,broccoli,,1 cup broccoli florets,
+30,main,1,cup,bok_choy,,"1 cup bok choy, chopped",
+30,main,0.5,cup,mushroom,,"1/2 cup mushrooms, sliced",
+30,main,0.5,medium,bell_pepper_red,,"1/2 red bell pepper, sliced",
+30,main,0.3333,cup_sliced,carrot,,"1/3 cup carrot, thinly sliced",
+30,main,0.5,cup,snap_peas,,1/2 cup snap peas or green beans,first-listed alternative
+30,main,2,clove,garlic,,"2 cloves garlic, minced",
+30,main,1,tsp,ginger,,"1 tsp fresh ginger, minced",
+30,main,1,medium,scallion,,1 scallion,
+30,main,1,tbsp,soy_sauce,,"1 tbsp light soy sauce, low-sodium if possible",
+30,main,1,tsp,vinegar,,1 tsp rice vinegar,
+30,optional,1,tsp,oyster_sauce,,"1 tsp oyster sauce, optional",
+30,optional,0.5,tsp,oil_sesame,,"1/2 tsp sesame oil, optional",
+30,optional,0.375,tsp,sriracha,,"1/4-1/2 tsp chili garlic sauce or sambal, optional",midpoint; sriracha values
+30,main,0.5,tsp,cornstarch,,1/2 tsp cornstarch (slurry),
+30,main,2,tbsp,water,,+ 2 tbsp water (slurry),
+30,main,1,tsp,oil_vegetable,,Add 1 tsp neutral oil (from the instructions),
+30,side,0.3333,cup,rice_brown_cooked,,To serve - choose one: 1/3 cup cooked brown rice,first-listed serving option
+30,excluded,,,,,pinch of white pepper,"to taste / pinch, no quantity"
+30,excluded,,,,,blanching water; 1-2 tbsp water splashed in to steam,drained / evaporates
+31,main,150,g,chicken_thigh,,150 g boneless skinless chicken thigh,
+31,main,1,tsp,soy_sauce,,1 tsp soy sauce (marinade),
+31,optional,1,tsp,cooking_wine,,"1 tsp Shaoxing wine, optional",
+31,main,0.5,tsp,cornstarch,,1/2 tsp cornstarch (marinade),
+31,main,3,tbsp,cornstarch,,"3 tbsp cornstarch, for coating",coating counted in full
+31,main,1,tbsp,oil_vegetable,,1 tbsp neutral oil,
+31,main,1,cup_florets,broccoli,,1 cup small broccoli florets,
+31,main,2,each,dried_chili,,2 dried red chilies,
+31,main,1,medium,scallion,,1 scallion,
+31,main,1,clove,garlic,,"1 clove garlic, minced",
+31,main,1,tsp,ginger,,"1 tsp fresh ginger, minced",
+31,main,1,tbsp,soy_sauce,,1 tbsp soy sauce (sauce),
+31,main,1,tbsp,ketchup,,1 tbsp ketchup,
+31,main,2,tsp,vinegar,,2 tsp rice vinegar,
+31,main,2,tsp,sugar,,2 tsp sugar or honey,first-listed alternative
+31,main,1,tsp,hoisin,,1 tsp hoisin sauce,
+31,main,1,tsp,sriracha,,1 tsp sriracha or chili garlic sauce,
+31,main,0.25,cup,water,,1/4 cup water,
+31,main,1,tsp,cornstarch,,1 tsp cornstarch (sauce),
+31,side,0.5,cup,rice_white_cooked,,To serve: 1/2 cup cooked jasmine rice,
+31,excluded,,,,,"Sesame seeds, optional",no quantity given
+31,excluded,,,,,2 tbsp water to steam the broccoli; splash of water,evaporates / only if needed
+32,main,100,g,pork_belly,,100 g pork belly or ground pork,first-listed alternative
+32,main,1,tsp,oil_vegetable,,1 tsp neutral oil,
+32,main,1,small,shallot,,"1 small shallot, minced",
+32,main,1,clove,garlic,,"1 garlic clove, minced",
+32,main,1,tsp,ginger,,"1 tsp fresh ginger, minced",
+32,optional,1,each,shiitake_dried,,"1 dried shiitake mushroom, soaked and diced, optional",
+32,main,1,tsp,cooking_wine,,1 tsp Shaoxing wine or rice wine,
+32,main,1,tbsp,soy_sauce,,1 tbsp light soy sauce,
+32,main,0.5,tsp,soy_sauce,,1/2 tsp dark soy sauce,
+32,main,0.5,tsp,sugar,,1/2 tsp sugar (braise),
+32,main,0.125,tsp,cinnamon,,1/8 tsp five-spice powder,cinnamon values as a stand-in
+32,main,150,ml,water,,150 ml water,
+32,side,1,cup,rice_short_cooked,,To serve: 1 cup cooked short-grain rice,
+32,side,1,large,egg_boiled,,To serve: 1 soft-boiled egg,
+32,side,0.3333,each,cucumber,,Quick pickled cucumber: 1/3 cucumber,
+32,side,1,tbsp,vinegar,,Quick pickled cucumber: 1 tbsp rice vinegar,
+32,side,1,tsp,sugar,,Quick pickled cucumber: 1 tsp sugar,
+32,excluded,,,,,pinch of white pepper; pinch of salt,"to taste / pinch, no quantity"
+33,main,0.5,bunch,cilantro,,1/2 bunch cilantro,
+33,main,2,each,avocado,,2 avocados,
+33,main,1,pint_cherry,tomato_raw,,1 pint cherry tomatoes,
+33,main,1,lb,chicken_breast,,"1 # boneless, skinless chicken breast",
+33,main,1,cup,rice_white_dry,,"1 cup rice (+ 2 cups water, absorbed)",white long-grain assumed
+33,main,8,oz,olives,,8 oz sliced black olives,
+33,main,1,jar,salsa,,1 jar salsa,a 16-oz jar
+33,main,0.25,tsp,cumin,,1/4 tsp cumin,
+33,main,0.375,tsp,garlic_powder,,3/8 tsp garlic powder (separated),
+33,main,0.25,tsp,salt,,"Add 1/4 tsp salt (to the rice, from the instructions)",
+33,optional,4,oz,cheddar,,4 oz shredded cheddar cheese (optional),
+33,excluded,,,,,S&P to taste,"to taste / pinch, no quantity"
+34,main,2,tbsp,sriracha,,2 TBSP sriracha,
+34,main,0.25,cup,soy_sauce,,1/4 cup soy sauce,
+34,main,2,tbsp,agave,,2 TBSP agave,
+34,main,1,tsp,lime_juice,,1 tsp lime juice,
+34,main,1,tsp,hoisin,,1 tsp hoisin sauce,
+34,main,14,oz,tofu_firm,,14 oz package of firm tofu,
+34,main,1,tbsp,oil_olive,,1 TBSP olive oil (tofu),
+34,main,0.75,cup,rice_white_dry,,"3/4 cup rice (+ 1.5 cup water, absorbed)",
+34,main,0.25,tsp,salt,,1/4 tsp salt,
+34,main,2,medium,carrot,,2 carrot chopped into matchsticks,
+34,main,1,each,cucumber,,1 cucumber sliced,
+34,main,1,tbsp,vinegar,,1 TBSP rice vinegar,
+34,main,2,tsp,sugar,,2 tsp granulated sugar,
+34,main,0.25,tsp,red_pepper_flakes,,1/4 tsp crushed red pepper,
+34,main,1,tbsp,oil_olive,,1 TBSP olive oil (spinach),
+34,main,6,cup,spinach,,6 cup spinach,
+34,main,0.5,tsp,oil_sesame,,1/2 tsp sesame oil,
+34,optional,2,tsp,sesame_seeds,,2 tsp sesame seeds optional for garnish,
+34,optional,3,large,egg,,3 eggs optional,
+34,optional,1,cup,kimchi,,1 cup kimchi optional,
+34,excluded,,,,,"pinches of salt (rice, cucumber, spinach)","to taste / pinch, no quantity"
+35,main,14,oz,tofu_extra_firm,,"1 14-ounce block extra-firm tofu, drained and pressed",
+35,main,0.5,cup,soy_sauce_low_sodium,,1/2 cup low-sodium soy sauce,
+35,main,0.5,cup,water,,1/2 cup water,
+35,main,0.25,cup,brown_sugar,,1/4 cup brown sugar,
+35,main,2,tbsp,vinegar,,2 tablespoons rice vinegar,
+35,main,1,tbsp,oil_sesame,,1 tablespoon sesame oil,
+35,main,3,clove,garlic,,"3 cloves garlic, minced",
+35,main,0.5,tsp,ginger_ground,,1/2 teaspoon ground ginger,
+35,main,2,tbsp,cornstarch,,2 tablespoons cornstarch,
+35,main,0.25,cup,water,,1/4 cup cold water,
+35,excluded,,,,,"For serving: brown rice, steamed broccoli, sesame seeds, green onions",no quantity given
+36,main,3,tbsp,soy_sauce_low_sodium,,3 Tbsp. lower-sodium soy sauce or tamari,
+36,main,3,clove,garlic,,"3 garlic cloves, minced",
+36,main,0.5,tsp,sugar,,1/2 tsp. granulated sugar,
+36,main,2.5,tbsp,oil_vegetable,,"2 to 3 Tbsp. neutral oil, divided",midpoint of the range
+36,main,5,cup_florets,broccoli,,"1 crown of broccoli, chopped into florets (about 5 cups)",
+36,main,1,bunch,scallion,,1 bunch scallions,
+36,main,3,large,egg,,3 large eggs whisked,
+36,main,0.5,cup,edamame,,1/2 cup frozen/thawed shelled edamame,
+36,main,3,cup,rice_white_cooked,,3 cups cooked long-grain white or brown rice,first-listed alternative
+36,main,2,tbsp,tahini,,2 Tbsp. tahini,
+36,main,1,tbsp,vinegar,,1 Tbsp. rice vinegar,
+36,main,1,tsp,sugar,,1 tsp. granulated sugar,
+36,main,0.75,tsp,turmeric,,3/4 tsp. ground turmeric,
+36,main,0.5,tsp,oil_sesame,,1/2 tsp. toasted sesame oil,
+36,main,1,tsp,ginger,,1 tsp. grated or minced fresh ginger,
+36,main,0.25,tsp,salt_kosher,,1/4 tsp. kosher salt,
+36,excluded,,,,,"Optional garnish: toasted sesame seeds, chili oil or chili crisp",no quantity given
+36,excluded,,,,,up to 2 1/2 Tbsp. warm water to thin the sauce,"'up to', no fixed quantity"
+36,excluded,,,,,pinches of salt; light drizzle of oil,"to taste / pinch, no quantity"
+37,main,1,tbsp,oil_olive,,1 tablespoon olive oil,
+37,main,1,tbsp,butter,,1 tablespoon butter,
+37,main,3,clove,garlic,,3 cloves garlic minced,
+37,main,14,oz,tomatoes_diced_canned,,1 (14 ounce) can diced tomatoes with juices,
+37,main,2,tbsp,tomato_paste,,2 tablespoons tomato paste,
+37,main,0.25,cup,broth_chicken,,1/4 cup chicken broth or white wine,first-listed alternative
+37,main,0.25,tsp,oregano_dried,,1/4 teaspoon Italian seasoning,oregano values as a stand-in
+37,main,1,lb,gnocchi,,1 pound uncooked potato gnocchi,
+37,main,0.5,cup,mozzarella_part_skim,,1/2 cup shredded mozzarella,
+37,main,0.5,cup,parmesan_grated,,1/2 cup freshly grated parmesan cheese,
+37,excluded,,,,,small handful fresh basil,no quantity given
+37,excluded,,,,,salt & pepper to taste,"to taste / pinch, no quantity"
+38,main,2,cup,tvp,,2 cups dry TVP,
+38,main,2,cup,broth_vegetable,,2 cups vegetable broth or water + bouillon,first-listed alternative
+38,main,1,can15,black_beans_drained,,"1 can (15 oz) black beans, drained and rinsed",
+38,optional,1,can15,pinto_beans_drained,,"1 can (15 oz) pinto beans, drained and rinsed (optional)",
+38,main,1,cup,yogurt_greek_nonfat,,1 cup plain Greek yogurt or cottage cheese,first-listed; fat level not stated: nonfat assumed
+38,main,3,cup,rice_white_dry,,3 cups dry rice (or 5 cups cooked) - white or brown,"first-listed alternative, as written (3 cups dry is about 9 cups cooked, not 5)"
+38,main,12,oz,cabbage,,1 bag (12 oz) coleslaw mix or shredded cabbage,
+38,main,1.5,medium,bell_pepper_green,,"1-2 bell peppers, diced",midpoint of the range
+38,main,1,medium,onion,,"1 red onion, diced",
+38,main,15,oz,tomatoes_green_chilies_canned,,1 can (15 oz) diced tomatoes with green chiles,
+38,main,1,can15,corn_canned_drained,,"1 can (15 oz) corn, drained",
+38,excluded,,,,,"Fresh cilantro, lime",no quantity given
+38,excluded,,,,,"Taco seasoning: chili powder, cumin, garlic powder, onion powder, paprika, oregano, salt, pepper",no quantity given
+38,excluded,,,,,'a little oil' for the vegetables,no quantity given
+38,excluded,,,,,"Optional extras: shredded cheese, salsa, hot sauce, avocado",no quantity given
+39,main,2.5,cup,rice_short_dry,,Short-grain rice (2.5 cups dry),
+39,main,1.5,cup,tvp,,TVP (1.5 cups dry),
+39,main,1.5,cup,broth_vegetable,,1.5 cups hot vegetable broth,
+39,main,2,tbsp,soy_sauce,,+ 2 tbsp soy sauce (TVP soak),
+39,main,3,tbsp,soy_sauce,,Sauce: 3 tbsp soy sauce,
+39,main,1,tbsp,sugar,,1 tbsp sugar,
+39,main,1,tbsp,oil_sesame,,1 tbsp sesame oil,
+39,main,1,tsp,red_pepper_flakes,,1 tsp gochugaru,red-pepper values as a stand-in
+39,main,1,lb,spinach,,Spinach (1 lb),
+39,main,3.5,medium,carrot,,Carrots (3-4),midpoint of the range
+39,main,1,bag,bean_sprouts,,Bean sprouts (1 bag),a 12-oz bag
+39,main,1,block,tofu_firm,,Firm tofu (1 block),a 14-oz block
+39,optional,5,large,egg,,"Eggs (optional, 5)",
+39,optional,2,medium,zucchini,,Zucchini (2) -- optional step,
+39,excluded,,,,,Napa cabbage kimchi,no quantity given
+39,excluded,,,,,"Onion, garlic, ginger, scallions",no quantity given
+39,excluded,,,,,"sesame oil, salt, garlic, sesame seeds for the banchan; gochujang, rice vinegar",no quantity given
+39,excluded,,,,,Cucumber (optional),no quantity given
+40,main,30,oz,tofu_extra_firm,,2 blocks (14-16 oz each) extra-firm tofu,midpoint: 15 oz each
+40,main,1,head,broccoli,,"1 head broccoli, cut into florets",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,2,medium,bell_pepper_green,,"2 bell peppers, sliced",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,1,lb,carrot,,"1 lb carrots, cut into sticks",'Vegetables (pick 2-3)': the first three listed are taken
+40,main,4,clove,garlic,,"4 cloves garlic, minced",
+40,main,1,tbsp,ginger,,"1 tbsp fresh ginger, grated",
+40,main,0.5,cup,soy_sauce,,1/2 cup soy sauce (or tamari),
+40,main,3,tbsp,vinegar,,3 tbsp rice vinegar,
+40,main,2,tbsp,oil_sesame,,2 tbsp sesame oil,
+40,main,2,tbsp,honey,,2 tbsp honey or maple syrup,first-listed alternative
+40,main,1,tbsp,cornstarch,,1 tbsp cornstarch (slurry),
+40,main,2,tbsp,water,,+ 2 tbsp water (slurry),
+40,main,3,cup,rice_white_dry,,3 cups dry jasmine or brown rice (or 5 cups cooked),"first-listed alternative, as written (3 cups dry is about 9 cups cooked, not 5)"
+40,main,2,tbsp,soy_sauce,,Toss [tofu] with 2 tbsp soy sauce (from the method),
+40,main,1,tbsp,cornstarch,,+ 1 tbsp cornstarch (from the method),
+40,excluded,,,,,1 bunch bok choy or snap peas,fourth option of 'pick 2-3'
+40,excluded,,,,,Sesame seeds + green onions for topping,no quantity given
+40,excluded,,,,,"'a little oil, salt' for the vegetables",no quantity given
+41,main,2,cup,rice_brown_raw,,2 cups dry brown rice,
+41,main,734.2,g,broth_vegetable,,+ vegetable broth to cook it,"no quantity given: liquid absorbed by 370 g brown rice = 370 x (1534/514 - 1), USDA raw vs cooked"
+41,main,3.5,head,broccoli,,"3-4 heads broccoli, cut into small florets",midpoint of the range
+41,main,1.5,cup,tvp,,1.5 cups dry TVP,
+41,main,1,large,onion,,"1 large onion, diced",
+41,main,4.5,clove,garlic,,"4-5 cloves garlic, minced",midpoint of the range
+41,main,1,tbsp,ginger,,"1 tbsp fresh ginger, minced",
+41,main,3.5,tbsp,soy_sauce,,3-4 tbsp soy sauce (plus more to taste),midpoint of the range
+41,main,1,tbsp,soy_sauce,,+ 1 tbsp soy sauce over the TVP (from the method),
+41,main,1.5,cup,broth_vegetable,,1.5 cups hot vegetable broth over the TVP (from the method),
+41,main,1,tbsp,vinegar,,1 tbsp rice vinegar,
+41,main,1,tbsp,oil_sesame,,1 tbsp sesame oil (or olive oil),
+41,main,2,tbsp,oil_vegetable,,2 tbsp neutral oil for cooking,
+41,main,1,tsp,paprika,,1 tsp smoked paprika,
+41,main,1,tsp,cumin,,1 tsp cumin,
+41,optional,1,tsp,red_pepper_flakes,,1 tsp chili flakes (optional),
+41,optional,3,large,egg,,3 eggs (optional but recommended),
+41,main,3.5,medium,scallion,,"3-4 green onions, sliced",midpoint of the range
+41,excluded,,,,,Salt and pepper; splash of water,"to taste / pinch, no quantity"
+42,main,1000,g,gnocchi,,1 kg (2.2 lb) shelf-stable potato gnocchi,
+42,main,1,cup,tvp,,1 cup dry TVP,
+42,main,24,oz,passata,,1 jar (700 ml / 24 oz) plain tomato passata or crushed tomatoes,first-listed alternative
+42,main,1,medium,onion,,"1 onion, diced",
+42,main,3.5,clove,garlic,,"3-4 garlic cloves, minced",midpoint of the range
+42,main,2,tbsp,oil_olive,,2 tbsp olive oil,
+42,main,3,tsp,oregano_dried,,1 tbsp dried oregano,
+42,main,3,tsp,basil_dried,,+ 1 tbsp dried basil,
+42,optional,1,tsp,paprika,,1 tsp smoked paprika (optional),
+42,main,1,cup,broth_vegetable,,1 cup vegetable broth or water (for rehydrating TVP),first-listed alternative
+42,excluded,,,,,"Salt, pepper, chili flakes to taste","to taste / pinch, no quantity"
+42,excluded,,,,,"Optional add-ins: handful of spinach, diced zucchini, or roasted red peppers",no quantity given
+42,excluded,,,,,salted water for boiling the gnocchi; splash of water,cooking water that is drained off

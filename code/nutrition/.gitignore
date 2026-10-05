@@ -1,0 +1,4 @@
+# USDA downloads (re-created by build_usda_table.py)
+data/*.zip
+__pycache__/
+.pytest_cache/

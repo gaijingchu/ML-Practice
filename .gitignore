@@ -1,0 +1,18 @@
+# This folder also holds course readings and drafts. Only the project files below are tracked.
+/*
+!/.gitignore
+!/README.md
+!/Baselines.xlsx
+!/code/
+!/report/
+
+.DS_Store
+__pycache__/
+.pytest_cache/
+~$*
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz

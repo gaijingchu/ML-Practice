@@ -1,0 +1,174 @@
+key,fdc_id,dry_fdc_id,fvn,units,fill,energy_kj,sat_fat_g,sugars_g,sodium_mg,fibre_g,protein_g,note
+beef_flank,169433,,0,,,,,,,,,
+beef_ground_93,173110,,0,,,,,,,,,
+beef_tenderloin,171812,,0,,,,,,,,,UK 'fillet steak' = tenderloin
+chicken_breast,171077,,0,,,,,,,,,
+chicken_thigh,173627,,0,,,,,,,,,
+chicken_cooked,171477,,0,cup=140,,,,,,,,USDA: 1 cup chopped or diced = 140 g
+chicken_rotisserie,171518,,0,,,,,,,,,
+chicken_meat_skin,171447,,0,,,,,,,,,edible part of bone-in cut-up chicken
+turkey_ground_93,172850,,0,,,,,,,,,
+turkey_bacon,174592,,0,strip=16,sugars_g=2.6;fibre_g=0,,,,,,,"USDA: 1 slice (12 oz pkg) = 16 g. Sugars not reported for the raw product: taken from 'Bacon, turkey, microwaved' (FDC 171639, 4.24 g) scaled by the energy ratio 944/1539; fibre 0 (meat)"
+pork_tenderloin,168249,,0,,,,,,,,,
+pork_ground,167902,,0,,sugars_g=0,,,,,,,sugars not reported; fresh meat contains none
+pork_belly,167812,,0,,,,,,,,,
+salmon,175167,,0,,,,,,,,,
+snapper,173698,,0,,,,,,,,,
+shrimp,174210,,0,,,,,,,,,"the raw-shrimp entry USDA itself uses as the ingredient for shrimp dishes in FNDDS (retail shrimp, may contain added sodium)"
+egg,171287,,0,large=50,,,,,,,,
+egg_white,172183,,0,large=33,,,,,,,,
+egg_boiled,173424,,0,large=50,,,,,,,,
+mozzarella_part_skim,171244,,0,cup=113,,,,,,,,USDA: 1 cup shredded = 113 g
+parmesan_grated,171247,,0,cup=100;tbsp=5,,,,,,,,
+cheddar,2705709,,0,cup=113,,,,,,,,"FNDDS 'Cheese, Cheddar'; 1 cup shredded = 113 g"
+feta,173420,,0,cup=150,,,,,,,,USDA: 1 cup crumbled = 150 g. Also used where a recipe asks for reduced-fat feta (no USDA entry)
+yogurt_greek_whole,171304,,0,cup=245,,,,,,,,1 cup (8 fl oz) yogurt = 245 g (USDA yogurt portion)
+yogurt_greek_nonfat,170894,,0,cup=245,,,,,,,,used when the recipe says only 'plain Greek yogurt'
+butter,173410,,0,tbsp=14.2,,,,,,,,
+mayonnaise,171009,,0,cup=220;tbsp=13.8,,,,,,,,
+tofu_firm,173788,,0,block=397,,,,,,,,HOUSE FOODS Premium Firm Tofu; a 14-oz block = 397 g
+tofu_extra_firm,174290,,0,,,,,,,,,
+creme_fraiche,,,0,,,1556,27.1,2.1,22,0.0,2.2,"UK CoFID 2021, food code 12-335 'Creme fraiche, full fat' (not in USDA SR Legacy / FNDDS)"
+paneer,,,0,,,1363,15.43,0.9,19,0.0,26.0,"UK CoFID 2021, food code 12-495 'Cheese, Paneer' (the FNDDS paneer entry lists an implausible 23 g sugars)"
+chinese_sausage,,,0,link=38,,2038,23.7,5.26,1320,0.7,18.4,"USDA Branded Foods, FDC 2066352 (Wei-Chuan Chinese Style Sausage, 487 kcal); 1 link = 38 g"
+rice_white_cooked,169757,,0,cup=158,,,,,,,,also used for jasmine rice
+rice_white_dry,169757,169756,0,cup=185,,,,,,,,dry rice entered at its cooked weight: grams x kJ(raw)/kJ(cooked) = x 2.81; 1 cup dry = 185 g
+rice_short_cooked,169757,,0,cup=186,,,,,,,,"USDA's short-grain entries lack sugars and fibre, so long-grain values are used; 1 cup cooked short-grain = 186 g (FDC 168882)"
+rice_short_dry,169757,168931,0,cup=200,,,,,,,,1 cup dry short-grain = 200 g (FDC 168931); cooked weight via energy ratio
+rice_brown_cooked,169704,,0,cup=202,,,,,,,,
+rice_brown_raw,169703,,0,cup=185,,,,,,,,used with an explicit cooking-liquid line (rice cooked in broth)
+quinoa_dry,168917,168874,0,cup=170,,,,,,,,"dry quinoa cooked by absorption, entered at its cooked weight (x 3.06)"
+quinoa_raw,168874,,0,cup=170,sugars_g=2.66,,,,,,,used with an explicit water line (porridge). Sugars not reported for uncooked quinoa: cooked value 0.87 g (FDC 168917) x energy ratio 1539/503
+soba_dry,168907,168906,0,,sugars_g=0.54;fibre_g=1.06,,,,,,,"dry soba entered at its boiled, drained weight (x 3.40). USDA soba lacks sugars and fibre: label values of a dry soba (USDA Branded FDC 2602564: 1.82 g sugars, 3.6 g fibre) divided by the same factor"
+spaghetti_ww_dry,168910,169738,0,,,,,,,,,"dry whole-wheat pasta entered at its boiled, drained weight (x 2.35)"
+noodles_wheat_fresh,169737,169727,0,,,,,,,,,fresh wheat noodles entered as cooked pasta: grams x kJ(fresh pasta as purchased)/kJ(cooked pasta) = x 1.83
+bean_thread_dry,174258,,0,,,,,,,,,dry weight; soaking water is a separate line
+farro_cooked,169746,,0,cup=194,sat_fat_g=0.152;sugars_g=2.56,,,,,,,"'Spelt, cooked' as the USDA stand-in for farro. Saturated fat and sugars not reported for cooked spelt: uncooked values (FDC 169745: 0.406 g, 6.82 g) x energy ratio 530/1414"
+bread_crumbs,174928,,0,cup=108,,,,,,,,
+flour,168894,,0,cup=125,,,,,,,,
+cornstarch,169698,,0,cup=128,,,,,,,,also used for 'potato starch or cornstarch'
+semolina,169715,,0,cup=167,sugars_g=0.27,,,,,,,sugars not reported; value of all-purpose wheat flour (FDC 168894)
+tortilla_ww,174081,,0,each=56,,,,,,,,"9-inch whole-wheat tortilla taken as 56 g (FNDDS default portion for 'Tortilla, whole wheat')"
+potato,170026,,0,medium=213,,,,,,,,
+tvp,2707451,,0,cup=96,,,,,,,,"FNDDS 'Textured vegetable protein, dry'. 1 cup = 96 g (Bob's Red Mill label: 1/4 cup = 24 g; FNDDS lists 68 g coarse / 120 g fine)"
+gnocchi,,,0,,,686,0.0,0.61,448,1.2,4.24,"shelf-stable potato gnocchi as purchased: USDA Branded Foods FDC 2677249 (164 kcal; six brands range 156-167 kcal, 250-661 mg sodium)"
+black_beans_drained,175237,,1,can15=254,,,,,,,,"canned beans, drained and rinsed: 'Beans, black, cooked, boiled, with salt' (no drained-canned entry for black beans); a 15-oz can drains to 254 g (USDA figure for canned chickpeas)"
+pinto_beans_drained,173796,,1,can15=254,,,,,,,,
+chickpeas_nosalt_drained,173757,,1,cup=152,,,,,,,,"no-salt-added canned chickpeas, rinsed: 'cooked, boiled, without salt'; 1 cup drained = 152 g (FDC 173801)"
+mung_dal,174256,,1,cup=207,,,,,,,,
+chana_dal,173756,,1,cup=200,,,,,,,,
+edamame,168411,,1,cup=155,,,,,,,,
+tasty_bite_lentils,,,0.5,pouch=285,,447.7,2.14,2.14,364,3.6,4.29,"USDA Branded Foods FDC 2666918 (Tasty Bite Madras Lentils, 107 kcal); 10-oz pouch = 285 g. FVN share set to 50 %: label lists water, tomatoes, lentils, onions, red kidney beans first"
+broccoli,170379,,1,cup=91;cup_florets=71;head=355,,,,,,,,1 cup florets = 71 g (FDC 169330); 1 head/crown = 5 cups florets = 355 g (equivalence stated in the row-36 recipe)
+garlic,169230,,1,clove=3;tsp=2.8;paste_tbsp=15,,,,,,,,paste taken as 15 g per tbsp
+ginger,169231,,1,tsp=2;slice=2.2;inch=6;paste_tbsp=15,,,,,,,,"USDA: 1 tsp = 2 g, 5 slices = 11 g; a 1-inch piece taken as 1 tbsp (6 g); paste 15 g per tbsp"
+onion,170000,,1,small=70;medium=110;large=150;cup=160,,,,,,,,also red onion
+shallot,170499,,1,tbsp=10;small=25;large=50,,,,,,,,USDA: 1 tbsp chopped = 10 g; whole shallots taken as 25 g (small) / 50 g (large)
+scallion,170005,,1,medium=15;cup=100;bunch=100,,,,,,,,a bunch taken as 100 g (1 cup chopped)
+bell_pepper_red,170108,,1,cup=149;cup_sliced=92;medium=119;large=164,,,,,,,,
+bell_pepper_green,170427,,1,cup=149;cup_sliced=92;medium=119;large=164,,,,,,,,also used when the colour is not specified
+spinach,168462,,1,cup=30,,,,,,,,
+basil_fresh,172232,,1,tbsp=2.65;cup=24,,,,,,,,USDA: 2 tbsp chopped = 5.3 g; 1/4 cup whole leaves = 6 g. Also Thai basil
+carrot,170393,,1,medium=61;cup=128;cup_grated=110;cup_sliced=122,,,,,,,,
+cucumber,168409,,1,each=201;small=158;cup=120,,,,,,,,"USDA: medium 201 g, small 158 g (FDC 169225); 1 cup = 120 g (FNDDS)"
+mushroom,169251,,1,cup=70,,,,,,,,
+parsley,170416,,1,cup=60;tbsp=3.8,,,,,,,,
+celery,169988,,1,stalk=40,,,,,,,,
+zucchini,169291,,1,medium=196,,,,,,,,
+tomato_raw,170457,,1,cup_cherry=149;pint_cherry=298;medium=123;plum=62,,,,,,,,1 pint cherry tomatoes = 2 cups = 298 g
+tomatoes_crushed_canned,170501,,1,cup=242,,,,,,,,
+tomatoes_diced_canned,170051,,1,cup=240,,,,,,,,
+tomatoes_green_chilies_canned,170053,,1,cup=241,sugars_g=2.55;fibre_g=1.9,,,,,,,sugars and fibre not reported; values of plain canned tomatoes (FDC 170051)
+passata,170460,,1,cup=250,,,,,,,,"'Tomato products, canned, puree, without salt added'"
+tomato_paste,170459,,dried,tbsp=16,,,,,,,,"concentrated tomato puree counts double (guidance, section 2)"
+marinara,171192,,0.9,cup=264,,,,,,,,"jarred tomato sauce; FVN share set to 90 % (USDA composition: about 1.5 % fat and 1 % salt, remainder tomato and vegetables)"
+salsa,174524,,0.9,jar=454,,,,,,,,a jar taken as 16 oz; FVN share set to 90 %
+bok_choy,170390,,1,cup=70;baby=85,,,,,,,,one baby bok choy taken as 85 g
+napa_cabbage,169979,,1,cup=76,,,,,,,,
+cabbage,169975,,1,cup=70,,,,,,,,also coleslaw mix
+lettuce_leaf,169249,,1,cup=36,,,,,,,,also spring mix
+lettuce_iceberg,169248,,1,cup=72,,,,,,,,
+asparagus,168389,,1,cup=134,,,,,,,,
+snap_peas,170010,,1,cup=63,,,,,,,,"'Peas, edible-podded, raw', 1 cup whole = 63 g; also snow peas"
+peas_frozen,170016,,1,cup=134,,,,,,,,
+corn_frozen,168398,,1,cup=136,,,,,,,,
+corn_canned_drained,169214,,1,cup=164;can15=264,,,,,,,,"USDA: a 12-oz can yields 211 g drained, scaled to 15 oz"
+baby_corn,,,1,cup=150,,108.8,0.0,3.04,226,1.7,1.3,"USDA Branded Foods FDC 2597854 (canned whole baby corn, drained, 26 kcal); 1 cup taken as 150 g"
+avocado,171705,,1,each=150;large=201,,,,,,,,"1 fruit = 150 g (FNDDS); large = 201 g (USDA 'avocado, NS as to variety')"
+lemon_juice,167747,,1,cup=244;lemon=48,,,,,,,,USDA: 1 lemon yields 48 g juice
+lime_juice,168156,,1,cup=242,,,,,,,,
+orange_juice,169098,,1,cup=248,,,,,,,,
+lemon_peel,167749,,1,tbsp=6,,,,,,,,zest of one lemon taken as 1 tbsp
+orange_peel,169103,,1,tbsp=6,sugars_g=4.17,,,,,,,"zest of one orange taken as 2 tbsp; sugars not reported, lemon-peel value used"
+pineapple,169124,,1,,,,,,,,,
+raisins,168165,,dried,cup=145,,,,,,,,
+cilantro,169997,,1,cup=16;tbsp=1;bunch=80,,,,,,,,USDA: 1/4 cup = 4 g; a bunch taken as 80 g
+mint,173475,,1,tbsp=5.7,sugars_g=0.87,,,,,,,"USDA: 2 tbsp = 11.4 g; sugars not reported, cilantro value used"
+taro_leaves,168487,,1,bunch=250,,,,,,,,a bunch taken as 250 g
+coconut_fresh,170169,,1,cup=80,,,,,,,,"fresh coconut flesh scores as fruit (guidance, section 2); 1 cup shredded = 80 g"
+green_chili,2709798,,1,each=15,,,,,,,,"FNDDS 'Peppers, hot, raw': 1 whole = 15 g"
+cauliflower_frozen,170398,,1,package12oz=340,,,,,,,,
+bean_sprouts,169957,,1,bag=340,,,,,,,,USDA: 1 package (12 oz) = 340 g
+shiitake_dried,168436,,dried,each=3.6,,,,,,,,
+wood_ear_dried,168581,,dried,cup=28,sat_fat_g=0.1;sugars_g=2.21,,,,,,,saturated fat and sugars not reported: total fat is 0.73 g; sugars from dried shiitake
+olives,169094,,1,,,,,,,,,
+kimchi,170392,,1,cup=150,,,,,,,,
+walnuts,170187,,1,cup=117,,,,,,,,
+cashews,170162,,1,tbsp=8.6,,,,,,,,1 cup = 137 g (FDC 169421)
+peanuts,172430,,1,cup=146,,,,,,,,
+dried_chili,168570,,dried,each=0.5,,,,,,,,
+oil_vegetable,171411,,0,tbsp=13.6;tsp=4.5;cup=218,,,,,,,,"soybean oil; used for 'vegetable', 'cooking' and unspecified 'neutral' oil"
+oil_olive,171413,,0,tbsp=13.5;tsp=4.5;cup=216,,,,,,,,
+oil_sesame,171016,,0,tbsp=13.6;tsp=4.5;cup=218,,,,,,,,
+oil_avocado,173573,,0,tbsp=14;tsp=4.5,sugars_g=0,,,,,,,sugars not reported; pure fat
+oil_peanut,171410,,0,tbsp=13.5;tsp=4.5;cup=216,,,,,,,,
+oil_mustard,172337,,0,tbsp=14;tsp=4.5;cup=218,sugars_g=0,,,,,,,sugars not reported; pure fat
+oil_coconut,2710182,,0,tbsp=14,,,,,,,,
+soy_sauce,174277,,0,tbsp=16;tsp=5.3;cup=255,,,,,,,,also light and dark soy sauce
+soy_sauce_low_sodium,172473,,0,tbsp=14.2;tsp=4.5;cup=255,,,,,,,,
+oyster_sauce,174529,,0,tbsp=18,,,,,,,,
+hoisin,172886,,0,tbsp=16,,,,,,,,
+sriracha,171186,,0,tsp=6.5,sat_fat_g=0.085,,,,,,,saturated fat not reported; FNDDS 'Hot Thai sauce' value. Also chili-garlic sauce
+ketchup,168556,,0,tbsp=17,,,,,,,,
+mustard_prepared,172234,,0,tsp=5,,,,,,,,stand-in for Dijon and English mustard
+miso,172442,,0,tbsp=17,,,,,,,,
+honey,169640,,0,tbsp=21,,,,,,,,
+agave,2710282,,0,tbsp=20,,,,,,,,
+sugar,169655,,0,tsp=4.2;cup=200,,,,,,,,
+brown_sugar,168833,,0,cup=220,,,,,,,,
+vinegar,172237,,0,tbsp=14.9;tsp=5;cup=238,,,,,,,,distilled vinegar; stand-in for rice vinegar
+sake,167723,,0,cup=232.8,,,,,,,,unsalted rice wine ('Chinese rice wine')
+cooking_wine,169070,,0,tsp=4.9;cup=232,,,,,,,,salted cooking wine; used for Shaoxing wine
+mirin,,,0,cup=236.6,,975,0.0,43.3,600,0.0,0.0,"USDA Branded Foods FDC 2084844 (Kikkoman Aji-Mirin, 233 kcal per 100 mL); mass counted as 1 g per mL"
+sweet_bean_sauce,,,0,tbsp=20,,836.8,0.0,27.26,2750,2.8,10.0,"tianmianjiang: USDA Branded Foods FDC 468095 (Shinho Sweet Bean Paste: 200 kcal, 2750 mg sodium, 10 g protein; 1 tbsp = 20 g). The label gives no sugars and an implausible fibre figure, so both are taken from hoisin sauce (FDC 172886)"
+tahini,170189,,0,tbsp=15,,,,,,,,
+salt,173468,,0,tsp=6,,,,,,,,
+salt_kosher_dc,173468,,0,tsp=2.8,,,,,,,,"Diamond Crystal kosher salt, 2.8 g per tsp (the recipe notes it is half as dense as table salt)"
+salt_kosher,173468,,0,tsp=4.8,,,,,,,,"kosher salt, brand not stated: 4.8 g per tsp"
+baking_soda,175040,,0,tsp=4.6,,,,,,,,
+baking_powder,172803,,0,tsp=4.6,,,,,,,,
+bouillon_chicken_dry,171562,,0,tsp=2,,,,,,,,USDA: 1 teaspoon = 2 g
+broth_chicken_low_sodium,171609,,0,cup=240,,,,,,,,
+broth_chicken,174536,,0,cup=249,,,,,,,,
+broth_beef,171538,,0,cup=240,,,,,,,,UK 'beef stock'
+broth_vegetable,171583,,0,cup=240,,,,,,,,1 cup taken as 240 g
+bone_broth,,,0,cup=245,,75.3,0.0,0.0,127,0.0,4.08,"USDA Branded Foods FDC 2396544 (Kettle & Fire Classic Chicken Bone Broth, 18 kcal); 1 cup = 245 g"
+water,,,0,cup=236.6,,0,0,0,0,0,0,1 mL = 1 g
+taco_seasoning,172243,,0,packet=28.35,,,,,,,,a packet is 1 oz
+lemon_pepper,,,0,tsp=2.8,,0,0,0,11400,0,0,USDA Branded Foods FDC 1888443 (lemon pepper seasoning; label rounds energy to 0 for a 0.7 g serving)
+eno,,,0,tsp=5,,449,0,0,17040,0,0,"Eno fruit salt: per 5 g, 2.32 g sodium bicarbonate + 0.50 g sodium carbonate + 2.18 g citric acid (product label). Sodium = 2.32 x 22.99/84.01 + 0.50 x 45.98/105.99 = 0.852 g; energy from citric acid at 10.3 kJ/g"
+black_pepper,170931,,0,tsp=2.3;peppercorn=0.05,,,,,,,,a peppercorn taken as 0.05 g
+white_pepper,170933,,0,tsp=2.4,sugars_g=0.64,,,,,,,sugars not reported; black-pepper value
+oregano_dried,171328,,0,tsp=1,,,,,,,,also Italian seasoning
+basil_dried,171317,,0,tsp=0.7,,,,,,,,
+garlic_powder,171325,,0,tsp=3.1,,,,,,,,
+red_pepper_flakes,170932,,0,tsp=1.8,,,,,,,,"'Spices, pepper, red or cayenne'; also Indian red chilli powder and gochugaru"
+cumin,170923,,0,tsp=2.1,,,,,,,,
+turmeric,172231,,0,tsp=3,,,,,,,,
+cinnamon,171320,,0,tsp=2.6,,,,,,,,also stand-in for five-spice powder
+coriander_ground,170922,,0,tsp=1.8,sugars_g=2.25,,,,,,,sugars not reported; cumin-seed value
+paprika,171329,,0,tsp=2.3,,,,,,,,
+ginger_ground,170926,,0,tsp=1.8,,,,,,,,
+poppy_seed,171330,,0,tbsp=8.8,,,,,,,,
+mustard_seed,170929,,0,tbsp=6.3,,,,,,,,USDA lists ground mustard seed only
+sesame_seeds,170150,,0,tbsp=9,,,,,,,,
